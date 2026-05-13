@@ -1,0 +1,1001 @@
+Order_ID,Order_Date,Delivery_Date,Region,Country,City,Product_Name,Supplier_Name,Warehouse,Order_Quantity,Unit_Price,Revenue,Shipping_Cost,Manufacturing_Cost,Profit,Lead_Time_Days,Inventory_Level,Reorder_Level,Stockout_Flag,Defect_Rate,Order_Status,Delivery_Days,Profit_Margin,Delay_Flag,Order_Month,Order_Year,Inventory_Status
+ORD00001,2025-10-16,2025-10-19,West,India,Hyderabad,Laptop,Supplier B,Warehouse 1,48,663,31824,1656.13,14061.8,16106.07,3,379,119,No,1.27,Delivered,3,50.60982277526394,On Time,October,2025,Sufficient
+ORD00002,2025-06-01,2025-06-12,North,USA,Bangalore,Tablet,Supplier C,Warehouse 1,36,507,18252,1723.75,11140.98,5387.27,11,229,125,No,3.65,Cancelled,11,29.516053035283807,Delayed,June,2025,Sufficient
+ORD00003,2024-08-08,2024-08-24,North,UAE,Hyderabad,Printer,Supplier C,Warehouse 3,7,289,2023,129.86,1027.06,866.08,14,135,55,No,3.08,In Transit,16,42.81166584280771,Delayed,August,2024,Sufficient
+ORD00004,2025-09-25,2025-10-12,North,UAE,Delhi,Monitor,Supplier C,Warehouse 1,37,493,18241,1703.92,7547.16,8989.92,15,148,60,No,2.21,Pending,17,49.28414012389672,Delayed,September,2025,Sufficient
+ORD00005,2025-01-14,2025-01-22,South,UAE,Bangalore,Tablet,Supplier B,Warehouse 3,43,646,27778,2587.9,16807.48,8382.62,7,325,71,No,1.04,Pending,8,30.177190582475344,On Time,January,2025,Sufficient
+ORD00006,2024-11-28,2024-12-13,South,UAE,Bangalore,Keyboard,Supplier D,Warehouse 1,15,1783,26745,879.62,13229.04,12636.34,15,108,122,Yes,2.51,Cancelled,15,47.24748551131053,Delayed,November,2024,Low Stock
+ORD00007,2024-09-28,2024-10-03,South,USA,Chennai,Monitor,Supplier A,Warehouse 1,48,1249,59952,4706.71,37416.29,17829.0,4,298,101,No,3.71,Cancelled,5,29.738791032826263,On Time,September,2024,Sufficient
+ORD00008,2024-04-22,2024-05-01,North,India,Chennai,Tablet,Supplier C,Warehouse 1,11,1722,18942,1728.33,10965.95,6247.72,4,305,109,No,3.39,Cancelled,9,32.98342308098406,On Time,April,2024,Sufficient
+ORD00009,2024-10-27,2024-11-05,North,Germany,Chennai,Printer,Supplier B,Warehouse 1,30,106,3180,368.38,2107.56,704.06,8,256,147,No,2.48,Pending,9,22.140251572327042,On Time,October,2024,Sufficient
+ORD00010,2025-01-17,2025-02-01,East,Germany,Mumbai,Laptop,Supplier B,Warehouse 3,35,1694,59290,6700.9,40053.24,12535.86,14,250,52,No,4.99,Delivered,15,21.14329566537359,Delayed,January,2025,Sufficient
+ORD00011,2024-03-21,2024-03-29,South,Germany,Chennai,Printer,Supplier D,Warehouse 1,32,1771,56672,2053.18,35600.25,19018.57,3,65,134,Yes,6.24,In Transit,8,33.5590238565782,On Time,March,2024,Low Stock
+ORD00012,2025-07-06,2025-07-25,North,USA,Mumbai,Laptop,Supplier C,Warehouse 1,45,511,22995,2165.33,11950.45,8879.22,14,191,106,No,5.54,In Transit,19,38.61369863013698,Delayed,July,2025,Sufficient
+ORD00013,2025-08-25,2025-09-05,North,USA,Delhi,Keyboard,Supplier D,Warehouse 1,38,551,20938,641.69,12821.43,7474.88,10,34,54,Yes,0.94,Cancelled,11,35.700066864074884,Delayed,August,2025,Low Stock
+ORD00014,2025-07-06,2025-07-15,West,Germany,Bangalore,Monitor,Supplier D,Warehouse 3,37,1280,47360,3435.51,30091.87,13832.62,4,97,62,No,6.56,Delivered,9,29.207390202702705,On Time,July,2025,Sufficient
+ORD00015,2024-02-25,2024-03-13,South,UAE,Mumbai,Monitor,Supplier B,Warehouse 2,42,301,12642,448.22,7818.62,4375.16,12,55,81,Yes,6.5,Pending,17,34.608131624742924,Delayed,February,2024,Low Stock
+ORD00016,2025-04-18,2025-04-23,South,USA,Bangalore,Monitor,Supplier D,Warehouse 1,29,1754,50866,5469.18,28744.25,16652.57,5,276,51,No,0.88,Delivered,5,32.73811583375929,On Time,April,2025,Sufficient
+ORD00017,2025-02-14,2025-02-17,West,USA,Mumbai,Tablet,Supplier B,Warehouse 1,25,104,2600,308.56,1246.86,1044.58,2,232,86,No,6.38,In Transit,3,40.176153846153845,On Time,February,2025,Sufficient
+ORD00018,2025-08-16,2025-09-02,North,India,Mumbai,Laptop,Supplier A,Warehouse 3,4,1631,6524,379.86,2707.74,3436.4,13,470,117,No,4.08,Pending,17,52.67320662170448,Delayed,August,2025,Sufficient
+ORD00019,2024-08-28,2024-09-05,East,USA,Delhi,Phone,Supplier C,Warehouse 2,37,604,22348,1834.83,9205.64,11307.53,8,336,124,No,1.11,Cancelled,8,50.59750313227135,On Time,August,2024,Sufficient
+ORD00020,2024-05-14,2024-05-31,North,USA,Chennai,Tablet,Supplier B,Warehouse 2,20,1036,20720,1211.21,12961.59,6547.2,12,234,129,No,1.04,Delivered,17,31.5984555984556,Delayed,May,2024,Sufficient
+ORD00021,2024-03-11,2024-03-18,East,India,Mumbai,Tablet,Supplier A,Warehouse 1,19,423,8037,558.06,4524.55,2954.39,5,413,133,No,2.77,Delivered,7,36.7598606445191,On Time,March,2024,Sufficient
+ORD00022,2025-07-20,2025-07-26,East,India,Hyderabad,Keyboard,Supplier D,Warehouse 2,19,1338,25422,1244.58,12783.81,11393.61,4,436,83,No,5.66,In Transit,6,44.817913618126035,On Time,July,2025,Sufficient
+ORD00023,2024-02-15,2024-02-19,North,India,Hyderabad,Keyboard,Supplier B,Warehouse 3,50,367,18350,1602.69,8782.06,7965.25,2,282,140,No,6.06,In Transit,4,43.40735694822888,On Time,February,2024,Sufficient
+ORD00024,2024-02-06,2024-02-23,South,USA,Hyderabad,Tablet,Supplier D,Warehouse 3,38,1231,46778,2026.82,20499.69,24251.49,15,460,55,No,2.81,Cancelled,17,51.843794091239474,Delayed,February,2024,Sufficient
+ORD00025,2024-06-07,2024-06-13,East,USA,Hyderabad,Monitor,Supplier A,Warehouse 2,12,1905,22860,1534.05,10374.06,10951.89,5,400,102,No,7.43,Pending,6,47.90853018372703,On Time,June,2024,Sufficient
+ORD00026,2024-08-15,2024-08-23,East,Germany,Hyderabad,Tablet,Supplier C,Warehouse 3,23,725,16675,1731.67,11028.79,3914.54,5,337,74,No,2.17,In Transit,8,23.475502248875564,On Time,August,2024,Sufficient
+ORD00027,2025-06-05,2025-06-18,North,India,Chennai,Monitor,Supplier C,Warehouse 3,35,778,27230,3118.69,11834.23,12277.08,8,91,124,Yes,7.78,Cancelled,13,45.086595666544255,Delayed,June,2025,Low Stock
+ORD00028,2024-11-17,2024-11-29,South,Germany,Bangalore,Laptop,Supplier C,Warehouse 3,33,336,11088,717.03,6353.16,4017.81,8,362,105,No,2.41,Delivered,12,36.23566017316017,Delayed,November,2024,Sufficient
+ORD00029,2024-11-17,2024-11-29,South,USA,Bangalore,Keyboard,Supplier D,Warehouse 3,47,1943,91321,5207.95,45001.66,41111.39,12,206,139,No,3.56,Cancelled,12,45.01854995017575,Delayed,November,2024,Sufficient
+ORD00030,2024-06-27,2024-07-12,West,UAE,Bangalore,Keyboard,Supplier B,Warehouse 3,20,931,18620,1476.83,7450.27,9692.9,11,220,150,No,2.65,Cancelled,15,52.05639097744361,Delayed,June,2024,Sufficient
+ORD00031,2025-04-29,2025-05-18,East,USA,Mumbai,Phone,Supplier A,Warehouse 1,11,1449,15939,599.81,8840.34,6498.85,14,171,61,No,5.25,Pending,19,40.77326055586926,Delayed,April,2025,Sufficient
+ORD00032,2024-09-07,2024-09-20,West,UAE,Mumbai,Phone,Supplier A,Warehouse 1,50,249,12450,883.79,8289.72,3276.49,9,367,139,No,4.82,In Transit,13,26.317188755020076,Delayed,September,2024,Sufficient
+ORD00033,2025-03-11,2025-03-17,West,Germany,Bangalore,Printer,Supplier D,Warehouse 3,45,1160,52200,3748.46,29608.97,18842.57,5,62,108,Yes,7.38,Pending,6,36.09687739463601,On Time,March,2025,Low Stock
+ORD00034,2025-04-01,2025-04-10,South,Germany,Bangalore,Laptop,Supplier C,Warehouse 1,31,1021,31651,1687.86,15008.02,14955.12,4,392,149,No,5.28,In Transit,9,47.25007108780134,On Time,April,2025,Sufficient
+ORD00035,2024-10-05,2024-10-14,West,UAE,Delhi,Printer,Supplier D,Warehouse 2,35,265,9275,393.76,4353.49,4527.75,7,361,77,No,5.7,Delivered,9,48.8167115902965,On Time,October,2024,Sufficient
+ORD00036,2024-03-04,2024-03-12,West,India,Delhi,Tablet,Supplier D,Warehouse 2,25,1953,48825,4847.43,33387.44,10590.13,5,450,147,No,0.65,In Transit,8,21.689974398361496,On Time,March,2024,Sufficient
+ORD00037,2025-07-05,2025-07-23,West,Germany,Bangalore,Keyboard,Supplier B,Warehouse 2,35,1738,60830,5127.53,28356.61,27345.86,13,223,112,No,2.15,Delivered,18,44.954561893802406,Delayed,July,2025,Sufficient
+ORD00038,2024-05-10,2024-05-25,West,USA,Hyderabad,Tablet,Supplier D,Warehouse 2,2,1957,3914,256.22,2228.31,1429.47,11,329,104,No,0.7,Pending,15,36.52197240674502,Delayed,May,2024,Sufficient
+ORD00039,2024-08-04,2024-08-15,West,India,Chennai,Laptop,Supplier C,Warehouse 1,22,1658,36476,3982.0,17635.31,14858.69,9,215,82,No,7.63,Delivered,11,40.735524728588665,Delayed,August,2024,Sufficient
+ORD00040,2025-10-27,2025-11-04,South,UAE,Hyderabad,Printer,Supplier B,Warehouse 2,3,1644,4932,161.73,2338.68,2431.59,3,318,69,No,6.79,Pending,8,49.302311435523116,On Time,October,2025,Sufficient
+ORD00041,2025-12-17,2025-12-25,North,India,Delhi,Printer,Supplier D,Warehouse 2,11,1340,14740,1247.77,9203.33,4288.9,6,419,70,No,1.36,Cancelled,8,29.09701492537313,On Time,December,2025,Sufficient
+ORD00042,2024-07-22,2024-07-29,North,Germany,Chennai,Monitor,Supplier C,Warehouse 1,45,1801,81045,7006.49,34895.58,39142.93,3,435,137,No,6.29,Delivered,7,48.29777284224813,On Time,July,2024,Sufficient
+ORD00043,2025-06-02,2025-06-16,South,UAE,Mumbai,Keyboard,Supplier C,Warehouse 3,1,1839,1839,124.69,1006.04,708.27,12,185,131,No,3.75,In Transit,14,38.51386623164763,Delayed,June,2025,Sufficient
+ORD00044,2025-07-05,2025-07-22,West,USA,Bangalore,Printer,Supplier D,Warehouse 2,30,992,29760,3104.45,17193.61,9461.94,14,125,61,No,2.92,Cancelled,17,31.794153225806454,Delayed,July,2025,Sufficient
+ORD00045,2024-01-30,2024-02-10,North,USA,Hyderabad,Phone,Supplier D,Warehouse 2,12,1098,13176,646.82,8424.07,4105.11,9,450,126,No,3.05,Cancelled,11,31.155965391621127,Delayed,January,2024,Sufficient
+ORD00046,2025-07-22,2025-08-06,West,USA,Delhi,Keyboard,Supplier C,Warehouse 2,45,1075,48375,4263.35,26473.04,17638.61,14,47,87,Yes,6.45,Pending,15,36.46224289405685,Delayed,July,2025,Low Stock
+ORD00047,2025-07-20,2025-08-01,North,USA,Delhi,Laptop,Supplier B,Warehouse 1,28,1627,45556,3623.29,23030.52,18902.19,10,156,82,No,3.9,Pending,12,41.4922073930986,Delayed,July,2025,Sufficient
+ORD00048,2024-08-09,2024-08-25,South,Germany,Mumbai,Tablet,Supplier A,Warehouse 3,18,1583,28494,2366.79,17896.01,8231.2,13,51,74,Yes,4.98,Cancelled,16,28.88748508457921,Delayed,August,2024,Low Stock
+ORD00049,2025-06-30,2025-07-06,North,India,Chennai,Tablet,Supplier D,Warehouse 2,3,211,633,50.51,385.64,196.85,4,444,146,No,1.45,In Transit,6,31.097946287519747,On Time,June,2025,Sufficient
+ORD00050,2025-03-27,2025-04-04,North,USA,Mumbai,Printer,Supplier C,Warehouse 1,4,617,2468,283.07,1340.91,844.02,7,205,112,No,6.67,Delivered,8,34.19854132901135,On Time,March,2025,Sufficient
+ORD00051,2024-09-11,2024-09-18,West,Germany,Chennai,Monitor,Supplier C,Warehouse 3,49,952,46648,3944.96,29725.14,12977.9,3,267,98,No,2.19,In Transit,7,27.82091407991768,On Time,September,2024,Sufficient
+ORD00052,2025-09-27,2025-10-03,South,USA,Chennai,Laptop,Supplier B,Warehouse 1,48,303,14544,1676.68,6724.22,6143.1,2,338,60,No,2.08,Pending,6,42.238036303630366,On Time,September,2025,Sufficient
+ORD00053,2025-02-22,2025-03-08,South,Germany,Chennai,Keyboard,Supplier B,Warehouse 2,39,1062,41418,2328.24,19443.38,19646.38,9,359,108,No,5.8,Delivered,14,47.434400502197114,Delayed,February,2025,Sufficient
+ORD00054,2024-04-27,2024-05-08,West,India,Bangalore,Keyboard,Supplier C,Warehouse 3,42,405,17010,1900.99,11022.3,4086.71,10,84,89,Yes,1.04,Cancelled,11,24.02533803644915,Delayed,April,2024,Low Stock
+ORD00055,2025-02-16,2025-02-26,North,India,Mumbai,Keyboard,Supplier A,Warehouse 3,35,1111,38885,2698.55,22530.4,13656.05,6,376,91,No,7.17,Cancelled,10,35.11906904976212,On Time,February,2025,Sufficient
+ORD00056,2024-10-02,2024-10-13,West,India,Bangalore,Tablet,Supplier D,Warehouse 2,49,1648,80752,3695.79,44873.01,32183.2,11,142,73,No,3.82,In Transit,11,39.85436893203884,Delayed,October,2024,Sufficient
+ORD00057,2024-11-24,2024-12-06,West,India,Delhi,Tablet,Supplier C,Warehouse 1,11,775,8525,571.58,4677.16,3276.26,12,205,147,No,5.47,Delivered,12,38.43120234604106,Delayed,November,2024,Sufficient
+ORD00058,2025-02-17,2025-03-08,West,India,Mumbai,Tablet,Supplier B,Warehouse 2,1,1446,1446,156.52,778.81,510.67,15,265,96,No,0.91,In Transit,19,35.31604426002766,Delayed,February,2025,Sufficient
+ORD00059,2025-03-24,2025-04-09,West,India,Mumbai,Laptop,Supplier D,Warehouse 1,8,159,1272,149.57,741.15,381.28,13,81,89,Yes,2.29,Delivered,16,29.974842767295595,Delayed,March,2025,Low Stock
+ORD00060,2025-10-25,2025-11-10,West,USA,Bangalore,Phone,Supplier B,Warehouse 1,32,1567,50144,2821.48,30669.25,16653.27,15,247,110,No,3.62,Pending,16,33.21089262922782,Delayed,October,2025,Sufficient
+ORD00061,2024-10-09,2024-10-26,South,UAE,Chennai,Monitor,Supplier C,Warehouse 2,22,1713,37686,2852.69,24351.37,10481.94,14,152,125,No,2.62,In Transit,17,27.81388313962745,Delayed,October,2024,Sufficient
+ORD00062,2025-07-19,2025-08-06,South,UAE,Hyderabad,Tablet,Supplier D,Warehouse 3,25,1032,25800,2940.08,17050.72,5809.2,14,122,123,Yes,7.86,In Transit,18,22.516279069767442,Delayed,July,2025,Low Stock
+ORD00063,2025-01-25,2025-02-07,West,India,Chennai,Monitor,Supplier A,Warehouse 3,42,411,17262,1287.39,7096.51,8878.1,8,302,92,No,4.27,Delivered,13,51.43146796431468,Delayed,January,2025,Sufficient
+ORD00064,2024-05-27,2024-06-09,East,UAE,Delhi,Keyboard,Supplier D,Warehouse 3,10,253,2530,182.8,1747.63,599.57,8,354,100,No,3.04,Delivered,13,23.698418972332018,Delayed,May,2024,Sufficient
+ORD00065,2024-02-06,2024-02-17,North,UAE,Mumbai,Keyboard,Supplier C,Warehouse 1,16,1392,22272,2040.03,10828.95,9403.02,11,46,105,Yes,2.21,Delivered,11,42.21901939655173,Delayed,February,2024,Low Stock
+ORD00066,2024-02-17,2024-02-24,South,USA,Hyderabad,Printer,Supplier D,Warehouse 3,19,834,15846,1009.96,7030.41,7805.63,7,289,137,No,4.48,Pending,7,49.25930834279944,On Time,February,2024,Sufficient
+ORD00067,2025-11-30,2025-12-08,East,USA,Hyderabad,Monitor,Supplier C,Warehouse 3,38,393,14934,760.1,8831.54,5342.36,5,341,51,No,3.95,In Transit,8,35.77313512789607,On Time,November,2025,Sufficient
+ORD00068,2024-11-02,2024-11-17,South,UAE,Chennai,Tablet,Supplier C,Warehouse 3,45,612,27540,1958.51,13512.13,12069.36,12,436,111,No,8.0,Delivered,15,43.82483660130719,Delayed,November,2024,Sufficient
+ORD00069,2024-10-29,2024-11-05,East,USA,Chennai,Tablet,Supplier B,Warehouse 3,26,662,17212,528.9,11351.66,5331.44,2,498,56,No,6.34,In Transit,7,30.975133627701602,On Time,October,2024,Sufficient
+ORD00070,2024-07-13,2024-07-26,East,UAE,Hyderabad,Printer,Supplier C,Warehouse 3,44,1647,72468,6876.02,43318.07,22273.91,11,321,62,No,6.79,Delivered,13,30.736200805872937,Delayed,July,2024,Sufficient
+ORD00071,2024-05-14,2024-05-19,South,Germany,Bangalore,Tablet,Supplier C,Warehouse 1,21,1630,34230,2306.94,15753.96,16169.1,3,448,96,No,6.4,Cancelled,5,47.23663453111306,On Time,May,2024,Sufficient
+ORD00072,2025-04-24,2025-04-28,North,UAE,Hyderabad,Tablet,Supplier A,Warehouse 2,49,562,27538,2957.93,16998.24,7581.83,3,495,121,No,7.85,Cancelled,4,27.5322463504975,On Time,April,2025,Sufficient
+ORD00073,2025-01-12,2025-01-29,West,India,Chennai,Printer,Supplier C,Warehouse 3,44,636,27984,2311.77,18097.96,7574.27,12,55,136,Yes,7.55,Pending,17,27.066430817610065,Delayed,January,2025,Low Stock
+ORD00074,2024-08-14,2024-08-26,North,Germany,Bangalore,Laptop,Supplier A,Warehouse 1,41,1787,73267,5259.4,44716.55,23291.05,12,59,67,Yes,5.37,Delivered,12,31.789277573805396,Delayed,August,2024,Low Stock
+ORD00075,2025-07-04,2025-07-11,West,India,Bangalore,Printer,Supplier D,Warehouse 2,30,859,25770,2328.16,16053.22,7388.62,4,214,125,No,7.59,Pending,7,28.67140085370586,On Time,July,2025,Sufficient
+ORD00076,2024-02-03,2024-02-18,North,UAE,Delhi,Phone,Supplier A,Warehouse 2,14,1008,14112,988.16,6644.41,6479.43,13,351,97,No,3.22,Cancelled,15,45.914328231292515,Delayed,February,2024,Sufficient
+ORD00077,2024-04-03,2024-04-16,North,USA,Chennai,Phone,Supplier B,Warehouse 2,42,1409,59178,4955.75,24050.37,30171.88,12,124,66,No,6.4,Pending,13,50.984960627260136,Delayed,April,2024,Sufficient
+ORD00078,2024-05-31,2024-06-18,North,USA,Hyderabad,Tablet,Supplier B,Warehouse 3,1,667,667,71.54,295.75,299.71,14,128,72,No,1.47,Delivered,18,44.934032983508246,Delayed,May,2024,Sufficient
+ORD00079,2024-11-27,2024-11-30,East,India,Bangalore,Printer,Supplier B,Warehouse 3,17,207,3519,145.72,1852.01,1521.27,2,32,110,Yes,1.35,In Transit,3,43.230179028132994,On Time,November,2024,Low Stock
+ORD00080,2024-02-14,2024-03-03,North,UAE,Bangalore,Laptop,Supplier A,Warehouse 2,34,717,24378,1736.29,16801.51,5840.2,13,245,101,No,0.96,In Transit,18,23.956846336861105,Delayed,February,2024,Sufficient
+ORD00081,2025-09-14,2025-09-18,West,UAE,Hyderabad,Keyboard,Supplier A,Warehouse 3,9,663,5967,514.29,3434.66,2018.05,4,195,126,No,5.84,Cancelled,4,33.820177643707055,On Time,September,2025,Sufficient
+ORD00082,2025-10-28,2025-11-15,West,India,Delhi,Monitor,Supplier C,Warehouse 3,47,1872,87984,4342.19,47112.48,36529.33,14,173,108,No,2.21,In Transit,18,41.51815102745954,Delayed,October,2025,Sufficient
+ORD00083,2024-09-18,2024-09-26,South,India,Chennai,Printer,Supplier C,Warehouse 3,44,1990,87560,6364.22,37420.29,43775.49,7,221,62,No,1.14,Cancelled,8,49.994849246231155,On Time,September,2024,Sufficient
+ORD00084,2024-05-05,2024-05-15,East,India,Chennai,Printer,Supplier B,Warehouse 1,43,1636,70348,4788.19,47467.53,18092.28,8,147,126,No,0.89,Cancelled,10,25.718257804059814,On Time,May,2024,Sufficient
+ORD00085,2025-11-03,2025-11-13,North,Germany,Hyderabad,Phone,Supplier C,Warehouse 3,7,817,5719,606.69,2918.22,2194.09,9,293,78,No,6.22,In Transit,10,38.36492393775136,On Time,November,2025,Sufficient
+ORD00086,2024-11-12,2024-11-21,North,USA,Bangalore,Monitor,Supplier D,Warehouse 2,1,471,471,51.0,268.42,151.58,7,72,144,Yes,3.51,Delivered,9,32.182590233545646,On Time,November,2024,Low Stock
+ORD00087,2024-06-10,2024-06-19,North,India,Delhi,Monitor,Supplier D,Warehouse 2,47,764,35908,3587.76,20477.54,11842.7,7,26,69,Yes,1.14,Pending,9,32.980672830567,On Time,June,2024,Low Stock
+ORD00088,2025-09-13,2025-09-25,East,India,Mumbai,Monitor,Supplier A,Warehouse 1,18,541,9738,953.79,4227.71,4556.5,9,145,136,No,3.72,In Transit,12,46.79092216060793,Delayed,September,2025,Sufficient
+ORD00089,2024-07-28,2024-08-04,South,USA,Bangalore,Printer,Supplier B,Warehouse 3,50,381,19050,1881.65,9274.19,7894.16,6,254,145,No,1.4,In Transit,7,41.439160104986875,On Time,July,2024,Sufficient
+ORD00090,2025-07-26,2025-08-15,West,UAE,Bangalore,Tablet,Supplier A,Warehouse 2,23,247,5681,373.45,3537.06,1770.49,15,235,59,No,3.77,Cancelled,20,31.165111776095756,Delayed,July,2025,Sufficient
+ORD00091,2024-01-22,2024-01-30,West,UAE,Chennai,Laptop,Supplier D,Warehouse 2,40,1042,41680,4371.5,28172.8,9135.7,7,432,63,No,1.16,Pending,8,21.918666026871403,On Time,January,2024,Sufficient
+ORD00092,2024-12-13,2024-12-20,East,USA,Mumbai,Laptop,Supplier B,Warehouse 2,50,444,22200,818.61,13097.28,8284.11,5,99,149,Yes,4.48,Cancelled,7,37.31581081081081,On Time,December,2024,Low Stock
+ORD00093,2024-07-21,2024-07-29,West,Germany,Delhi,Phone,Supplier D,Warehouse 1,10,1656,16560,1628.24,6998.36,7933.4,4,321,113,No,7.63,In Transit,8,47.90700483091787,On Time,July,2024,Sufficient
+ORD00094,2025-04-25,2025-05-09,North,India,Delhi,Tablet,Supplier A,Warehouse 3,20,1730,34600,1893.33,14423.07,18283.6,9,158,109,No,4.31,In Transit,14,52.842774566473985,Delayed,April,2025,Sufficient
+ORD00095,2024-04-02,2024-04-17,South,Germany,Chennai,Monitor,Supplier B,Warehouse 1,33,887,29271,2097.09,16576.02,10597.89,11,458,55,No,6.44,In Transit,15,36.206108434969764,Delayed,April,2024,Sufficient
+ORD00096,2025-04-06,2025-04-11,East,Germany,Delhi,Monitor,Supplier D,Warehouse 2,46,272,12512,943.52,5652.52,5915.96,3,224,106,No,2.36,Pending,5,47.28228900255754,On Time,April,2025,Sufficient
+ORD00097,2025-11-26,2025-12-07,South,Germany,Hyderabad,Printer,Supplier B,Warehouse 2,41,1425,58425,3512.42,29148.65,25763.93,11,197,86,No,4.68,Cancelled,11,44.09744116388533,Delayed,November,2025,Sufficient
+ORD00098,2024-11-13,2024-11-30,South,India,Bangalore,Printer,Supplier C,Warehouse 1,43,902,38786,1613.72,23762.25,13410.03,12,286,98,No,1.14,Cancelled,17,34.57440829165163,Delayed,November,2024,Sufficient
+ORD00099,2025-01-06,2025-01-13,East,India,Chennai,Printer,Supplier A,Warehouse 3,14,799,11186,1289.64,6106.23,3790.13,6,70,69,No,2.2,Delivered,7,33.88279992848203,On Time,January,2025,Sufficient
+ORD00100,2024-12-10,2024-12-28,West,India,Bangalore,Tablet,Supplier B,Warehouse 2,9,1323,11907,760.91,5342.36,5803.73,14,394,129,No,6.74,Pending,18,48.742168472327194,Delayed,December,2024,Sufficient
+ORD00101,2025-09-17,2025-09-28,West,UAE,Delhi,Monitor,Supplier D,Warehouse 1,29,579,16791,1310.72,8275.28,7205.0,6,240,74,No,6.56,Cancelled,11,42.90989220415699,Delayed,September,2025,Sufficient
+ORD00102,2024-07-23,2024-08-10,East,India,Mumbai,Tablet,Supplier D,Warehouse 3,9,1887,16983,891.61,10059.94,6031.45,14,283,63,No,7.06,Delivered,18,35.51463227933816,Delayed,July,2024,Sufficient
+ORD00103,2024-05-30,2024-06-17,West,Germany,Mumbai,Monitor,Supplier A,Warehouse 2,6,1964,11784,589.0,6308.43,4886.57,15,13,103,Yes,3.12,Delivered,18,41.4678377460964,Delayed,May,2024,Low Stock
+ORD00104,2024-08-17,2024-08-21,South,UAE,Bangalore,Printer,Supplier A,Warehouse 1,7,1818,12726,1200.36,6370.47,5155.17,2,19,86,Yes,1.6,In Transit,4,40.50895803866101,On Time,August,2024,Low Stock
+ORD00105,2024-01-20,2024-01-27,East,India,Hyderabad,Phone,Supplier D,Warehouse 3,10,1223,12230,1401.81,7125.98,3702.21,6,397,86,No,3.67,Pending,7,30.271545380212594,On Time,January,2024,Sufficient
+ORD00106,2025-09-29,2025-10-08,South,Germany,Bangalore,Laptop,Supplier C,Warehouse 1,8,1813,14504,1616.66,8398.13,4489.21,9,263,123,No,0.62,Pending,9,30.9515306122449,On Time,September,2025,Sufficient
+ORD00107,2025-08-07,2025-08-16,West,UAE,Hyderabad,Keyboard,Supplier D,Warehouse 2,43,1468,63124,2380.11,43706.83,17037.06,8,269,119,No,1.01,Delivered,9,26.98982954185413,On Time,August,2025,Sufficient
+ORD00108,2024-09-16,2024-09-29,South,India,Delhi,Printer,Supplier C,Warehouse 3,23,1714,39422,1422.36,18620.5,19379.14,13,53,148,Yes,5.43,Cancelled,13,49.15818578458728,Delayed,September,2024,Low Stock
+ORD00109,2024-06-28,2024-07-18,North,Germany,Mumbai,Laptop,Supplier B,Warehouse 1,30,1524,45720,3340.66,20788.13,21591.21,15,366,149,No,1.51,In Transit,20,47.2248687664042,Delayed,June,2024,Sufficient
+ORD00110,2024-11-19,2024-11-29,North,Germany,Delhi,Laptop,Supplier C,Warehouse 2,26,1769,45994,3627.67,21892.87,20473.46,6,97,86,No,6.15,Cancelled,10,44.51332782536853,On Time,November,2024,Sufficient
+ORD00111,2025-02-13,2025-03-01,North,UAE,Hyderabad,Monitor,Supplier B,Warehouse 3,25,794,19850,2335.06,10894.89,6620.05,13,473,116,No,4.23,Cancelled,16,33.35037783375315,Delayed,February,2025,Sufficient
+ORD00112,2024-10-27,2024-11-03,East,UAE,Hyderabad,Keyboard,Supplier C,Warehouse 3,6,771,4626,413.95,2275.75,1936.3,7,218,71,No,5.02,In Transit,7,41.85689580631215,On Time,October,2024,Sufficient
+ORD00113,2025-03-21,2025-04-01,North,USA,Chennai,Keyboard,Supplier D,Warehouse 1,4,253,1012,91.49,528.13,392.38,6,383,136,No,4.35,Pending,11,38.772727272727266,Delayed,March,2025,Sufficient
+ORD00114,2024-05-09,2024-05-13,East,Germany,Bangalore,Laptop,Supplier B,Warehouse 3,50,1421,71050,4473.99,36580.54,29995.47,3,309,69,No,4.75,In Transit,4,42.21741027445461,On Time,May,2024,Sufficient
+ORD00115,2025-01-10,2025-01-20,North,Germany,Delhi,Keyboard,Supplier D,Warehouse 1,42,670,28140,1476.37,12213.73,14449.9,8,255,116,No,6.02,In Transit,10,51.350035536602704,On Time,January,2025,Sufficient
+ORD00116,2025-09-18,2025-09-29,North,Germany,Delhi,Keyboard,Supplier A,Warehouse 3,32,509,16288,668.42,10682.45,4937.13,6,460,141,No,3.89,In Transit,11,30.311456286836936,Delayed,September,2025,Sufficient
+ORD00117,2025-07-09,2025-07-17,North,USA,Mumbai,Phone,Supplier D,Warehouse 1,11,1557,17127,1607.55,10448.6,5070.85,6,185,115,No,1.81,Pending,8,29.607345127576345,On Time,July,2025,Sufficient
+ORD00118,2025-01-04,2025-01-18,West,UAE,Chennai,Monitor,Supplier D,Warehouse 3,24,1057,25368,2595.9,14345.45,8426.65,10,44,58,Yes,5.09,Cancelled,14,33.217636392305266,Delayed,January,2025,Low Stock
+ORD00119,2024-03-16,2024-03-22,South,UAE,Chennai,Laptop,Supplier A,Warehouse 3,42,251,10542,743.19,6367.71,3431.1,4,449,149,No,3.08,Pending,6,32.54695503699488,On Time,March,2024,Sufficient
+ORD00120,2024-06-05,2024-06-12,East,USA,Chennai,Tablet,Supplier B,Warehouse 3,11,760,8360,954.1,3909.48,3496.42,6,265,86,No,7.61,Delivered,7,41.82320574162679,On Time,June,2024,Sufficient
+ORD00121,2024-11-06,2024-11-21,North,India,Hyderabad,Laptop,Supplier C,Warehouse 3,6,1129,6774,594.0,3912.27,2267.73,11,87,134,Yes,4.85,Cancelled,15,33.47697077059345,Delayed,November,2024,Low Stock
+ORD00122,2024-08-03,2024-08-21,West,USA,Bangalore,Tablet,Supplier D,Warehouse 1,27,1365,36855,3225.15,20248.56,13381.29,14,148,132,No,5.2,Cancelled,18,36.30793650793651,Delayed,August,2024,Sufficient
+ORD00123,2025-12-06,2025-12-09,East,UAE,Mumbai,Tablet,Supplier A,Warehouse 2,29,951,27579,2029.33,12719.63,12830.04,2,160,141,No,5.05,Cancelled,3,46.52104862395301,On Time,December,2025,Sufficient
+ORD00124,2024-09-04,2024-09-13,South,USA,Delhi,Printer,Supplier C,Warehouse 1,18,1020,18360,960.46,7877.24,9522.3,9,196,128,No,2.68,In Transit,9,51.86437908496732,On Time,September,2024,Sufficient
+ORD00125,2024-06-12,2024-06-25,South,USA,Chennai,Tablet,Supplier A,Warehouse 1,30,1121,33630,3669.6,18469.97,11490.43,9,201,114,No,1.18,In Transit,13,34.16720190306275,Delayed,June,2024,Sufficient
+ORD00126,2024-10-15,2024-10-28,East,UAE,Delhi,Laptop,Supplier D,Warehouse 1,42,1477,62034,4488.33,34801.52,22744.15,9,220,67,No,6.85,Cancelled,13,36.66400683496148,Delayed,October,2024,Sufficient
+ORD00127,2025-08-06,2025-08-17,South,India,Bangalore,Tablet,Supplier C,Warehouse 3,24,1233,29592,1656.39,15266.65,12668.96,10,281,85,No,3.88,Delivered,11,42.81211138145444,Delayed,August,2025,Sufficient
+ORD00128,2025-01-09,2025-01-24,West,UAE,Mumbai,Printer,Supplier B,Warehouse 2,13,1333,17329,1313.9,9531.35,6483.75,14,70,141,Yes,0.84,Cancelled,15,37.41560390097524,Delayed,January,2025,Low Stock
+ORD00129,2025-09-19,2025-09-27,East,UAE,Hyderabad,Tablet,Supplier C,Warehouse 3,26,1362,35412,3418.63,17343.75,14649.62,7,424,115,No,3.02,In Transit,8,41.36908392635265,On Time,September,2025,Sufficient
+ORD00130,2024-04-22,2024-05-04,South,India,Chennai,Monitor,Supplier B,Warehouse 3,20,1731,34620,3838.98,22905.62,7875.4,8,305,110,No,5.22,Cancelled,12,22.748122472559213,Delayed,April,2024,Sufficient
+ORD00131,2025-10-06,2025-10-23,South,India,Bangalore,Tablet,Supplier D,Warehouse 1,50,1822,91100,5850.18,58896.0,26353.82,13,293,139,No,2.32,Delivered,17,28.92845225027442,Delayed,October,2025,Sufficient
+ORD00132,2025-02-26,2025-03-12,South,USA,Chennai,Tablet,Supplier D,Warehouse 3,27,1127,30429,3035.22,20574.76,6819.02,13,376,143,No,7.05,Delivered,14,22.40960925432975,Delayed,February,2025,Sufficient
+ORD00133,2025-01-20,2025-01-28,West,USA,Mumbai,Tablet,Supplier C,Warehouse 1,30,1968,59040,4604.02,33291.59,21144.39,7,444,142,No,5.57,Cancelled,8,35.81366869918699,On Time,January,2025,Sufficient
+ORD00134,2024-10-31,2024-11-16,East,India,Chennai,Keyboard,Supplier D,Warehouse 2,46,524,24104,2220.5,13177.68,8705.82,14,286,142,No,4.1,Cancelled,16,36.117739794225024,Delayed,October,2024,Sufficient
+ORD00135,2024-12-19,2025-01-03,West,USA,Mumbai,Printer,Supplier C,Warehouse 3,19,186,3534,197.5,2170.73,1165.77,14,226,133,No,3.1,Cancelled,15,32.987266553480474,Delayed,December,2024,Sufficient
+ORD00136,2025-12-13,2025-12-20,South,India,Hyderabad,Monitor,Supplier C,Warehouse 3,7,1360,9520,920.4,4491.39,4108.21,6,463,117,No,0.88,Pending,7,43.153466386554626,On Time,December,2025,Sufficient
+ORD00137,2025-04-28,2025-05-06,West,USA,Delhi,Tablet,Supplier C,Warehouse 3,50,381,19050,580.38,10765.26,7704.36,3,208,133,No,7.47,In Transit,8,40.44283464566929,On Time,April,2025,Sufficient
+ORD00138,2024-03-01,2024-03-15,South,India,Bangalore,Monitor,Supplier B,Warehouse 3,42,1275,53550,2725.69,33287.0,17537.31,14,19,72,Yes,6.88,In Transit,14,32.74941176470588,Delayed,March,2024,Low Stock
+ORD00139,2024-10-23,2024-10-25,South,UAE,Delhi,Phone,Supplier A,Warehouse 2,20,1263,25260,2128.17,17139.83,5992.0,2,232,132,No,3.01,In Transit,2,23.72129849564529,On Time,October,2024,Sufficient
+ORD00140,2024-06-15,2024-07-01,South,UAE,Bangalore,Printer,Supplier C,Warehouse 1,42,626,26292,2489.16,10627.89,13174.95,13,151,122,No,3.03,Pending,16,50.110109539023284,Delayed,June,2024,Sufficient
+ORD00141,2025-02-14,2025-02-26,East,Germany,Delhi,Printer,Supplier A,Warehouse 2,12,387,4644,338.88,3161.39,1143.73,12,196,80,No,0.55,In Transit,12,24.628122308354865,Delayed,February,2025,Sufficient
+ORD00142,2025-10-31,2025-11-12,North,Germany,Delhi,Printer,Supplier B,Warehouse 1,16,227,3632,327.25,1959.89,1344.86,7,351,114,No,1.7,Cancelled,12,37.028083700440526,Delayed,October,2025,Sufficient
+ORD00143,2024-05-16,2024-05-26,South,India,Chennai,Monitor,Supplier C,Warehouse 1,30,1631,48930,5822.45,25056.44,18051.11,9,467,110,No,5.76,Pending,10,36.89170243204578,On Time,May,2024,Sufficient
+ORD00144,2025-07-31,2025-08-03,North,USA,Chennai,Monitor,Supplier A,Warehouse 3,36,1949,70164,5296.95,40120.51,24746.54,3,167,116,No,1.62,In Transit,3,35.269568439655664,On Time,July,2025,Sufficient
+ORD00145,2025-04-01,2025-04-15,North,UAE,Delhi,Laptop,Supplier B,Warehouse 3,30,370,11100,845.73,5961.14,4293.13,14,236,136,No,0.93,Cancelled,14,38.67684684684684,Delayed,April,2025,Sufficient
+ORD00146,2024-03-15,2024-03-20,East,UAE,Mumbai,Phone,Supplier D,Warehouse 2,23,1534,35282,1260.92,24635.2,9385.88,2,35,110,Yes,7.51,Delivered,5,26.60246017799444,On Time,March,2024,Low Stock
+ORD00147,2025-01-26,2025-02-07,South,UAE,Chennai,Phone,Supplier B,Warehouse 1,25,264,6600,603.54,3950.35,2046.11,9,334,94,No,4.54,Delivered,12,31.001666666666665,Delayed,January,2025,Sufficient
+ORD00148,2024-01-24,2024-02-02,South,Germany,Mumbai,Keyboard,Supplier A,Warehouse 1,44,1572,69168,5464.28,38705.04,24998.68,6,126,108,No,6.68,Cancelled,9,36.14197316678233,On Time,January,2024,Sufficient
+ORD00149,2025-11-07,2025-11-19,North,USA,Hyderabad,Monitor,Supplier D,Warehouse 1,50,1909,95450,10500.81,45071.48,39877.71,8,304,54,No,1.0,In Transit,12,41.778638030382396,Delayed,November,2025,Sufficient
+ORD00150,2025-07-06,2025-07-11,South,Germany,Mumbai,Keyboard,Supplier B,Warehouse 2,9,1131,10179,1215.51,4786.66,4176.83,5,294,90,No,7.37,Cancelled,5,41.033795068277826,On Time,July,2025,Sufficient
+ORD00151,2024-11-03,2024-11-09,North,Germany,Bangalore,Printer,Supplier C,Warehouse 3,36,1311,47196,5152.59,31785.25,10258.16,6,218,121,No,5.19,In Transit,6,21.735231799305023,On Time,November,2024,Sufficient
+ORD00152,2025-03-02,2025-03-11,West,India,Chennai,Monitor,Supplier D,Warehouse 3,20,870,17400,809.95,9767.99,6822.06,8,115,88,No,2.31,Pending,9,39.20724137931035,On Time,March,2025,Sufficient
+ORD00153,2025-06-26,2025-07-03,South,India,Delhi,Monitor,Supplier A,Warehouse 1,16,622,9952,480.68,5911.6,3559.72,4,433,97,No,7.42,Delivered,7,35.76889067524115,On Time,June,2025,Sufficient
+ORD00154,2024-07-11,2024-07-29,South,USA,Hyderabad,Keyboard,Supplier D,Warehouse 1,47,1475,69325,5566.56,37700.2,26058.24,14,170,88,No,7.02,Delivered,18,37.58851785070321,Delayed,July,2024,Sufficient
+ORD00155,2025-12-13,2025-12-29,East,Germany,Delhi,Printer,Supplier D,Warehouse 2,14,912,12768,1434.63,7221.88,4111.49,11,194,109,No,6.32,Cancelled,16,32.20151942355889,Delayed,December,2025,Sufficient
+ORD00156,2024-04-10,2024-04-29,South,India,Delhi,Printer,Supplier D,Warehouse 2,31,1659,51429,5429.66,34678.53,11320.81,14,211,55,No,3.28,Pending,19,22.01250267358883,Delayed,April,2024,Sufficient
+ORD00157,2024-06-05,2024-06-12,East,UAE,Bangalore,Monitor,Supplier B,Warehouse 3,15,877,13155,1069.25,6231.77,5853.98,5,483,137,No,4.63,Cancelled,7,44.500038008361834,On Time,June,2024,Sufficient
+ORD00158,2024-12-26,2024-12-31,North,India,Hyderabad,Monitor,Supplier B,Warehouse 3,47,1219,57293,4236.73,38676.78,14379.49,4,328,57,No,4.57,Delivered,5,25.098162079137065,On Time,December,2024,Sufficient
+ORD00159,2024-08-24,2024-09-01,West,India,Hyderabad,Printer,Supplier D,Warehouse 1,10,118,1180,58.63,633.43,487.94,3,326,135,No,0.95,In Transit,8,41.35084745762712,On Time,August,2024,Sufficient
+ORD00160,2024-01-18,2024-02-02,North,India,Chennai,Phone,Supplier B,Warehouse 1,18,1197,21546,2541.85,8729.21,10274.94,10,345,105,No,6.6,Pending,15,47.68838763575606,Delayed,January,2024,Sufficient
+ORD00161,2025-09-26,2025-10-08,South,Germany,Hyderabad,Keyboard,Supplier A,Warehouse 1,23,647,14881,1511.08,6305.17,7064.75,10,235,122,No,7.69,Pending,12,47.474968080102144,Delayed,September,2025,Sufficient
+ORD00162,2025-02-19,2025-03-02,North,India,Mumbai,Phone,Supplier D,Warehouse 2,36,1074,38664,1355.19,15575.21,21733.6,8,255,105,No,1.79,Cancelled,11,56.21146285950754,Delayed,February,2025,Sufficient
+ORD00163,2024-02-17,2024-02-25,South,USA,Bangalore,Laptop,Supplier C,Warehouse 1,18,1941,34938,2755.66,20873.11,11309.23,3,435,90,No,1.85,Delivered,8,32.369425840059534,On Time,February,2024,Sufficient
+ORD00164,2025-07-31,2025-08-09,East,India,Hyderabad,Monitor,Supplier B,Warehouse 1,25,1486,37150,4112.03,18557.13,14480.84,5,71,138,Yes,6.17,Delivered,9,38.97938088829071,On Time,July,2025,Low Stock
+ORD00165,2024-12-14,2024-12-29,South,Germany,Chennai,Monitor,Supplier D,Warehouse 1,39,912,35568,4168.67,17709.77,13689.56,11,401,107,No,5.26,In Transit,15,38.488416554206026,Delayed,December,2024,Sufficient
+ORD00166,2025-11-27,2025-12-13,South,UAE,Mumbai,Keyboard,Supplier D,Warehouse 2,25,275,6875,684.03,3359.22,2831.75,11,37,60,Yes,2.35,Cancelled,16,41.18909090909091,Delayed,November,2025,Low Stock
+ORD00167,2025-01-04,2025-01-07,West,UAE,Hyderabad,Laptop,Supplier A,Warehouse 2,1,731,731,51.19,459.36,220.45,3,44,73,Yes,1.27,In Transit,3,30.15731874145007,On Time,January,2025,Low Stock
+ORD00168,2025-07-21,2025-07-28,South,USA,Bangalore,Phone,Supplier B,Warehouse 2,39,1706,66534,3938.73,34303.03,28292.24,3,198,149,No,2.69,Delivered,7,42.522980731656,On Time,July,2025,Sufficient
+ORD00169,2024-11-04,2024-11-13,East,USA,Bangalore,Printer,Supplier B,Warehouse 2,10,229,2290,103.16,1105.59,1081.25,6,400,59,No,2.75,Cancelled,9,47.21615720524017,On Time,November,2024,Sufficient
+ORD00170,2024-04-19,2024-04-25,West,USA,Delhi,Tablet,Supplier B,Warehouse 2,1,910,910,54.51,533.31,322.18,4,168,106,No,6.53,Cancelled,6,35.4043956043956,On Time,April,2024,Sufficient
+ORD00171,2024-11-17,2024-11-24,West,Germany,Bangalore,Tablet,Supplier A,Warehouse 3,21,696,14616,1405.16,8621.55,4589.29,4,400,81,No,7.76,Cancelled,7,31.399083196496992,On Time,November,2024,Sufficient
+ORD00172,2024-07-23,2024-08-07,West,Germany,Hyderabad,Monitor,Supplier D,Warehouse 1,12,1496,17952,1778.78,7325.76,8847.46,11,482,140,No,5.95,Pending,15,49.28397950089126,Delayed,July,2024,Sufficient
+ORD00173,2025-10-10,2025-10-17,West,UAE,Chennai,Laptop,Supplier C,Warehouse 3,17,1448,24616,1079.98,12971.12,10564.9,6,229,126,No,3.33,In Transit,7,42.91883327916802,On Time,October,2025,Sufficient
+ORD00174,2025-07-03,2025-07-19,West,Germany,Bangalore,Laptop,Supplier A,Warehouse 1,6,323,1938,192.26,1157.53,588.21,11,331,128,No,3.16,Delivered,16,30.35139318885449,Delayed,July,2025,Sufficient
+ORD00175,2024-09-21,2024-09-30,South,Germany,Hyderabad,Monitor,Supplier A,Warehouse 2,48,1162,55776,4474.32,33816.95,17484.73,5,191,100,No,2.16,In Transit,9,31.34812464142283,On Time,September,2024,Sufficient
+ORD00176,2025-03-01,2025-03-04,West,India,Bangalore,Keyboard,Supplier D,Warehouse 2,47,390,18330,1124.54,9218.52,7986.94,3,266,111,No,6.38,Cancelled,3,43.573049645390064,On Time,March,2025,Sufficient
+ORD00177,2024-03-09,2024-03-15,South,USA,Delhi,Printer,Supplier D,Warehouse 2,46,335,15410,493.62,7750.05,7166.33,6,409,71,No,1.32,Pending,6,46.50441271901363,On Time,March,2024,Sufficient
+ORD00178,2024-08-25,2024-09-11,West,UAE,Bangalore,Laptop,Supplier B,Warehouse 1,41,477,19557,914.78,11679.29,6962.93,14,377,128,No,3.47,Pending,17,35.603262259037685,Delayed,August,2024,Sufficient
+ORD00179,2024-10-12,2024-10-31,North,Germany,Bangalore,Printer,Supplier C,Warehouse 3,5,1282,6410,251.0,4240.82,1918.18,14,166,75,No,1.9,In Transit,19,29.92480499219969,Delayed,October,2024,Sufficient
+ORD00180,2025-02-01,2025-02-15,North,USA,Delhi,Laptop,Supplier B,Warehouse 2,38,333,12654,775.86,8271.35,3606.79,11,416,136,No,5.13,Cancelled,14,28.503161055792635,Delayed,February,2025,Sufficient
+ORD00181,2024-04-29,2024-05-05,West,USA,Chennai,Phone,Supplier D,Warehouse 2,45,389,17505,1329.93,9198.38,6976.69,4,196,104,No,1.53,Pending,6,39.855412739217364,On Time,April,2024,Sufficient
+ORD00182,2024-05-23,2024-05-29,West,UAE,Bangalore,Monitor,Supplier D,Warehouse 2,29,1368,39672,1381.58,20141.94,18148.48,4,69,74,Yes,0.57,In Transit,6,45.74631982254487,On Time,May,2024,Low Stock
+ORD00183,2024-06-20,2024-06-27,West,UAE,Chennai,Printer,Supplier A,Warehouse 3,2,1729,3458,340.6,1686.21,1431.19,3,275,86,No,2.56,Pending,7,41.3877964141122,On Time,June,2024,Sufficient
+ORD00184,2024-04-26,2024-05-06,North,USA,Delhi,Laptop,Supplier D,Warehouse 2,24,1210,29040,3021.18,11978.51,14040.31,6,279,77,No,5.89,In Transit,10,48.34817493112947,On Time,April,2024,Sufficient
+ORD00185,2024-12-22,2025-01-06,West,USA,Chennai,Phone,Supplier B,Warehouse 1,29,1872,54288,6485.04,34347.45,13455.51,15,415,144,No,2.28,Cancelled,15,24.785422192749778,Delayed,December,2024,Sufficient
+ORD00186,2024-03-01,2024-03-14,North,USA,Bangalore,Laptop,Supplier C,Warehouse 3,35,675,23625,1977.82,10643.37,11003.81,11,149,87,No,7.84,Cancelled,13,46.57697354497354,Delayed,March,2024,Sufficient
+ORD00187,2024-05-09,2024-05-23,South,Germany,Bangalore,Monitor,Supplier D,Warehouse 1,16,399,6384,600.26,4140.31,1643.43,13,346,100,No,6.21,In Transit,14,25.742951127819552,Delayed,May,2024,Sufficient
+ORD00188,2025-10-10,2025-10-24,North,India,Bangalore,Keyboard,Supplier C,Warehouse 1,26,1155,30030,2927.39,18270.58,8832.03,14,232,112,No,7.08,Cancelled,14,29.410689310689314,Delayed,October,2025,Sufficient
+ORD00189,2025-07-01,2025-07-10,West,Germany,Hyderabad,Laptop,Supplier A,Warehouse 3,28,1789,50092,2457.85,24072.26,23561.89,8,172,120,No,6.71,Pending,9,47.03723149405094,On Time,July,2025,Sufficient
+ORD00190,2025-04-15,2025-04-17,South,Germany,Hyderabad,Keyboard,Supplier C,Warehouse 2,11,1003,11033,784.3,7696.09,2552.61,2,352,66,No,3.71,Cancelled,2,23.13613704341521,On Time,April,2025,Sufficient
+ORD00191,2024-03-25,2024-04-06,North,India,Hyderabad,Phone,Supplier D,Warehouse 1,42,438,18396,637.62,10810.98,6947.4,7,386,79,No,5.94,In Transit,12,37.76581865622961,Delayed,March,2024,Sufficient
+ORD00192,2024-05-15,2024-05-27,West,India,Mumbai,Monitor,Supplier A,Warehouse 3,34,1492,50728,3553.8,20413.9,26760.3,11,61,104,Yes,3.08,Pending,12,52.752523261315254,Delayed,May,2024,Low Stock
+ORD00193,2024-04-14,2024-04-19,North,India,Chennai,Keyboard,Supplier B,Warehouse 2,24,1904,45696,2601.61,23525.05,19569.34,3,447,67,No,6.6,Pending,5,42.82506127450981,On Time,April,2024,Sufficient
+ORD00194,2024-12-25,2025-01-08,North,USA,Hyderabad,Printer,Supplier D,Warehouse 2,41,1632,66912,2918.95,35029.3,28963.75,13,440,77,No,5.65,Delivered,14,43.28633130081301,Delayed,December,2024,Sufficient
+ORD00195,2025-03-15,2025-03-23,North,Germany,Mumbai,Printer,Supplier B,Warehouse 3,16,667,10672,939.31,5063.33,4669.36,7,369,127,No,5.01,Cancelled,8,43.753373313343324,On Time,March,2025,Sufficient
+ORD00196,2025-02-05,2025-02-16,North,India,Delhi,Tablet,Supplier B,Warehouse 2,4,1705,6820,755.74,4681.26,1383.0,6,57,80,Yes,4.21,In Transit,11,20.278592375366568,Delayed,February,2025,Low Stock
+ORD00197,2025-08-05,2025-08-15,North,Germany,Mumbai,Laptop,Supplier A,Warehouse 2,35,1498,52430,2388.15,28380.59,21661.26,8,37,52,Yes,7.91,Delivered,10,41.314629029181766,On Time,August,2025,Low Stock
+ORD00198,2025-06-02,2025-06-13,East,India,Delhi,Laptop,Supplier B,Warehouse 1,46,1126,51796,5129.87,27300.25,19365.88,6,327,118,No,3.52,Pending,11,37.3887558884856,Delayed,June,2025,Sufficient
+ORD00199,2025-07-03,2025-07-13,South,India,Mumbai,Laptop,Supplier D,Warehouse 1,38,1399,53162,5246.57,31628.83,16286.6,7,158,139,No,5.32,In Transit,10,30.63579248335277,On Time,July,2025,Sufficient
+ORD00200,2025-04-09,2025-04-24,North,USA,Bangalore,Tablet,Supplier C,Warehouse 1,4,733,2932,263.73,1751.62,916.65,11,6,140,Yes,1.82,Pending,15,31.26364256480218,Delayed,April,2025,Low Stock
+ORD00201,2025-01-15,2025-01-24,East,India,Delhi,Keyboard,Supplier A,Warehouse 2,50,1888,94400,5115.42,62863.27,26421.31,4,15,92,Yes,6.29,In Transit,9,27.98867584745763,On Time,January,2025,Low Stock
+ORD00202,2025-04-11,2025-04-23,South,India,Hyderabad,Laptop,Supplier B,Warehouse 1,4,1123,4492,482.18,2021.69,1988.13,10,395,63,No,1.68,Delivered,12,44.25934995547641,Delayed,April,2025,Sufficient
+ORD00203,2025-04-28,2025-05-08,South,Germany,Mumbai,Monitor,Supplier C,Warehouse 2,10,466,4660,530.33,3062.76,1066.91,7,467,141,No,4.65,In Transit,10,22.895064377682406,On Time,April,2025,Sufficient
+ORD00204,2024-03-20,2024-04-02,North,UAE,Delhi,Tablet,Supplier C,Warehouse 1,8,1128,9024,817.57,3752.19,4454.24,11,264,55,No,2.17,In Transit,13,49.35992907801418,Delayed,March,2024,Sufficient
+ORD00205,2025-07-20,2025-07-29,West,USA,Chennai,Phone,Supplier B,Warehouse 1,24,510,12240,688.42,7776.71,3774.87,9,124,109,No,6.05,Cancelled,9,30.84044117647059,On Time,July,2025,Sufficient
+ORD00206,2025-02-23,2025-02-26,East,India,Mumbai,Printer,Supplier B,Warehouse 2,35,809,28315,2470.05,17216.6,8628.35,2,171,50,No,0.57,In Transit,3,30.472717640826417,On Time,February,2025,Sufficient
+ORD00207,2025-05-18,2025-05-21,West,India,Chennai,Laptop,Supplier B,Warehouse 3,46,673,30958,1187.93,20939.44,8830.63,2,266,102,No,7.23,Cancelled,3,28.52454938949544,On Time,May,2025,Sufficient
+ORD00208,2025-02-07,2025-02-14,East,Germany,Bangalore,Tablet,Supplier B,Warehouse 1,37,227,8399,580.78,5789.14,2029.08,3,133,90,No,2.28,In Transit,7,24.158590308370044,On Time,February,2025,Sufficient
+ORD00209,2024-07-26,2024-08-03,South,UAE,Delhi,Monitor,Supplier C,Warehouse 1,7,418,2926,115.6,1565.03,1245.37,4,61,118,Yes,2.86,Cancelled,8,42.562200956937794,On Time,July,2024,Low Stock
+ORD00210,2024-04-02,2024-04-11,North,USA,Delhi,Monitor,Supplier A,Warehouse 3,20,1792,35840,3348.3,20822.71,11668.99,4,438,91,No,2.11,Pending,9,32.558565848214286,On Time,April,2024,Sufficient
+ORD00211,2024-11-02,2024-11-09,South,India,Hyderabad,Laptop,Supplier B,Warehouse 1,2,928,1856,198.43,1051.96,605.61,6,48,109,Yes,4.63,Delivered,7,32.62984913793103,On Time,November,2024,Low Stock
+ORD00212,2024-07-21,2024-08-08,North,USA,Bangalore,Phone,Supplier A,Warehouse 2,24,1505,36120,3132.57,21433.81,11553.62,15,132,59,No,4.87,Delivered,18,31.986766334440752,Delayed,July,2024,Sufficient
+ORD00213,2024-05-05,2024-05-10,West,USA,Delhi,Phone,Supplier B,Warehouse 2,4,444,1776,200.99,941.19,633.82,2,254,53,No,5.93,In Transit,5,35.68806306306306,On Time,May,2024,Sufficient
+ORD00214,2024-10-13,2024-10-23,North,India,Delhi,Monitor,Supplier B,Warehouse 2,3,1357,4071,348.99,1928.58,1793.43,9,210,120,No,2.71,In Transit,10,44.053795136330145,On Time,October,2024,Sufficient
+ORD00215,2024-07-23,2024-08-08,West,UAE,Delhi,Printer,Supplier C,Warehouse 2,16,1391,22256,2658.88,12532.29,7064.83,12,195,150,No,0.65,Cancelled,16,31.74348490294752,Delayed,July,2024,Sufficient
+ORD00216,2024-10-03,2024-10-07,South,USA,Hyderabad,Phone,Supplier B,Warehouse 2,21,1322,27762,1380.1,18565.27,7816.63,4,29,110,Yes,6.34,Cancelled,4,28.155860528780348,On Time,October,2024,Low Stock
+ORD00217,2025-06-30,2025-07-20,South,USA,Mumbai,Printer,Supplier C,Warehouse 3,4,1664,6656,796.56,3100.52,2758.92,15,408,99,No,6.85,Cancelled,20,41.45012019230769,Delayed,June,2025,Sufficient
+ORD00218,2025-12-15,2025-12-26,East,USA,Bangalore,Laptop,Supplier A,Warehouse 1,2,1540,3080,286.6,2107.54,685.86,7,288,74,No,4.73,In Transit,11,22.268181818181816,Delayed,December,2025,Sufficient
+ORD00219,2024-08-26,2024-09-07,South,Germany,Hyderabad,Laptop,Supplier B,Warehouse 3,2,1178,2356,172.03,1176.87,1007.1,11,412,66,No,5.11,Cancelled,12,42.746179966044146,Delayed,August,2024,Sufficient
+ORD00220,2025-12-22,2025-12-26,East,Germany,Delhi,Phone,Supplier B,Warehouse 3,34,1862,63308,3978.28,26700.75,32628.97,4,339,100,No,5.78,Delivered,4,51.54004233272257,On Time,December,2025,Sufficient
+ORD00221,2025-03-23,2025-04-11,South,USA,Bangalore,Tablet,Supplier C,Warehouse 1,32,1429,45728,2677.63,27992.62,15057.75,14,455,128,No,4.71,Cancelled,19,32.92894944016795,Delayed,March,2025,Sufficient
+ORD00222,2024-06-30,2024-07-13,South,India,Bangalore,Phone,Supplier C,Warehouse 3,45,1273,57285,3737.51,40001.25,13546.24,13,16,73,Yes,7.74,Cancelled,13,23.647097844112768,Delayed,June,2024,Low Stock
+ORD00223,2024-03-20,2024-03-27,West,India,Delhi,Phone,Supplier B,Warehouse 3,21,443,9303,811.75,6409.06,2082.19,5,343,131,No,6.66,Cancelled,7,22.381919810813717,On Time,March,2024,Sufficient
+ORD00224,2024-03-10,2024-03-19,West,UAE,Delhi,Printer,Supplier D,Warehouse 1,7,1575,11025,332.02,5686.49,5006.49,7,496,71,No,5.99,In Transit,9,45.41034013605442,On Time,March,2024,Sufficient
+ORD00225,2025-05-05,2025-05-23,North,Germany,Delhi,Laptop,Supplier A,Warehouse 2,42,1652,69384,6372.53,31139.33,31872.14,14,433,54,No,1.05,Cancelled,18,45.935864176178946,Delayed,May,2025,Sufficient
+ORD00226,2024-06-23,2024-07-02,North,UAE,Mumbai,Printer,Supplier D,Warehouse 1,47,253,11891,942.17,7960.28,2988.55,8,304,128,No,1.2,In Transit,9,25.13287360188378,On Time,June,2024,Sufficient
+ORD00227,2024-02-24,2024-02-29,East,USA,Hyderabad,Laptop,Supplier D,Warehouse 3,14,489,6846,457.55,3876.44,2512.01,3,276,83,No,7.44,Cancelled,5,36.69310546304412,On Time,February,2024,Sufficient
+ORD00228,2025-07-16,2025-08-03,South,India,Hyderabad,Phone,Supplier B,Warehouse 3,10,211,2110,131.82,1114.67,863.51,15,338,130,No,2.71,In Transit,18,40.92464454976303,Delayed,July,2025,Sufficient
+ORD00229,2024-10-25,2024-10-31,South,Germany,Bangalore,Tablet,Supplier B,Warehouse 2,8,731,5848,588.54,3165.42,2094.04,3,135,61,No,7.21,In Transit,6,35.8077975376197,On Time,October,2024,Sufficient
+ORD00230,2024-02-15,2024-02-24,North,Germany,Chennai,Monitor,Supplier B,Warehouse 3,30,639,19170,965.44,9212.5,8992.06,6,385,139,No,0.96,Delivered,9,46.90693792383933,On Time,February,2024,Sufficient
+ORD00231,2024-03-03,2024-03-21,East,India,Bangalore,Keyboard,Supplier A,Warehouse 3,34,957,32538,3803.9,19721.94,9012.16,15,293,80,No,7.52,In Transit,18,27.697338496527134,Delayed,March,2024,Sufficient
+ORD00232,2025-08-07,2025-08-21,South,USA,Hyderabad,Monitor,Supplier A,Warehouse 3,44,1370,60280,2608.33,41278.32,16393.35,10,485,71,No,3.87,Pending,14,27.19533842070338,Delayed,August,2025,Sufficient
+ORD00233,2025-03-21,2025-03-31,West,UAE,Chennai,Tablet,Supplier C,Warehouse 3,10,1808,18080,1510.66,8966.32,7603.02,5,413,58,No,5.95,Delivered,10,42.05210176991151,On Time,March,2025,Sufficient
+ORD00234,2025-04-14,2025-04-29,North,India,Delhi,Printer,Supplier C,Warehouse 2,45,1376,61920,5132.04,39288.59,17499.37,15,76,68,No,1.34,Delivered,15,28.26125645994832,Delayed,April,2025,Sufficient
+ORD00235,2024-09-27,2024-10-10,North,UAE,Delhi,Keyboard,Supplier B,Warehouse 1,32,1271,40672,3449.25,16725.94,20496.81,8,73,129,Yes,2.57,In Transit,13,50.39538257277735,Delayed,September,2024,Low Stock
+ORD00236,2025-05-01,2025-05-09,South,USA,Delhi,Keyboard,Supplier D,Warehouse 2,2,791,1582,163.84,776.63,641.53,6,251,139,No,2.6,Delivered,8,40.55183312262958,On Time,May,2025,Sufficient
+ORD00237,2024-10-02,2024-10-18,East,India,Chennai,Phone,Supplier A,Warehouse 2,39,1422,55458,2109.39,29532.22,23816.39,13,208,144,No,7.35,In Transit,16,42.94491326769808,Delayed,October,2024,Sufficient
+ORD00238,2025-12-27,2026-01-09,South,India,Bangalore,Laptop,Supplier C,Warehouse 3,9,1698,15282,1629.31,10144.19,3508.5,10,98,75,No,0.72,Delivered,13,22.95838241067923,Delayed,December,2025,Sufficient
+ORD00239,2024-07-22,2024-07-30,West,USA,Bangalore,Printer,Supplier C,Warehouse 2,30,1134,34020,2235.96,23028.89,8755.15,6,123,97,No,5.61,In Transit,8,25.735302763080544,On Time,July,2024,Sufficient
+ORD00240,2024-06-16,2024-07-03,South,USA,Mumbai,Tablet,Supplier D,Warehouse 3,48,1801,86448,7952.92,41972.3,36522.78,15,83,123,Yes,3.4,Pending,17,42.24826485285952,Delayed,June,2024,Low Stock
+ORD00241,2024-01-21,2024-02-10,East,Germany,Bangalore,Monitor,Supplier C,Warehouse 2,1,1070,1070,119.88,635.81,314.31,15,4,78,Yes,5.01,Cancelled,20,29.374766355140185,Delayed,January,2024,Low Stock
+ORD00242,2024-09-15,2024-09-23,East,Germany,Hyderabad,Monitor,Supplier A,Warehouse 2,20,1486,29720,2284.2,17448.07,9987.73,5,3,115,Yes,4.88,Cancelled,8,33.606090174966354,On Time,September,2024,Low Stock
+ORD00243,2024-10-10,2024-10-24,North,UAE,Delhi,Keyboard,Supplier B,Warehouse 3,18,634,11412,1016.25,7824.71,2571.04,12,96,69,No,5.39,Pending,14,22.529267437784785,Delayed,October,2024,Sufficient
+ORD00244,2024-01-27,2024-02-11,East,USA,Chennai,Keyboard,Supplier D,Warehouse 3,19,631,11989,1338.24,6250.82,4399.94,12,298,140,No,6.03,Pending,15,36.69980815747769,Delayed,January,2024,Sufficient
+ORD00245,2025-01-02,2025-01-14,South,Germany,Hyderabad,Phone,Supplier C,Warehouse 1,11,1821,20031,1786.47,11367.08,6877.45,10,241,66,No,2.7,Cancelled,12,34.334032250012484,Delayed,January,2025,Sufficient
+ORD00246,2024-11-10,2024-11-20,West,USA,Chennai,Laptop,Supplier D,Warehouse 3,24,633,15192,1256.4,8190.44,5745.16,8,27,131,Yes,1.38,Delivered,10,37.81700895208004,On Time,November,2024,Low Stock
+ORD00247,2024-11-01,2024-11-09,East,USA,Hyderabad,Monitor,Supplier C,Warehouse 3,10,381,3810,454.58,1915.67,1439.75,8,457,108,No,7.9,Pending,8,37.78871391076116,On Time,November,2024,Sufficient
+ORD00248,2024-06-30,2024-07-12,West,India,Mumbai,Printer,Supplier D,Warehouse 3,4,109,436,30.82,201.79,203.39,7,295,147,No,6.3,Pending,12,46.64908256880734,Delayed,June,2024,Sufficient
+ORD00249,2025-03-15,2025-03-26,South,India,Hyderabad,Keyboard,Supplier B,Warehouse 1,31,885,27435,834.58,15367.3,11233.12,8,486,51,No,5.98,Cancelled,11,40.94448696919993,Delayed,March,2025,Sufficient
+ORD00250,2025-12-11,2025-12-20,East,UAE,Chennai,Printer,Supplier C,Warehouse 2,9,310,2790,180.01,1608.72,1001.27,7,421,55,No,1.75,Cancelled,9,35.88781362007168,On Time,December,2025,Sufficient
+ORD00251,2025-12-04,2025-12-10,South,USA,Mumbai,Phone,Supplier A,Warehouse 3,32,835,26720,2605.48,12009.71,12104.81,4,415,101,No,7.3,Delivered,6,45.302432634730536,On Time,December,2025,Sufficient
+ORD00252,2025-05-31,2025-06-04,North,India,Hyderabad,Laptop,Supplier A,Warehouse 2,24,1556,37344,3306.76,15356.19,18681.05,4,130,148,Yes,7.07,Delivered,4,50.02423414738646,On Time,May,2025,Low Stock
+ORD00253,2025-03-30,2025-04-07,West,India,Chennai,Tablet,Supplier B,Warehouse 2,36,617,22212,1614.72,9905.18,10692.1,8,322,51,No,5.71,Cancelled,8,48.136592832703045,On Time,March,2025,Sufficient
+ORD00254,2024-04-17,2024-05-02,South,Germany,Bangalore,Tablet,Supplier B,Warehouse 1,40,341,13640,756.25,8667.24,4216.51,10,311,75,No,4.23,Cancelled,15,30.912829912023458,Delayed,April,2024,Sufficient
+ORD00255,2025-07-15,2025-07-25,South,India,Chennai,Laptop,Supplier A,Warehouse 2,45,1084,48780,2914.82,19552.07,26313.11,9,464,64,No,5.54,In Transit,10,53.94241492414924,On Time,July,2025,Sufficient
+ORD00256,2025-10-21,2025-10-29,East,UAE,Hyderabad,Laptop,Supplier A,Warehouse 1,19,640,12160,872.91,5228.1,6058.99,5,20,87,Yes,1.81,Cancelled,8,49.82722039473684,On Time,October,2025,Low Stock
+ORD00257,2024-05-21,2024-06-07,East,Germany,Mumbai,Laptop,Supplier D,Warehouse 2,11,773,8503,528.69,4517.77,3456.54,12,449,143,No,5.16,Delivered,17,40.65082911913442,Delayed,May,2024,Sufficient
+ORD00258,2025-04-12,2025-04-21,North,USA,Hyderabad,Monitor,Supplier D,Warehouse 3,45,1842,82890,6054.46,43643.4,33192.14,6,85,64,No,7.15,Pending,9,40.043599951743275,On Time,April,2025,Sufficient
+ORD00259,2025-11-25,2025-12-05,West,UAE,Hyderabad,Monitor,Supplier D,Warehouse 1,40,877,35080,3512.38,20465.94,11101.68,9,450,143,No,6.97,Pending,10,31.646750285062712,On Time,November,2025,Sufficient
+ORD00260,2024-03-05,2024-03-16,East,India,Bangalore,Keyboard,Supplier B,Warehouse 2,21,125,2625,245.2,1583.87,795.93,6,295,142,No,6.26,Pending,11,30.321142857142856,Delayed,March,2024,Sufficient
+ORD00261,2024-12-20,2025-01-06,South,UAE,Bangalore,Phone,Supplier A,Warehouse 2,42,888,37296,1617.86,24165.25,11512.89,12,313,56,No,7.19,Delivered,17,30.868967181467177,Delayed,December,2024,Sufficient
+ORD00262,2024-11-24,2024-12-01,West,UAE,Chennai,Monitor,Supplier A,Warehouse 2,18,203,3654,276.33,2065.05,1312.62,5,418,80,No,3.34,Delivered,7,35.92282430213464,On Time,November,2024,Sufficient
+ORD00263,2025-04-02,2025-04-09,North,Germany,Chennai,Printer,Supplier B,Warehouse 3,32,1626,52032,4620.63,22415.02,24996.35,7,285,120,No,3.59,Delivered,7,48.04034055965559,On Time,April,2025,Sufficient
+ORD00264,2025-11-18,2025-11-29,East,UAE,Hyderabad,Laptop,Supplier B,Warehouse 1,24,1790,42960,1498.65,20056.97,21404.38,9,286,148,No,3.91,In Transit,11,49.823975791433895,Delayed,November,2025,Sufficient
+ORD00265,2024-12-15,2024-12-27,West,India,Delhi,Printer,Supplier B,Warehouse 1,19,1221,23199,1785.83,14165.98,7247.19,7,84,113,Yes,0.84,Pending,12,31.239234449760765,Delayed,December,2024,Low Stock
+ORD00266,2024-05-03,2024-05-21,North,UAE,Bangalore,Keyboard,Supplier B,Warehouse 2,14,1036,14504,1511.46,6630.85,6361.69,15,387,103,No,3.03,Delivered,18,43.86162437948152,Delayed,May,2024,Sufficient
+ORD00267,2024-01-05,2024-01-20,South,USA,Hyderabad,Monitor,Supplier C,Warehouse 3,4,1233,4932,563.12,3213.91,1154.97,10,260,149,No,4.12,Pending,15,23.417883211678834,Delayed,January,2024,Sufficient
+ORD00268,2025-01-28,2025-02-09,South,UAE,Chennai,Keyboard,Supplier C,Warehouse 3,45,1661,74745,3912.26,38819.64,32013.1,8,150,107,No,3.07,Pending,12,42.82975449862867,Delayed,January,2025,Sufficient
+ORD00269,2025-07-14,2025-07-31,East,USA,Mumbai,Printer,Supplier C,Warehouse 3,46,1609,74014,8452.11,43651.61,21910.28,15,319,141,No,2.01,Cancelled,17,29.602885940497742,Delayed,July,2025,Sufficient
+ORD00270,2024-04-28,2024-05-14,West,India,Chennai,Laptop,Supplier A,Warehouse 2,36,1083,38988,3214.66,26621.09,9152.25,14,345,145,No,5.83,Cancelled,16,23.47453062480763,Delayed,April,2024,Sufficient
+ORD00271,2024-05-28,2024-06-04,North,Germany,Mumbai,Printer,Supplier A,Warehouse 2,4,509,2036,110.0,1294.2,631.8,2,349,82,No,7.88,Pending,7,31.03143418467583,On Time,May,2024,Sufficient
+ORD00272,2025-04-08,2025-04-15,North,UAE,Bangalore,Monitor,Supplier C,Warehouse 3,44,1614,71016,5721.73,33185.22,32109.05,3,199,80,No,5.35,Cancelled,7,45.21382505350907,On Time,April,2025,Sufficient
+ORD00273,2024-02-25,2024-03-03,South,USA,Delhi,Monitor,Supplier B,Warehouse 3,17,515,8755,751.62,5553.1,2450.28,2,424,78,No,7.03,Cancelled,7,27.987207310108513,On Time,February,2024,Sufficient
+ORD00274,2024-03-17,2024-03-22,East,India,Delhi,Monitor,Supplier B,Warehouse 1,48,1152,55296,2252.86,22792.47,30250.67,4,135,66,No,2.59,Pending,5,54.70679615162036,On Time,March,2024,Sufficient
+ORD00275,2024-06-06,2024-06-17,North,Germany,Chennai,Phone,Supplier B,Warehouse 3,4,1684,6736,767.33,3938.42,2030.25,7,251,123,No,5.46,Cancelled,11,30.140290973871736,Delayed,June,2024,Sufficient
+ORD00276,2024-03-10,2024-03-28,East,Germany,Delhi,Phone,Supplier D,Warehouse 3,11,951,10461,825.13,5450.44,4185.43,14,452,77,No,3.12,Cancelled,18,40.0098460950196,Delayed,March,2024,Sufficient
+ORD00277,2025-10-26,2025-10-28,East,UAE,Hyderabad,Monitor,Supplier C,Warehouse 3,43,808,34744,2435.9,23325.35,8982.75,2,318,81,No,5.1,Delivered,2,25.854104305779412,On Time,October,2025,Sufficient
+ORD00278,2024-10-16,2024-10-22,East,India,Hyderabad,Phone,Supplier A,Warehouse 3,50,867,43350,3307.08,23956.11,16086.81,2,151,133,No,4.15,Pending,6,37.10913494809688,On Time,October,2024,Sufficient
+ORD00279,2024-03-08,2024-03-18,North,USA,Hyderabad,Monitor,Supplier C,Warehouse 1,41,1684,69044,3395.98,41814.53,23833.49,5,105,118,Yes,6.77,In Transit,10,34.51927756213429,On Time,March,2024,Low Stock
+ORD00280,2024-03-30,2024-04-02,West,UAE,Bangalore,Monitor,Supplier C,Warehouse 1,12,1726,20712,1090.94,8722.5,10898.56,3,466,83,No,6.66,In Transit,3,52.61954422556971,On Time,March,2024,Sufficient
+ORD00281,2025-02-02,2025-02-14,East,India,Delhi,Keyboard,Supplier C,Warehouse 3,35,112,3920,343.89,2295.18,1280.93,12,299,55,No,6.17,Delivered,12,32.676785714285714,Delayed,February,2025,Sufficient
+ORD00282,2024-03-29,2024-04-07,East,USA,Delhi,Keyboard,Supplier C,Warehouse 1,25,909,22725,2363.2,9300.11,11061.69,6,112,67,No,1.67,In Transit,9,48.67630363036304,On Time,March,2024,Sufficient
+ORD00283,2025-07-20,2025-08-08,South,Germany,Mumbai,Monitor,Supplier B,Warehouse 1,10,352,3520,118.83,2012.79,1388.38,15,280,60,No,3.46,Cancelled,19,39.44261363636364,Delayed,July,2025,Sufficient
+ORD00284,2024-07-07,2024-07-16,North,Germany,Hyderabad,Tablet,Supplier A,Warehouse 1,17,497,8449,340.63,5080.33,3028.04,5,27,146,Yes,4.75,In Transit,9,35.83903420523139,On Time,July,2024,Low Stock
+ORD00285,2025-08-17,2025-08-28,West,UAE,Delhi,Printer,Supplier C,Warehouse 3,23,362,8326,752.81,3916.22,3656.97,9,35,74,Yes,2.64,Cancelled,11,43.92229161662263,Delayed,August,2025,Low Stock
+ORD00286,2025-08-21,2025-08-29,West,Germany,Delhi,Phone,Supplier C,Warehouse 2,37,846,31302,3214.5,21523.18,6564.32,4,160,81,No,1.76,Pending,8,20.970928375183693,On Time,August,2025,Sufficient
+ORD00287,2025-04-18,2025-04-29,South,Germany,Hyderabad,Keyboard,Supplier A,Warehouse 1,50,725,36250,2676.24,15683.55,17890.21,9,41,85,Yes,5.34,Pending,11,49.35230344827586,Delayed,April,2025,Low Stock
+ORD00288,2025-06-03,2025-06-15,South,Germany,Bangalore,Phone,Supplier C,Warehouse 1,38,1285,48830,3245.34,28175.44,17409.22,12,282,83,No,7.3,In Transit,12,35.65271349580176,Delayed,June,2025,Sufficient
+ORD00289,2025-04-20,2025-05-04,South,UAE,Mumbai,Phone,Supplier B,Warehouse 3,6,912,5472,343.36,2206.19,2922.45,10,493,128,No,2.29,Pending,14,53.40734649122807,Delayed,April,2025,Sufficient
+ORD00290,2025-05-10,2025-05-17,East,UAE,Bangalore,Monitor,Supplier A,Warehouse 1,15,1659,24885,1838.7,10423.29,12623.01,7,21,135,Yes,3.27,Pending,7,50.725376732971675,On Time,May,2025,Low Stock
+ORD00291,2025-10-26,2025-11-02,West,UAE,Delhi,Printer,Supplier A,Warehouse 3,46,1167,53682,4671.46,25877.33,23133.21,7,296,119,No,6.06,Pending,7,43.09304794903319,On Time,October,2025,Sufficient
+ORD00292,2024-09-14,2024-09-23,South,UAE,Mumbai,Phone,Supplier A,Warehouse 3,34,931,31654,1954.98,20901.64,8797.38,8,246,127,No,4.15,Delivered,9,27.792316926770706,On Time,September,2024,Sufficient
+ORD00293,2025-10-20,2025-10-27,East,India,Bangalore,Keyboard,Supplier D,Warehouse 2,10,482,4820,212.86,2798.52,1808.62,6,338,79,No,6.63,In Transit,7,37.523236514522814,On Time,October,2025,Sufficient
+ORD00294,2024-08-03,2024-08-15,North,USA,Hyderabad,Phone,Supplier C,Warehouse 1,42,1806,75852,5080.64,35885.66,34885.7,11,303,70,No,1.46,Pending,12,45.99179982070347,Delayed,August,2024,Sufficient
+ORD00295,2025-06-13,2025-06-25,West,UAE,Bangalore,Phone,Supplier B,Warehouse 2,37,1405,51985,1646.67,32015.7,18322.63,8,145,60,No,5.46,Pending,12,35.245994036741365,Delayed,June,2025,Sufficient
+ORD00296,2025-09-07,2025-09-15,North,USA,Bangalore,Monitor,Supplier B,Warehouse 1,50,472,23600,2031.7,13056.5,8511.8,4,351,93,No,1.76,In Transit,8,36.06694915254237,On Time,September,2025,Sufficient
+ORD00297,2024-01-17,2024-01-26,North,India,Bangalore,Keyboard,Supplier B,Warehouse 3,33,1501,49533,3357.42,22035.66,24139.92,5,243,128,No,1.22,Delivered,9,48.735025134758644,On Time,January,2024,Sufficient
+ORD00298,2025-07-06,2025-07-21,South,UAE,Bangalore,Tablet,Supplier A,Warehouse 2,50,1489,74450,6583.68,41439.86,26426.46,15,22,139,Yes,3.28,In Transit,15,35.49558092679651,Delayed,July,2025,Low Stock
+ORD00299,2024-05-17,2024-05-26,South,India,Hyderabad,Printer,Supplier A,Warehouse 3,50,576,28800,3222.94,12244.18,13332.88,6,278,102,No,4.99,Cancelled,9,46.29472222222222,On Time,May,2024,Sufficient
+ORD00300,2024-01-08,2024-01-21,East,UAE,Chennai,Tablet,Supplier C,Warehouse 3,14,1508,21112,2161.57,11034.26,7916.17,8,218,133,No,1.3,Cancelled,13,37.49606858658583,Delayed,January,2024,Sufficient
+ORD00301,2025-02-10,2025-02-25,East,Germany,Bangalore,Keyboard,Supplier B,Warehouse 3,27,1230,33210,3338.97,18090.83,11780.2,14,284,111,No,3.28,Cancelled,15,35.47184582956941,Delayed,February,2025,Sufficient
+ORD00302,2024-05-01,2024-05-15,North,USA,Bangalore,Keyboard,Supplier A,Warehouse 1,29,1703,49387,4589.93,22151.97,22645.1,13,205,150,No,2.11,Cancelled,14,45.8523498086541,Delayed,May,2024,Sufficient
+ORD00303,2024-05-28,2024-06-10,West,Germany,Chennai,Laptop,Supplier B,Warehouse 3,28,280,7840,280.42,3657.6,3901.98,9,19,142,Yes,1.1,In Transit,13,49.77015306122449,Delayed,May,2024,Low Stock
+ORD00304,2025-05-21,2025-05-30,South,India,Delhi,Phone,Supplier A,Warehouse 1,13,1841,23933,2132.9,15345.19,6454.91,9,17,150,Yes,2.65,Pending,9,26.9707516817783,On Time,May,2025,Low Stock
+ORD00305,2024-03-29,2024-04-07,North,Germany,Chennai,Printer,Supplier C,Warehouse 2,23,1471,33833,2218.19,19481.86,12132.95,6,377,140,No,4.38,Delivered,9,35.86128927378595,On Time,March,2024,Sufficient
+ORD00306,2024-10-10,2024-10-19,North,Germany,Delhi,Laptop,Supplier C,Warehouse 3,13,1031,13403,1523.58,7672.84,4206.58,5,208,114,No,2.46,Delivered,9,31.385361486234427,On Time,October,2024,Sufficient
+ORD00307,2025-08-11,2025-08-22,West,India,Bangalore,Laptop,Supplier C,Warehouse 1,29,872,25288,2040.37,15956.48,7291.15,6,492,149,No,6.18,In Transit,11,28.83245017399557,Delayed,August,2025,Sufficient
+ORD00308,2025-01-26,2025-02-08,East,USA,Delhi,Laptop,Supplier D,Warehouse 3,44,1536,67584,3426.08,33435.1,30722.82,12,264,118,No,7.67,Delivered,13,45.45871803977273,Delayed,January,2025,Sufficient
+ORD00309,2024-12-16,2024-12-23,West,USA,Mumbai,Keyboard,Supplier B,Warehouse 2,12,1075,12900,751.41,6005.85,6142.74,3,93,145,Yes,4.8,Pending,7,47.61813953488372,On Time,December,2024,Low Stock
+ORD00310,2024-07-30,2024-08-05,North,India,Bangalore,Tablet,Supplier C,Warehouse 2,16,1812,28992,2483.85,12953.59,13554.56,5,471,60,No,1.3,In Transit,6,46.75275938189845,On Time,July,2024,Sufficient
+ORD00311,2025-08-11,2025-08-28,North,UAE,Bangalore,Printer,Supplier A,Warehouse 3,32,474,15168,1798.86,10235.4,3133.74,15,113,146,Yes,2.6,Pending,17,20.66020569620253,Delayed,August,2025,Low Stock
+ORD00312,2024-12-21,2025-01-03,North,USA,Bangalore,Printer,Supplier A,Warehouse 2,50,457,22850,1625.72,9965.12,11259.16,8,161,138,No,4.39,Delivered,13,49.27422319474836,Delayed,December,2024,Sufficient
+ORD00313,2025-01-05,2025-01-18,West,UAE,Mumbai,Monitor,Supplier C,Warehouse 2,12,1223,14676,787.46,7056.55,6831.99,11,175,96,No,7.69,Pending,13,46.55212591986918,Delayed,January,2025,Sufficient
+ORD00314,2025-02-14,2025-02-23,South,UAE,Bangalore,Phone,Supplier B,Warehouse 3,12,1270,15240,637.07,8728.98,5873.95,6,51,142,Yes,2.21,Cancelled,9,38.54297900262467,On Time,February,2025,Low Stock
+ORD00315,2024-06-02,2024-06-11,West,Germany,Delhi,Printer,Supplier A,Warehouse 2,12,963,11556,866.28,8073.81,2615.91,9,264,118,No,6.87,Cancelled,9,22.63681204569055,On Time,June,2024,Sufficient
+ORD00316,2024-04-11,2024-04-25,East,Germany,Delhi,Printer,Supplier C,Warehouse 2,4,541,2164,223.42,1174.97,765.61,13,230,145,No,5.22,Cancelled,14,35.379390018484294,Delayed,April,2024,Sufficient
+ORD00317,2024-01-21,2024-01-29,East,Germany,Delhi,Keyboard,Supplier D,Warehouse 3,23,1876,43148,3933.49,25098.02,14116.49,8,332,133,No,4.83,Pending,8,32.716441086493,On Time,January,2024,Sufficient
+ORD00318,2025-04-02,2025-04-08,West,India,Hyderabad,Phone,Supplier C,Warehouse 1,40,686,27440,1968.48,18850.69,6620.83,3,327,93,No,7.01,In Transit,6,24.12838921282799,On Time,April,2025,Sufficient
+ORD00319,2024-11-17,2024-11-29,West,UAE,Mumbai,Phone,Supplier A,Warehouse 1,19,1554,29526,1596.55,17520.53,10408.92,7,227,149,No,2.53,Cancelled,12,35.25340377971957,Delayed,November,2024,Sufficient
+ORD00320,2024-08-28,2024-09-11,North,India,Bangalore,Printer,Supplier A,Warehouse 1,48,1535,73680,7182.07,34126.47,32371.46,12,48,58,Yes,3.48,In Transit,14,43.93520629750272,Delayed,August,2024,Low Stock
+ORD00321,2024-09-25,2024-10-07,South,USA,Chennai,Phone,Supplier A,Warehouse 1,6,1441,8646,984.29,4469.58,3192.13,11,377,86,No,2.22,In Transit,12,36.9203099699283,Delayed,September,2024,Sufficient
+ORD00322,2025-11-10,2025-11-19,West,UAE,Chennai,Keyboard,Supplier C,Warehouse 2,31,1056,32736,3854.61,18403.37,10478.02,7,227,67,No,2.54,Pending,9,32.00763685239492,On Time,November,2025,Sufficient
+ORD00323,2025-05-08,2025-05-19,East,Germany,Bangalore,Printer,Supplier A,Warehouse 3,6,1004,6024,347.63,3154.53,2521.84,10,5,50,Yes,1.67,Pending,11,41.863213811420984,Delayed,May,2025,Low Stock
+ORD00324,2025-05-18,2025-06-04,South,UAE,Chennai,Monitor,Supplier D,Warehouse 1,20,118,2360,233.47,1508.96,617.57,14,407,50,No,4.98,Cancelled,17,26.16822033898305,Delayed,May,2025,Sufficient
+ORD00325,2024-06-16,2024-07-04,East,Germany,Bangalore,Phone,Supplier A,Warehouse 1,42,898,37716,3943.53,17582.36,16190.11,13,320,80,No,1.09,Cancelled,18,42.92637077102556,Delayed,June,2024,Sufficient
+ORD00326,2024-05-19,2024-05-25,South,India,Chennai,Laptop,Supplier B,Warehouse 1,41,1032,42312,3621.72,20379.16,18311.12,6,96,91,No,5.17,Delivered,6,43.27642276422764,On Time,May,2024,Sufficient
+ORD00327,2024-10-15,2024-10-22,West,Germany,Bangalore,Tablet,Supplier D,Warehouse 3,46,997,45862,4377.05,21547.95,19937.0,6,252,77,No,1.63,Cancelled,7,43.471719506345124,On Time,October,2024,Sufficient
+ORD00328,2024-02-02,2024-02-09,East,UAE,Hyderabad,Laptop,Supplier B,Warehouse 2,49,399,19551,685.13,12369.84,6496.03,7,240,73,No,1.04,Pending,7,33.22607539256304,On Time,February,2024,Sufficient
+ORD00329,2025-03-29,2025-04-08,East,Germany,Mumbai,Keyboard,Supplier A,Warehouse 3,3,507,1521,108.71,960.21,452.08,5,106,110,Yes,4.41,In Transit,10,29.72255095332018,On Time,March,2025,Low Stock
+ORD00330,2025-07-16,2025-07-26,North,USA,Bangalore,Tablet,Supplier A,Warehouse 1,17,1085,18445,1613.33,8477.64,8354.03,10,442,135,No,7.16,Pending,10,45.29156953103822,On Time,July,2025,Sufficient
+ORD00331,2024-10-09,2024-10-20,East,India,Mumbai,Phone,Supplier D,Warehouse 1,26,1716,44616,2314.59,30814.06,11487.35,11,353,110,No,4.86,Pending,11,25.747153487538103,Delayed,October,2024,Sufficient
+ORD00332,2025-12-03,2025-12-16,West,USA,Delhi,Printer,Supplier C,Warehouse 2,49,1380,67620,2394.07,34260.03,30965.9,11,274,63,No,1.65,Pending,13,45.793995859213254,Delayed,December,2025,Sufficient
+ORD00333,2024-07-16,2024-07-23,West,USA,Chennai,Phone,Supplier C,Warehouse 2,25,833,20825,1982.46,9896.22,8946.32,2,361,106,No,0.8,Cancelled,7,42.95951980792317,On Time,July,2024,Sufficient
+ORD00334,2025-04-24,2025-05-04,West,India,Chennai,Monitor,Supplier B,Warehouse 1,36,428,15408,557.75,6879.79,7970.46,6,134,119,No,2.72,Cancelled,10,51.72936137071651,On Time,April,2025,Sufficient
+ORD00335,2025-09-26,2025-10-13,West,USA,Chennai,Tablet,Supplier C,Warehouse 2,50,1370,68500,3527.12,42216.62,22756.26,15,275,99,No,5.44,Pending,17,33.220817518248175,Delayed,September,2025,Sufficient
+ORD00336,2025-10-18,2025-10-25,North,UAE,Mumbai,Laptop,Supplier A,Warehouse 3,7,1171,8197,731.99,3386.45,4078.56,7,91,54,No,7.53,Pending,7,49.75674027083079,On Time,October,2025,Sufficient
+ORD00337,2025-10-19,2025-11-06,North,USA,Bangalore,Laptop,Supplier D,Warehouse 3,43,1103,47429,3667.4,28950.39,14811.21,15,187,78,No,2.42,Delivered,18,31.228172636994245,Delayed,October,2025,Sufficient
+ORD00338,2024-03-03,2024-03-14,North,India,Delhi,Laptop,Supplier B,Warehouse 3,48,1923,92304,6224.59,47141.55,38937.86,7,421,128,No,5.81,Cancelled,11,42.184369041428326,Delayed,March,2024,Sufficient
+ORD00339,2024-04-09,2024-04-17,West,India,Chennai,Tablet,Supplier D,Warehouse 3,15,1188,17820,1152.59,8160.42,8506.99,3,291,130,No,5.43,Pending,8,47.73843995510662,On Time,April,2024,Sufficient
+ORD00340,2025-11-12,2025-11-20,East,Germany,Chennai,Tablet,Supplier C,Warehouse 2,11,1722,18942,875.8,9858.69,8207.51,8,80,118,Yes,3.03,In Transit,8,43.329690634568685,On Time,November,2025,Low Stock
+ORD00341,2025-10-10,2025-10-23,East,UAE,Bangalore,Monitor,Supplier A,Warehouse 3,21,1346,28266,1460.36,15933.2,10872.44,8,281,145,No,3.31,Cancelled,13,38.464727941696744,Delayed,October,2025,Sufficient
+ORD00342,2024-02-05,2024-02-15,North,Germany,Chennai,Printer,Supplier B,Warehouse 1,2,1160,2320,97.81,1547.67,674.52,6,113,77,No,0.55,Cancelled,10,29.074137931034482,On Time,February,2024,Sufficient
+ORD00343,2024-02-08,2024-02-19,West,USA,Hyderabad,Keyboard,Supplier C,Warehouse 2,10,383,3830,206.24,2554.18,1069.58,9,131,88,No,2.37,Delivered,11,27.926370757180152,Delayed,February,2024,Sufficient
+ORD00344,2024-06-26,2024-07-10,North,India,Delhi,Tablet,Supplier D,Warehouse 2,45,1280,57600,5976.37,24687.89,26935.74,9,19,143,Yes,5.32,In Transit,14,46.7634375,Delayed,June,2024,Low Stock
+ORD00345,2024-05-03,2024-05-19,East,India,Delhi,Printer,Supplier B,Warehouse 2,48,1436,68928,7337.59,46774.26,14816.15,15,323,98,No,5.25,Delivered,16,21.495110840297123,Delayed,May,2024,Sufficient
+ORD00346,2025-05-29,2025-06-12,South,UAE,Delhi,Monitor,Supplier B,Warehouse 1,10,203,2030,183.97,1419.4,426.63,13,385,126,No,7.78,Delivered,14,21.016256157635468,Delayed,May,2025,Sufficient
+ORD00347,2024-12-10,2024-12-16,South,UAE,Chennai,Phone,Supplier D,Warehouse 2,37,1626,60162,2071.86,31269.64,26820.5,3,256,105,No,1.14,Pending,6,44.58046607493102,On Time,December,2024,Sufficient
+ORD00348,2025-10-29,2025-11-10,East,India,Hyderabad,Keyboard,Supplier D,Warehouse 2,36,1361,48996,5866.64,27304.21,15825.15,11,136,149,Yes,2.32,In Transit,12,32.29886113152094,Delayed,October,2025,Low Stock
+ORD00349,2025-01-09,2025-01-17,South,UAE,Hyderabad,Phone,Supplier B,Warehouse 3,21,805,16905,1410.7,6884.76,8609.54,7,179,128,No,2.79,In Transit,8,50.92895593019817,On Time,January,2025,Sufficient
+ORD00350,2025-01-17,2025-01-26,East,India,Delhi,Monitor,Supplier D,Warehouse 1,6,330,1980,191.19,936.37,852.44,4,75,86,Yes,5.16,Delivered,9,43.05252525252526,On Time,January,2025,Low Stock
+ORD00351,2024-12-05,2024-12-15,North,UAE,Chennai,Keyboard,Supplier A,Warehouse 2,35,533,18655,901.82,10390.46,7362.72,5,247,129,No,2.44,Pending,10,39.467810238541944,On Time,December,2024,Sufficient
+ORD00352,2024-06-23,2024-06-27,West,Germany,Delhi,Laptop,Supplier A,Warehouse 2,13,1716,22308,2067.67,10738.72,9501.61,2,483,51,No,3.99,Delivered,4,42.59283665052896,On Time,June,2024,Sufficient
+ORD00353,2025-10-26,2025-11-04,South,USA,Chennai,Monitor,Supplier A,Warehouse 1,25,1141,28525,3362.96,12262.36,12899.68,8,443,126,No,2.87,Delivered,9,45.22236634531113,On Time,October,2025,Sufficient
+ORD00354,2024-09-10,2024-09-22,South,Germany,Hyderabad,Keyboard,Supplier C,Warehouse 2,22,1103,24266,1587.14,10849.37,11829.49,10,180,95,No,3.1,Cancelled,12,48.749237616418036,Delayed,September,2024,Sufficient
+ORD00355,2024-01-31,2024-02-12,West,USA,Chennai,Phone,Supplier D,Warehouse 2,15,410,6150,373.68,3184.8,2591.52,10,373,98,No,1.53,Pending,12,42.138536585365856,Delayed,January,2024,Sufficient
+ORD00356,2025-09-11,2025-09-21,East,USA,Bangalore,Phone,Supplier B,Warehouse 2,35,369,12915,627.77,5702.91,6584.32,7,409,75,No,4.56,Pending,10,50.98195896244676,On Time,September,2025,Sufficient
+ORD00357,2024-03-10,2024-03-24,West,UAE,Delhi,Monitor,Supplier C,Warehouse 1,47,342,16074,748.6,10477.95,4847.45,10,15,147,Yes,1.59,Cancelled,14,30.15708597735473,Delayed,March,2024,Low Stock
+ORD00358,2024-07-11,2024-07-15,South,USA,Hyderabad,Tablet,Supplier A,Warehouse 3,12,153,1836,181.07,1071.48,583.45,3,290,128,No,2.5,Pending,4,31.77832244008715,On Time,July,2024,Sufficient
+ORD00359,2025-05-03,2025-05-11,South,USA,Mumbai,Laptop,Supplier D,Warehouse 1,39,1060,41340,3889.34,21173.84,16276.82,4,251,110,No,6.89,Pending,8,39.37305273343009,On Time,May,2025,Sufficient
+ORD00360,2024-10-03,2024-10-12,East,UAE,Mumbai,Monitor,Supplier D,Warehouse 1,48,1474,70752,8415.38,44385.06,17951.56,8,474,106,No,1.0,In Transit,9,25.372512437810947,On Time,October,2024,Sufficient
+ORD00361,2025-09-14,2025-09-30,North,UAE,Bangalore,Laptop,Supplier B,Warehouse 3,47,740,34780,2277.17,23710.98,8791.85,13,274,117,No,4.79,Delivered,16,25.278464634847612,Delayed,September,2025,Sufficient
+ORD00362,2025-07-04,2025-07-17,West,Germany,Delhi,Monitor,Supplier B,Warehouse 2,3,1242,3726,241.69,2345.7,1138.61,8,97,87,No,7.72,In Transit,13,30.558507783145462,Delayed,July,2025,Sufficient
+ORD00363,2024-10-28,2024-11-08,South,USA,Bangalore,Monitor,Supplier C,Warehouse 2,45,1158,52110,5801.45,28091.13,18217.42,11,46,142,Yes,5.35,Delivered,11,34.95954711187871,Delayed,October,2024,Low Stock
+ORD00364,2024-01-26,2024-02-02,North,India,Hyderabad,Keyboard,Supplier D,Warehouse 3,38,1936,73568,6925.48,33883.92,32758.6,4,128,91,No,3.91,Pending,7,44.5283275337103,On Time,January,2024,Sufficient
+ORD00365,2025-01-06,2025-01-13,North,USA,Delhi,Printer,Supplier B,Warehouse 1,46,886,40756,3888.88,28225.87,8641.25,3,81,98,Yes,5.09,In Transit,7,21.20239964667779,On Time,January,2025,Low Stock
+ORD00366,2024-05-28,2024-06-06,North,USA,Mumbai,Laptop,Supplier C,Warehouse 1,4,959,3836,221.44,2374.67,1239.89,4,147,130,No,7.71,Pending,9,32.322471324296146,On Time,May,2024,Sufficient
+ORD00367,2025-04-14,2025-04-26,West,UAE,Bangalore,Laptop,Supplier A,Warehouse 1,35,1753,61355,1872.4,40789.47,18693.13,9,301,134,No,2.28,In Transit,12,30.467166490098606,Delayed,April,2025,Sufficient
+ORD00368,2025-07-14,2025-07-24,North,USA,Hyderabad,Keyboard,Supplier C,Warehouse 2,41,1241,50881,5282.0,23521.84,22077.16,6,28,133,Yes,1.89,Cancelled,10,43.38979186729821,On Time,July,2025,Low Stock
+ORD00369,2024-03-30,2024-04-01,West,Germany,Hyderabad,Laptop,Supplier C,Warehouse 2,27,465,12555,558.95,6093.12,5902.93,2,358,126,No,5.46,Pending,2,47.016567104739146,On Time,March,2024,Sufficient
+ORD00370,2025-01-12,2025-01-20,East,UAE,Chennai,Phone,Supplier B,Warehouse 3,49,975,47775,5059.27,20040.55,22675.18,8,62,138,Yes,4.03,Cancelled,8,47.462438513867085,On Time,January,2025,Low Stock
+ORD00371,2024-02-29,2024-03-07,West,Germany,Delhi,Printer,Supplier C,Warehouse 1,47,1388,65236,5062.65,27810.17,32363.18,3,309,150,No,5.93,Cancelled,7,49.60938745477957,On Time,February,2024,Sufficient
+ORD00372,2025-09-21,2025-10-05,South,India,Hyderabad,Laptop,Supplier D,Warehouse 3,34,1593,54162,4704.9,29667.31,19789.79,11,312,79,No,1.85,Cancelled,14,36.53814482478491,Delayed,September,2025,Sufficient
+ORD00373,2024-04-30,2024-05-14,South,Germany,Delhi,Laptop,Supplier C,Warehouse 2,40,949,37960,2553.33,18985.23,16421.44,13,326,77,No,4.7,Delivered,14,43.25985247629083,Delayed,April,2024,Sufficient
+ORD00374,2025-06-02,2025-06-14,South,USA,Delhi,Tablet,Supplier D,Warehouse 2,50,112,5600,225.37,2799.92,2574.71,10,291,128,No,3.47,Delivered,12,45.97696428571429,Delayed,June,2025,Sufficient
+ORD00375,2024-02-06,2024-02-19,North,Germany,Chennai,Keyboard,Supplier C,Warehouse 3,31,418,12958,1120.19,8650.99,3186.82,12,171,109,No,4.53,In Transit,13,24.593455780213,Delayed,February,2024,Sufficient
+ORD00376,2025-07-02,2025-07-05,North,Germany,Bangalore,Keyboard,Supplier B,Warehouse 3,37,1503,55611,3328.58,37529.41,14753.01,2,33,69,Yes,6.47,Cancelled,3,26.528942115768462,On Time,July,2025,Low Stock
+ORD00377,2025-09-12,2025-09-21,East,UAE,Hyderabad,Monitor,Supplier B,Warehouse 2,39,339,13221,1425.4,8269.23,3526.37,8,161,140,No,5.79,Delivered,9,26.672490734437638,On Time,September,2025,Sufficient
+ORD00378,2025-04-07,2025-04-24,West,India,Bangalore,Printer,Supplier B,Warehouse 1,14,1175,16450,941.08,7133.86,8375.06,15,398,75,No,6.39,Delivered,17,50.9122188449848,Delayed,April,2025,Sufficient
+ORD00379,2024-12-14,2024-12-28,South,India,Bangalore,Monitor,Supplier A,Warehouse 1,34,735,24990,2493.95,11070.28,11425.77,9,420,116,No,7.04,Pending,14,45.72136854741897,Delayed,December,2024,Sufficient
+ORD00380,2024-11-14,2024-11-21,North,Germany,Mumbai,Tablet,Supplier B,Warehouse 1,39,1885,73515,2781.57,39702.71,31030.72,2,266,148,No,0.85,Cancelled,7,42.21005237026457,On Time,November,2024,Sufficient
+ORD00381,2024-10-20,2024-10-30,North,USA,Chennai,Tablet,Supplier C,Warehouse 2,21,1682,35322,2461.96,15375.5,17484.54,6,140,64,No,1.62,Delivered,10,49.50042466451504,On Time,October,2024,Sufficient
+ORD00382,2024-05-24,2024-06-08,South,India,Bangalore,Keyboard,Supplier A,Warehouse 1,37,601,22237,1009.89,10972.03,10255.08,13,276,106,No,7.19,Delivered,15,46.11719206727526,Delayed,May,2024,Sufficient
+ORD00383,2025-01-27,2025-01-29,East,Germany,Delhi,Phone,Supplier A,Warehouse 2,28,902,25256,1164.52,14619.09,9472.39,2,428,138,No,4.95,In Transit,2,37.50550364269876,On Time,January,2025,Sufficient
+ORD00384,2025-08-04,2025-08-08,South,USA,Mumbai,Printer,Supplier C,Warehouse 2,45,1059,47655,1846.81,23499.51,22308.68,4,392,109,No,5.33,In Transit,4,46.812884272374355,On Time,August,2025,Sufficient
+ORD00385,2025-02-05,2025-02-14,North,Germany,Bangalore,Monitor,Supplier B,Warehouse 2,43,776,33368,3369.84,22180.42,7817.74,4,15,58,Yes,3.9,In Transit,9,23.428853991848477,On Time,February,2025,Low Stock
+ORD00386,2024-12-22,2025-01-06,East,UAE,Bangalore,Printer,Supplier D,Warehouse 1,9,1140,10260,402.85,6620.43,3236.72,11,166,121,No,6.48,Delivered,15,31.546978557504872,Delayed,December,2024,Sufficient
+ORD00387,2025-09-27,2025-10-06,East,USA,Mumbai,Keyboard,Supplier A,Warehouse 3,11,1087,11957,771.75,6004.98,5180.27,5,302,105,No,6.6,In Transit,9,43.32416157899139,On Time,September,2025,Sufficient
+ORD00388,2025-12-29,2026-01-12,West,India,Chennai,Laptop,Supplier D,Warehouse 2,8,1312,10496,877.96,5222.95,4395.09,11,227,72,No,1.23,Cancelled,14,41.87395198170732,Delayed,December,2025,Sufficient
+ORD00389,2025-05-21,2025-06-07,South,USA,Bangalore,Printer,Supplier C,Warehouse 2,4,285,1140,56.53,503.51,579.96,12,386,131,No,4.86,Delivered,17,50.873684210526314,Delayed,May,2025,Sufficient
+ORD00390,2025-09-22,2025-10-06,West,Germany,Hyderabad,Printer,Supplier A,Warehouse 3,13,521,6773,618.62,3352.49,2801.89,11,467,136,No,4.78,Cancelled,14,41.368522072936656,Delayed,September,2025,Sufficient
+ORD00391,2025-06-06,2025-06-15,North,Germany,Hyderabad,Phone,Supplier D,Warehouse 3,19,227,4313,272.71,2435.4,1604.89,8,360,121,No,0.9,Cancelled,9,37.21052631578948,On Time,June,2025,Sufficient
+ORD00392,2025-08-27,2025-09-09,South,USA,Chennai,Monitor,Supplier C,Warehouse 2,21,1557,32697,2107.36,16821.61,13768.03,8,339,72,No,4.59,In Transit,13,42.107930391167386,Delayed,August,2025,Sufficient
+ORD00393,2024-06-06,2024-06-17,South,India,Mumbai,Keyboard,Supplier D,Warehouse 2,9,375,3375,104.77,2006.49,1263.74,6,453,112,No,1.58,In Transit,11,37.44414814814815,Delayed,June,2024,Sufficient
+ORD00394,2025-12-13,2025-12-27,South,UAE,Chennai,Laptop,Supplier D,Warehouse 3,40,468,18720,1327.16,9869.88,7522.96,11,196,95,No,6.65,Pending,14,40.18675213675213,Delayed,December,2025,Sufficient
+ORD00395,2024-08-30,2024-09-16,East,India,Chennai,Monitor,Supplier A,Warehouse 1,18,941,16938,1920.61,9703.88,5313.51,13,19,122,Yes,0.75,In Transit,17,31.370350690754517,Delayed,August,2024,Low Stock
+ORD00396,2025-06-23,2025-07-10,East,India,Delhi,Printer,Supplier A,Warehouse 2,30,1158,34740,1286.81,23170.7,10282.49,15,241,130,No,1.16,Delivered,17,29.598416810592976,Delayed,June,2025,Sufficient
+ORD00397,2025-04-09,2025-04-22,North,Germany,Chennai,Tablet,Supplier A,Warehouse 3,37,1602,59274,3546.73,29985.2,25742.07,10,150,87,No,7.83,Pending,13,43.428940176131185,Delayed,April,2025,Sufficient
+ORD00398,2025-04-29,2025-05-11,North,USA,Chennai,Laptop,Supplier C,Warehouse 2,37,205,7585,675.59,3697.88,3211.53,11,13,86,Yes,6.03,In Transit,12,42.340540540540545,Delayed,April,2025,Low Stock
+ORD00399,2024-05-15,2024-05-28,West,Germany,Mumbai,Tablet,Supplier B,Warehouse 2,18,1856,33408,1774.83,20794.1,10839.07,11,465,125,No,5.03,Pending,13,32.44453424329502,Delayed,May,2024,Sufficient
+ORD00400,2024-07-04,2024-07-22,West,UAE,Mumbai,Keyboard,Supplier D,Warehouse 3,3,802,2406,285.27,1660.63,460.1,14,420,69,No,4.97,In Transit,18,19.123025768911056,Delayed,July,2024,Sufficient
+ORD00401,2025-10-14,2025-10-19,South,UAE,Bangalore,Monitor,Supplier C,Warehouse 2,37,1603,59311,6273.03,24691.04,28346.93,4,419,64,No,2.48,Delivered,5,47.79371448803763,On Time,October,2025,Sufficient
+ORD00402,2025-06-29,2025-07-07,West,UAE,Delhi,Printer,Supplier A,Warehouse 1,44,1545,67980,4425.93,32547.98,31006.09,5,222,51,No,4.48,Cancelled,8,45.61060606060606,On Time,June,2025,Sufficient
+ORD00403,2025-06-28,2025-07-12,West,UAE,Mumbai,Keyboard,Supplier B,Warehouse 3,28,1350,37800,4257.18,24853.75,8689.07,12,136,62,No,3.01,Cancelled,14,22.986957671957672,Delayed,June,2025,Sufficient
+ORD00404,2024-12-11,2024-12-28,North,UAE,Delhi,Phone,Supplier C,Warehouse 2,12,741,8892,705.0,5351.57,2835.43,12,6,102,Yes,6.74,Delivered,17,31.887426900584792,Delayed,December,2024,Low Stock
+ORD00405,2024-07-16,2024-07-18,North,India,Chennai,Phone,Supplier D,Warehouse 3,40,288,11520,404.58,6661.34,4454.08,2,111,126,Yes,7.2,Delivered,2,38.663888888888884,On Time,July,2024,Low Stock
+ORD00406,2025-10-25,2025-11-06,East,UAE,Delhi,Tablet,Supplier B,Warehouse 1,8,1524,12192,567.95,5954.21,5669.84,11,38,131,Yes,5.45,In Transit,12,46.50459317585302,Delayed,October,2025,Low Stock
+ORD00407,2024-10-10,2024-10-24,North,UAE,Mumbai,Printer,Supplier D,Warehouse 1,25,895,22375,1341.13,9353.14,11680.73,14,135,72,No,7.67,In Transit,14,52.20437988826816,Delayed,October,2024,Sufficient
+ORD00408,2025-10-22,2025-10-31,North,India,Hyderabad,Laptop,Supplier C,Warehouse 2,10,1207,12070,1197.15,5618.78,5254.07,9,467,106,No,5.33,Cancelled,9,43.52999171499585,On Time,October,2025,Sufficient
+ORD00409,2024-01-20,2024-01-30,West,India,Chennai,Keyboard,Supplier D,Warehouse 2,42,1411,59262,1782.49,24377.46,33102.05,9,77,139,Yes,3.43,Cancelled,10,55.85712598292329,On Time,January,2024,Low Stock
+ORD00410,2025-03-22,2025-04-04,North,Germany,Delhi,Keyboard,Supplier C,Warehouse 2,50,1763,88150,8875.33,49543.7,29730.97,8,488,138,No,0.52,In Transit,13,33.72770277935337,Delayed,March,2025,Sufficient
+ORD00411,2024-02-26,2024-03-14,South,USA,Chennai,Laptop,Supplier D,Warehouse 3,6,848,5088,397.46,3501.96,1188.58,12,235,147,No,1.1,Cancelled,17,23.36045597484277,Delayed,February,2024,Sufficient
+ORD00412,2024-07-14,2024-07-25,South,USA,Hyderabad,Phone,Supplier A,Warehouse 3,25,1935,48375,1916.09,29346.83,17112.08,6,453,130,No,4.15,In Transit,11,35.37380878552972,Delayed,July,2024,Sufficient
+ORD00413,2025-08-30,2025-09-07,North,Germany,Hyderabad,Tablet,Supplier A,Warehouse 2,25,229,5725,580.21,3395.05,1749.74,5,494,107,No,4.25,Delivered,8,30.56314410480349,On Time,August,2025,Sufficient
+ORD00414,2024-05-01,2024-05-11,North,India,Mumbai,Monitor,Supplier A,Warehouse 2,43,1171,50353,3587.82,30384.18,16381.0,5,76,144,Yes,7.06,Pending,10,32.53232180803527,On Time,May,2024,Low Stock
+ORD00415,2025-09-25,2025-09-28,South,India,Hyderabad,Laptop,Supplier D,Warehouse 3,45,1428,64260,2682.75,29024.62,32552.63,2,157,62,No,0.87,In Transit,3,50.657687519452224,On Time,September,2025,Sufficient
+ORD00416,2025-09-22,2025-09-27,South,Germany,Mumbai,Laptop,Supplier B,Warehouse 2,13,972,12636,762.72,8223.11,3650.17,5,205,91,No,6.03,Delivered,5,28.88706869262425,On Time,September,2025,Sufficient
+ORD00417,2024-03-05,2024-03-10,South,India,Chennai,Monitor,Supplier B,Warehouse 1,10,1651,16510,1112.18,10052.75,5345.07,3,224,81,No,4.65,Delivered,5,32.37474258025439,On Time,March,2024,Sufficient
+ORD00418,2025-05-13,2025-05-16,South,USA,Mumbai,Keyboard,Supplier C,Warehouse 3,1,467,467,52.94,285.81,128.25,3,145,103,No,4.95,In Transit,3,27.462526766595293,On Time,May,2025,Sufficient
+ORD00419,2025-04-06,2025-04-15,East,UAE,Hyderabad,Printer,Supplier B,Warehouse 1,12,1350,16200,1494.46,9377.88,5327.66,8,313,61,No,5.88,Cancelled,9,32.88679012345679,On Time,April,2025,Sufficient
+ORD00420,2024-04-30,2024-05-10,East,India,Mumbai,Laptop,Supplier B,Warehouse 3,40,841,33640,3621.2,23414.61,6604.19,10,237,148,No,4.31,Pending,10,19.63195600475624,On Time,April,2024,Sufficient
+ORD00421,2025-04-30,2025-05-10,East,UAE,Hyderabad,Laptop,Supplier A,Warehouse 3,11,1472,16192,1830.35,6739.24,7622.41,9,107,105,No,3.23,Cancelled,10,47.075160573122524,On Time,April,2025,Sufficient
+ORD00422,2024-06-29,2024-07-03,West,USA,Delhi,Phone,Supplier A,Warehouse 2,32,1154,36928,1493.58,24687.25,10747.17,4,303,124,No,5.91,Cancelled,4,29.10303834488735,On Time,June,2024,Sufficient
+ORD00423,2024-08-21,2024-08-25,North,UAE,Mumbai,Phone,Supplier D,Warehouse 1,48,944,45312,4906.83,23229.64,17175.53,3,241,124,No,2.15,In Transit,4,37.90503619350282,On Time,August,2024,Sufficient
+ORD00424,2025-01-31,2025-02-08,North,Germany,Mumbai,Laptop,Supplier D,Warehouse 2,30,1574,47220,2241.72,23967.79,21010.49,7,171,66,No,2.52,Delivered,8,44.494896230410845,On Time,January,2025,Sufficient
+ORD00425,2025-03-04,2025-03-10,South,India,Bangalore,Printer,Supplier D,Warehouse 1,15,1915,28725,1624.82,12841.12,14259.06,4,487,128,No,6.46,Pending,6,49.6398955613577,On Time,March,2025,Sufficient
+ORD00426,2025-08-28,2025-09-09,South,India,Bangalore,Laptop,Supplier A,Warehouse 2,18,129,2322,222.22,1441.62,658.16,9,167,105,No,2.35,Pending,12,28.344530577088715,Delayed,August,2025,Sufficient
+ORD00427,2025-05-31,2025-06-05,North,India,Bangalore,Phone,Supplier B,Warehouse 2,34,907,30838,2255.31,19717.98,8864.71,2,231,113,No,6.66,Pending,5,28.74606005577534,On Time,May,2025,Sufficient
+ORD00428,2024-10-29,2024-11-08,West,UAE,Mumbai,Keyboard,Supplier D,Warehouse 1,6,132,792,57.96,389.23,344.81,5,439,123,No,5.77,Delivered,10,43.53661616161616,On Time,October,2024,Sufficient
+ORD00429,2025-01-14,2025-01-29,East,UAE,Delhi,Keyboard,Supplier B,Warehouse 3,46,1397,64262,1935.75,37798.36,24527.89,12,353,92,No,3.39,Delivered,15,38.16857551896922,Delayed,January,2025,Sufficient
+ORD00430,2024-03-23,2024-04-05,East,UAE,Chennai,Laptop,Supplier C,Warehouse 2,48,212,10176,776.7,6848.46,2550.84,11,26,64,Yes,3.23,In Transit,13,25.067216981132077,Delayed,March,2024,Low Stock
+ORD00431,2024-06-28,2024-07-14,West,USA,Mumbai,Tablet,Supplier C,Warehouse 2,46,237,10902,877.26,6890.86,3133.88,12,171,80,No,1.54,Delivered,16,28.745918180150433,Delayed,June,2024,Sufficient
+ORD00432,2025-05-30,2025-06-14,East,UAE,Chennai,Tablet,Supplier A,Warehouse 1,18,211,3798,135.6,1912.55,1749.85,12,269,65,No,4.15,In Transit,15,46.07293312269615,Delayed,May,2025,Sufficient
+ORD00433,2025-04-13,2025-04-16,South,UAE,Mumbai,Phone,Supplier A,Warehouse 2,26,1938,50388,2322.54,34640.59,13424.87,3,84,85,Yes,1.08,Delivered,3,26.642990394538383,On Time,April,2025,Low Stock
+ORD00434,2025-03-02,2025-03-18,North,USA,Chennai,Keyboard,Supplier C,Warehouse 2,9,1070,9630,589.39,5134.31,3906.3,12,149,74,No,5.34,Delivered,16,40.56386292834891,Delayed,March,2025,Sufficient
+ORD00435,2025-08-15,2025-08-27,West,Germany,Chennai,Phone,Supplier C,Warehouse 1,42,1711,71862,4266.27,41536.75,26058.98,7,431,120,No,5.73,In Transit,12,36.26253096212184,Delayed,August,2025,Sufficient
+ORD00436,2024-09-23,2024-10-01,East,USA,Mumbai,Keyboard,Supplier B,Warehouse 1,24,690,16560,1644.04,6859.08,8056.88,5,233,71,No,3.15,Pending,8,48.65265700483092,On Time,September,2024,Sufficient
+ORD00437,2024-08-31,2024-09-03,East,Germany,Mumbai,Tablet,Supplier D,Warehouse 3,21,1276,26796,1108.89,12811.76,12875.35,3,287,140,No,1.88,Delivered,3,48.0495223167637,On Time,August,2024,Sufficient
+ORD00438,2024-06-15,2024-06-27,South,India,Chennai,Printer,Supplier C,Warehouse 3,8,1985,15880,512.02,10787.61,4580.37,10,485,108,No,6.26,Cancelled,12,28.843639798488663,Delayed,June,2024,Sufficient
+ORD00439,2025-12-23,2026-01-01,East,India,Bangalore,Laptop,Supplier B,Warehouse 3,19,1644,31236,3694.03,17870.69,9671.28,6,289,143,No,1.6,In Transit,9,30.961966961198616,On Time,December,2025,Sufficient
+ORD00440,2025-07-18,2025-07-23,South,Germany,Mumbai,Laptop,Supplier A,Warehouse 3,2,922,1844,157.8,859.51,826.69,3,167,57,No,3.18,Pending,5,44.83134490238612,On Time,July,2025,Sufficient
+ORD00441,2025-04-01,2025-04-18,West,USA,Bangalore,Tablet,Supplier D,Warehouse 2,6,1148,6888,451.15,3768.7,2668.15,12,261,57,No,5.02,Cancelled,17,38.736207897793264,Delayed,April,2025,Sufficient
+ORD00442,2024-01-13,2024-01-21,West,Germany,Mumbai,Keyboard,Supplier D,Warehouse 3,23,730,16790,1980.84,11119.86,3689.3,6,372,106,No,1.16,In Transit,8,21.97319833234068,On Time,January,2024,Sufficient
+ORD00443,2025-02-28,2025-03-08,West,India,Hyderabad,Monitor,Supplier C,Warehouse 2,39,276,10764,462.07,5284.79,5017.14,4,268,92,No,7.91,Delivered,8,46.61036789297659,On Time,February,2025,Sufficient
+ORD00444,2024-06-28,2024-07-11,North,Germany,Chennai,Tablet,Supplier D,Warehouse 3,46,1263,58098,5691.97,25625.76,26780.27,10,195,87,No,1.9,In Transit,13,46.0949946641881,Delayed,June,2024,Sufficient
+ORD00445,2025-04-19,2025-04-24,West,USA,Bangalore,Keyboard,Supplier B,Warehouse 1,1,415,415,22.26,285.03,107.71,5,241,65,No,6.76,Cancelled,5,25.954216867469874,On Time,April,2025,Sufficient
+ORD00446,2024-05-02,2024-05-18,North,Germany,Chennai,Keyboard,Supplier A,Warehouse 2,32,236,7552,633.61,3840.4,3077.99,14,223,83,No,4.1,In Transit,16,40.75728283898305,Delayed,May,2024,Sufficient
+ORD00447,2024-06-15,2024-06-26,West,Germany,Hyderabad,Tablet,Supplier C,Warehouse 3,10,754,7540,539.06,4584.21,2416.73,11,27,84,Yes,3.18,Cancelled,11,32.05212201591512,Delayed,June,2024,Low Stock
+ORD00448,2025-10-16,2025-10-23,East,Germany,Delhi,Keyboard,Supplier C,Warehouse 1,13,1669,21697,1877.28,13656.24,6163.48,3,85,119,Yes,4.99,Cancelled,7,28.40706088399318,On Time,October,2025,Low Stock
+ORD00449,2025-07-01,2025-07-14,North,USA,Mumbai,Printer,Supplier B,Warehouse 1,10,126,1260,53.33,610.38,596.29,11,210,93,No,6.34,Pending,13,47.32460317460317,Delayed,July,2025,Sufficient
+ORD00450,2025-07-26,2025-08-11,North,India,Mumbai,Laptop,Supplier D,Warehouse 2,34,1832,62288,4851.53,35213.51,22222.96,11,58,103,Yes,6.17,In Transit,16,35.677754944772666,Delayed,July,2025,Low Stock
+ORD00451,2024-11-15,2024-11-30,East,India,Hyderabad,Phone,Supplier B,Warehouse 3,9,1773,15957,1113.39,11110.45,3733.16,13,496,93,No,4.42,Pending,15,23.395124396816446,Delayed,November,2024,Sufficient
+ORD00452,2024-05-25,2024-06-08,North,India,Bangalore,Monitor,Supplier A,Warehouse 1,20,356,7120,348.07,4943.65,1828.28,13,390,150,No,3.69,Delivered,14,25.67808988764045,Delayed,May,2024,Sufficient
+ORD00453,2024-04-20,2024-04-27,North,India,Chennai,Phone,Supplier B,Warehouse 1,33,1314,43362,1532.15,18891.81,22938.04,2,33,88,Yes,2.4,Delivered,7,52.89894377565611,On Time,April,2024,Low Stock
+ORD00454,2025-11-17,2025-11-24,South,India,Hyderabad,Printer,Supplier A,Warehouse 3,6,398,2388,253.43,1629.94,504.63,7,178,95,No,7.62,Pending,7,21.131909547738694,On Time,November,2025,Sufficient
+ORD00455,2024-08-10,2024-08-24,East,USA,Bangalore,Keyboard,Supplier A,Warehouse 1,19,451,8569,952.44,4808.39,2808.17,13,50,77,Yes,7.8,In Transit,14,32.771268526082395,Delayed,August,2024,Low Stock
+ORD00456,2024-12-29,2025-01-09,South,UAE,Delhi,Keyboard,Supplier C,Warehouse 3,14,1153,16142,814.85,7003.27,8323.88,8,63,109,Yes,7.88,Delivered,11,51.56659645644901,Delayed,December,2024,Low Stock
+ORD00457,2024-02-11,2024-02-16,West,Germany,Bangalore,Phone,Supplier A,Warehouse 2,32,336,10752,694.9,5774.72,4282.38,3,351,106,No,6.02,Pending,5,39.828683035714285,On Time,February,2024,Sufficient
+ORD00458,2025-11-26,2025-12-04,North,USA,Bangalore,Monitor,Supplier A,Warehouse 3,1,1480,1480,109.89,638.7,731.41,7,337,136,No,3.79,Delivered,8,49.41959459459459,On Time,November,2025,Sufficient
+ORD00459,2024-06-21,2024-06-26,East,Germany,Bangalore,Tablet,Supplier D,Warehouse 3,13,793,10309,495.08,6733.93,3079.99,3,119,104,No,3.53,In Transit,5,29.876709671161116,On Time,June,2024,Sufficient
+ORD00460,2025-09-09,2025-09-20,South,India,Hyderabad,Keyboard,Supplier A,Warehouse 1,33,671,22143,957.99,11877.29,9307.72,8,250,113,No,1.42,Pending,11,42.03459332520435,Delayed,September,2025,Sufficient
+ORD00461,2025-05-25,2025-06-06,West,UAE,Mumbai,Tablet,Supplier D,Warehouse 2,12,883,10596,894.44,5277.73,4423.83,12,319,62,No,2.77,Delivered,12,41.75,Delayed,May,2025,Sufficient
+ORD00462,2025-05-31,2025-06-10,West,UAE,Delhi,Monitor,Supplier D,Warehouse 2,22,1757,38654,4150.3,21800.32,12703.38,6,16,105,Yes,7.64,Delivered,10,32.86433486831893,On Time,May,2025,Low Stock
+ORD00463,2024-02-06,2024-02-09,East,UAE,Bangalore,Laptop,Supplier D,Warehouse 3,36,1450,52200,5607.97,25625.68,20966.35,2,251,105,No,5.8,Pending,3,40.16542145593869,On Time,February,2024,Sufficient
+ORD00464,2025-07-21,2025-08-06,West,Germany,Delhi,Tablet,Supplier A,Warehouse 1,37,1062,39294,2861.86,25788.87,10643.27,12,200,83,No,4.3,In Transit,16,27.086247264213366,Delayed,July,2025,Sufficient
+ORD00465,2025-08-27,2025-08-30,North,UAE,Delhi,Tablet,Supplier D,Warehouse 2,24,814,19536,2009.47,11236.91,6289.62,2,320,93,No,6.24,In Transit,3,32.19502457002457,On Time,August,2025,Sufficient
+ORD00466,2024-02-27,2024-03-11,East,USA,Hyderabad,Printer,Supplier C,Warehouse 1,16,580,9280,819.68,5361.61,3098.71,12,33,89,Yes,7.33,Delivered,13,33.39127155172414,Delayed,February,2024,Low Stock
+ORD00467,2025-04-16,2025-05-01,West,UAE,Delhi,Printer,Supplier A,Warehouse 2,37,1154,42698,4744.9,20494.43,17458.67,12,301,52,No,5.72,Cancelled,15,40.888730151295135,Delayed,April,2025,Sufficient
+ORD00468,2024-04-12,2024-04-30,East,UAE,Mumbai,Monitor,Supplier A,Warehouse 3,14,788,11032,824.15,7098.4,3109.45,13,85,128,Yes,5.51,Cancelled,18,28.185732414793325,Delayed,April,2024,Low Stock
+ORD00469,2024-08-07,2024-08-15,East,Germany,Hyderabad,Printer,Supplier D,Warehouse 2,4,708,2832,338.88,1474.36,1018.76,6,380,61,No,2.19,Delivered,8,35.97316384180791,On Time,August,2024,Sufficient
+ORD00470,2024-08-02,2024-08-09,West,UAE,Delhi,Printer,Supplier D,Warehouse 3,42,1787,75054,4290.55,48127.48,22635.97,7,276,90,No,3.75,Pending,7,30.159578436858798,On Time,August,2024,Sufficient
+ORD00471,2025-07-14,2025-07-18,East,UAE,Chennai,Keyboard,Supplier A,Warehouse 3,41,1540,63140,4827.7,28789.42,29522.88,4,338,145,No,4.24,In Transit,4,46.757808045612926,On Time,July,2025,Sufficient
+ORD00472,2024-07-24,2024-08-03,North,USA,Bangalore,Tablet,Supplier C,Warehouse 3,10,592,5920,257.77,3585.1,2077.13,7,222,102,No,2.75,Cancelled,10,35.08665540540541,On Time,July,2024,Sufficient
+ORD00473,2024-06-13,2024-06-24,West,UAE,Bangalore,Keyboard,Supplier A,Warehouse 1,39,583,22737,1512.65,9869.39,11354.96,6,125,89,No,1.94,In Transit,11,49.94044948761929,Delayed,June,2024,Sufficient
+ORD00474,2024-06-12,2024-06-19,North,India,Hyderabad,Tablet,Supplier C,Warehouse 1,2,629,1258,127.15,608.03,522.82,6,329,55,No,4.63,In Transit,7,41.55961844197139,On Time,June,2024,Sufficient
+ORD00475,2025-02-20,2025-03-04,North,Germany,Bangalore,Laptop,Supplier B,Warehouse 3,43,1913,82259,3136.34,56178.67,22943.99,7,71,80,Yes,5.93,Delivered,12,27.89237651807097,Delayed,February,2025,Low Stock
+ORD00476,2024-05-05,2024-05-21,South,India,Mumbai,Phone,Supplier C,Warehouse 2,22,1804,39688,3277.81,20518.11,15892.08,14,120,104,No,6.11,Pending,16,40.04253174763153,Delayed,May,2024,Sufficient
+ORD00477,2025-02-22,2025-03-04,South,Germany,Mumbai,Tablet,Supplier D,Warehouse 3,4,1104,4416,344.5,2693.25,1378.25,6,279,104,No,1.35,In Transit,10,31.210371376811597,On Time,February,2025,Sufficient
+ORD00478,2025-01-11,2025-01-28,East,UAE,Delhi,Keyboard,Supplier C,Warehouse 3,2,1421,2842,332.55,1653.32,856.13,15,339,56,No,6.81,Pending,17,30.12420830401126,Delayed,January,2025,Sufficient
+ORD00479,2024-05-04,2024-05-15,North,USA,Delhi,Phone,Supplier B,Warehouse 2,29,895,25955,797.02,17862.86,7295.12,10,469,82,No,7.46,Cancelled,11,28.10680023116933,Delayed,May,2024,Sufficient
+ORD00480,2025-10-08,2025-10-20,West,Germany,Bangalore,Laptop,Supplier B,Warehouse 3,27,1716,46332,1531.24,30576.03,14224.73,7,481,112,No,6.67,In Transit,12,30.701739618406283,Delayed,October,2025,Sufficient
+ORD00481,2024-09-24,2024-10-04,North,USA,Bangalore,Keyboard,Supplier B,Warehouse 1,23,961,22103,1860.86,14234.96,6007.18,10,232,138,No,6.03,Delivered,10,27.1781206171108,On Time,September,2024,Sufficient
+ORD00482,2025-02-14,2025-02-24,West,Germany,Bangalore,Monitor,Supplier B,Warehouse 2,20,742,14840,1214.25,6429.41,7196.34,5,365,148,No,2.37,Pending,10,48.49285714285714,On Time,February,2025,Sufficient
+ORD00483,2024-06-26,2024-07-12,North,India,Chennai,Keyboard,Supplier B,Warehouse 1,21,1737,36477,2019.43,15514.39,18943.18,12,201,98,No,3.26,Pending,16,51.931847465526225,Delayed,June,2024,Sufficient
+ORD00484,2025-04-18,2025-04-25,East,USA,Chennai,Laptop,Supplier A,Warehouse 3,45,1844,82980,3749.7,43175.36,36054.94,5,133,69,No,3.72,Delivered,7,43.450156664256454,On Time,April,2025,Sufficient
+ORD00485,2025-06-22,2025-07-03,East,UAE,Bangalore,Phone,Supplier D,Warehouse 1,44,1112,48928,1989.71,30045.17,16893.12,8,441,150,No,1.93,Cancelled,11,34.52648790058862,Delayed,June,2025,Sufficient
+ORD00486,2025-09-06,2025-09-13,South,UAE,Mumbai,Tablet,Supplier D,Warehouse 1,47,1486,69842,3285.56,31716.02,34840.42,5,14,87,Yes,6.44,Cancelled,7,49.88462529709917,On Time,September,2025,Low Stock
+ORD00487,2024-01-11,2024-01-21,North,India,Chennai,Laptop,Supplier A,Warehouse 2,21,1519,31899,2098.31,14790.46,15010.23,9,216,144,No,3.38,Cancelled,10,47.05548763284115,On Time,January,2024,Sufficient
+ORD00488,2024-08-28,2024-09-08,West,Germany,Bangalore,Keyboard,Supplier C,Warehouse 1,39,1473,57447,6724.11,33288.79,17434.1,9,23,50,Yes,6.11,Cancelled,11,30.348146987658186,Delayed,August,2024,Low Stock
+ORD00489,2025-07-26,2025-08-01,East,UAE,Mumbai,Tablet,Supplier A,Warehouse 2,12,633,7596,344.01,4161.48,3090.51,2,239,66,No,3.04,Delivered,6,40.68601895734598,On Time,July,2025,Sufficient
+ORD00490,2024-02-15,2024-02-22,East,UAE,Mumbai,Tablet,Supplier D,Warehouse 1,18,1631,29358,1833.5,15531.14,11993.36,4,134,128,No,7.27,Cancelled,7,40.85210164180121,On Time,February,2024,Sufficient
+ORD00491,2025-07-23,2025-08-12,East,USA,Bangalore,Monitor,Supplier A,Warehouse 2,41,1734,71094,4948.08,32466.92,33679.0,15,93,54,No,0.91,In Transit,20,47.37249275606943,Delayed,July,2025,Sufficient
+ORD00492,2024-02-11,2024-02-22,East,India,Mumbai,Tablet,Supplier B,Warehouse 1,46,1248,57408,4229.13,31453.65,21725.22,9,443,68,No,6.84,Delivered,11,37.84354096989967,Delayed,February,2024,Sufficient
+ORD00493,2025-06-04,2025-06-21,West,India,Mumbai,Monitor,Supplier A,Warehouse 2,37,1924,71188,6384.31,33011.22,31792.47,15,2,117,Yes,7.99,Pending,17,44.65987245041299,Delayed,June,2025,Low Stock
+ORD00494,2024-01-27,2024-02-07,North,India,Bangalore,Keyboard,Supplier D,Warehouse 2,44,349,15356,1005.44,8861.97,5488.59,6,428,91,No,7.63,Pending,11,35.742315707215425,Delayed,January,2024,Sufficient
+ORD00495,2025-10-05,2025-10-15,South,India,Delhi,Tablet,Supplier A,Warehouse 3,43,111,4773,284.7,1971.98,2516.32,6,231,91,No,5.17,Pending,10,52.719882673371046,On Time,October,2025,Sufficient
+ORD00496,2024-03-13,2024-03-27,North,USA,Mumbai,Monitor,Supplier D,Warehouse 2,25,289,7225,476.11,3275.84,3473.05,10,443,101,No,7.74,Delivered,14,48.069896193771626,Delayed,March,2024,Sufficient
+ORD00497,2025-10-24,2025-11-12,East,India,Delhi,Printer,Supplier B,Warehouse 2,10,346,3460,196.77,2215.54,1047.69,14,471,89,No,6.02,Pending,19,30.280057803468207,Delayed,October,2025,Sufficient
+ORD00498,2025-04-01,2025-04-12,West,UAE,Hyderabad,Laptop,Supplier C,Warehouse 2,18,1253,22554,1895.23,9632.06,11026.71,8,188,128,No,3.67,Pending,11,48.890263367917,Delayed,April,2025,Sufficient
+ORD00499,2025-11-23,2025-12-03,West,UAE,Hyderabad,Monitor,Supplier C,Warehouse 1,44,1561,68684,3019.09,37679.81,27985.1,5,268,60,No,5.22,Cancelled,10,40.74471492632927,On Time,November,2025,Sufficient
+ORD00500,2024-05-10,2024-05-24,West,UAE,Hyderabad,Monitor,Supplier C,Warehouse 2,16,1171,18736,1283.34,10690.03,6762.63,12,469,55,No,4.63,Delivered,14,36.09431041844577,Delayed,May,2024,Sufficient
+ORD00501,2024-09-17,2024-09-28,North,India,Bangalore,Keyboard,Supplier C,Warehouse 2,50,1131,56550,1779.3,35182.86,19587.84,11,402,73,No,3.97,In Transit,11,34.63809018567639,Delayed,September,2024,Sufficient
+ORD00502,2025-08-24,2025-09-09,South,India,Chennai,Tablet,Supplier A,Warehouse 2,49,1472,72128,5084.69,46331.44,20711.87,13,470,73,No,3.06,Pending,16,28.715436446317653,Delayed,August,2025,Sufficient
+ORD00503,2025-07-01,2025-07-03,East,Germany,Bangalore,Tablet,Supplier A,Warehouse 1,26,338,8788,274.16,5244.15,3269.69,2,207,134,No,3.95,In Transit,2,37.20630405097861,On Time,July,2025,Sufficient
+ORD00504,2024-05-18,2024-05-21,South,UAE,Chennai,Phone,Supplier A,Warehouse 2,8,1771,14168,445.3,9792.3,3930.4,2,107,111,Yes,6.94,Pending,3,27.741389045736874,On Time,May,2024,Low Stock
+ORD00505,2025-04-19,2025-04-26,North,UAE,Chennai,Phone,Supplier B,Warehouse 2,28,144,4032,163.22,2704.36,1164.42,4,227,112,No,6.04,In Transit,7,28.879464285714292,On Time,April,2025,Sufficient
+ORD00506,2025-08-06,2025-08-24,North,UAE,Bangalore,Monitor,Supplier D,Warehouse 1,4,783,3132,96.18,1845.13,1190.69,15,212,113,No,5.85,Cancelled,18,38.0169220945083,Delayed,August,2025,Sufficient
+ORD00507,2024-03-03,2024-03-13,West,Germany,Bangalore,Keyboard,Supplier D,Warehouse 1,28,1280,35840,2094.01,15018.87,18727.12,10,213,110,No,7.2,Delivered,10,52.25200892857143,On Time,March,2024,Sufficient
+ORD00508,2024-06-14,2024-06-25,West,USA,Delhi,Keyboard,Supplier D,Warehouse 2,13,1061,13793,840.63,6477.62,6474.75,6,465,137,No,2.15,Cancelled,11,46.942289567171755,Delayed,June,2024,Sufficient
+ORD00509,2025-11-20,2025-12-07,West,USA,Mumbai,Phone,Supplier B,Warehouse 3,24,1730,41520,3010.58,28702.05,9807.37,12,106,86,No,1.72,Delivered,17,23.620833333333337,Delayed,November,2025,Sufficient
+ORD00510,2025-05-18,2025-05-24,South,USA,Chennai,Laptop,Supplier A,Warehouse 2,32,721,23072,1179.55,13082.96,8809.49,3,183,83,No,7.99,Cancelled,6,38.18260228848821,On Time,May,2025,Sufficient
+ORD00511,2025-03-16,2025-03-23,East,USA,Chennai,Printer,Supplier A,Warehouse 3,15,347,5205,419.41,2841.46,1944.13,3,401,95,No,7.95,Delivered,7,37.351200768491836,On Time,March,2025,Sufficient
+ORD00512,2024-02-21,2024-03-04,North,USA,Hyderabad,Phone,Supplier C,Warehouse 1,49,327,16023,1886.22,10166.52,3970.26,9,439,63,No,5.07,Delivered,12,24.778505897771954,Delayed,February,2024,Sufficient
+ORD00513,2024-10-26,2024-11-11,North,USA,Bangalore,Monitor,Supplier A,Warehouse 1,49,1136,55664,4166.74,36802.13,14695.13,13,186,92,No,1.66,Pending,16,26.399701782121298,Delayed,October,2024,Sufficient
+ORD00514,2025-04-30,2025-05-09,South,UAE,Mumbai,Phone,Supplier D,Warehouse 2,33,450,14850,559.42,7599.2,6691.38,7,184,130,No,6.16,Pending,9,45.059797979797985,On Time,April,2025,Sufficient
+ORD00515,2025-02-23,2025-03-08,North,Germany,Delhi,Monitor,Supplier B,Warehouse 2,44,840,36960,4248.06,19691.31,13020.63,9,367,116,No,6.28,Delivered,13,35.22897727272727,Delayed,February,2025,Sufficient
+ORD00516,2024-03-03,2024-03-11,West,UAE,Chennai,Tablet,Supplier C,Warehouse 2,43,1989,85527,7503.45,57367.52,20656.03,8,323,141,No,0.93,Cancelled,8,24.15147263437277,On Time,March,2024,Sufficient
+ORD00517,2024-01-09,2024-01-26,East,UAE,Mumbai,Tablet,Supplier A,Warehouse 1,34,1350,45900,5179.38,28003.06,12717.56,15,105,119,Yes,3.85,In Transit,17,27.70710239651416,Delayed,January,2024,Low Stock
+ORD00518,2025-07-04,2025-07-14,East,Germany,Mumbai,Laptop,Supplier A,Warehouse 3,47,1572,73884,7137.54,32346.54,34399.92,7,145,77,No,7.94,Delivered,10,46.55936332629527,On Time,July,2025,Sufficient
+ORD00519,2025-08-29,2025-09-05,East,India,Hyderabad,Keyboard,Supplier A,Warehouse 2,50,722,36100,3443.43,25128.72,7527.85,6,30,97,Yes,1.33,Cancelled,7,20.852770083102495,On Time,August,2025,Low Stock
+ORD00520,2024-11-01,2024-11-17,East,Germany,Delhi,Keyboard,Supplier B,Warehouse 3,1,1028,1028,62.2,484.01,481.79,11,297,122,No,6.09,Pending,16,46.86673151750973,Delayed,November,2024,Sufficient
+ORD00521,2025-01-21,2025-02-05,South,UAE,Bangalore,Laptop,Supplier A,Warehouse 1,16,315,5040,299.91,2896.54,1843.55,10,184,108,No,6.67,Delivered,15,36.57837301587302,Delayed,January,2025,Sufficient
+ORD00522,2025-03-11,2025-03-18,East,UAE,Bangalore,Monitor,Supplier D,Warehouse 3,14,1013,14182,525.11,8552.41,5104.48,4,286,116,No,3.52,In Transit,7,35.99266676068255,On Time,March,2025,Sufficient
+ORD00523,2025-03-02,2025-03-18,South,UAE,Bangalore,Laptop,Supplier B,Warehouse 3,10,1135,11350,470.36,6961.47,3918.17,15,360,115,No,1.47,Delivered,16,34.52132158590309,Delayed,March,2025,Sufficient
+ORD00524,2025-01-13,2025-01-20,East,Germany,Delhi,Tablet,Supplier D,Warehouse 1,27,325,8775,358.7,5015.17,3401.13,3,78,65,No,0.8,Cancelled,7,38.75931623931624,On Time,January,2025,Sufficient
+ORD00525,2024-05-26,2024-06-03,North,India,Chennai,Tablet,Supplier A,Warehouse 1,27,199,5373,614.21,2641.09,2117.7,4,93,144,Yes,2.63,In Transit,8,39.413735343383586,On Time,May,2024,Low Stock
+ORD00526,2025-03-03,2025-03-16,South,UAE,Bangalore,Keyboard,Supplier D,Warehouse 1,20,1258,25160,1779.16,12613.89,10766.95,9,427,142,No,3.33,Pending,13,42.79391891891892,Delayed,March,2025,Sufficient
+ORD00527,2024-11-29,2024-12-06,East,India,Mumbai,Keyboard,Supplier A,Warehouse 3,43,1377,59211,3959.24,27820.09,27431.67,3,276,55,No,3.47,In Transit,7,46.32867203729036,On Time,November,2024,Sufficient
+ORD00528,2025-10-07,2025-10-26,South,UAE,Chennai,Laptop,Supplier A,Warehouse 3,20,1249,24980,2199.85,14817.49,7962.66,14,489,129,No,1.14,Delivered,19,31.876140912730182,Delayed,October,2025,Sufficient
+ORD00529,2025-06-28,2025-07-02,East,UAE,Chennai,Laptop,Supplier D,Warehouse 1,18,1711,30798,1494.39,19985.04,9318.57,4,296,106,No,6.79,Delivered,4,30.257062146892654,On Time,June,2025,Sufficient
+ORD00530,2024-12-14,2024-12-23,East,USA,Mumbai,Tablet,Supplier A,Warehouse 1,27,149,4023,431.94,1992.25,1598.81,8,58,62,Yes,2.43,Pending,9,39.74173502361422,On Time,December,2024,Low Stock
+ORD00531,2024-11-10,2024-11-23,North,Germany,Mumbai,Monitor,Supplier C,Warehouse 2,11,220,2420,206.43,1204.16,1009.41,8,29,88,Yes,0.7,In Transit,13,41.71115702479339,Delayed,November,2024,Low Stock
+ORD00532,2025-01-19,2025-02-03,North,Germany,Hyderabad,Tablet,Supplier D,Warehouse 3,4,514,2056,106.02,1190.63,759.35,15,260,146,No,2.27,In Transit,15,36.93336575875487,Delayed,January,2025,Sufficient
+ORD00533,2025-02-20,2025-02-26,South,USA,Delhi,Printer,Supplier D,Warehouse 2,2,934,1868,162.55,1259.26,446.19,3,283,125,No,0.64,Delivered,6,23.885974304068522,On Time,February,2025,Sufficient
+ORD00534,2024-03-26,2024-04-15,West,UAE,Hyderabad,Laptop,Supplier D,Warehouse 3,33,516,17028,1710.62,7538.47,7778.91,15,86,150,Yes,4.55,Pending,20,45.68305144467935,Delayed,March,2024,Low Stock
+ORD00535,2024-10-23,2024-11-05,East,USA,Chennai,Printer,Supplier C,Warehouse 1,1,223,223,25.43,121.46,76.11,12,429,137,No,4.98,In Transit,13,34.130044843049326,Delayed,October,2024,Sufficient
+ORD00536,2024-06-14,2024-07-01,West,USA,Chennai,Printer,Supplier C,Warehouse 3,37,243,8991,513.0,4662.66,3815.34,13,71,142,Yes,1.42,Cancelled,17,42.4351017684351,Delayed,June,2024,Low Stock
+ORD00537,2024-12-16,2024-12-30,East,India,Mumbai,Keyboard,Supplier A,Warehouse 3,49,1549,75901,5369.59,35960.26,34571.15,12,174,76,No,7.87,In Transit,14,45.547687118746786,Delayed,December,2024,Sufficient
+ORD00538,2025-05-02,2025-05-04,North,India,Bangalore,Keyboard,Supplier A,Warehouse 2,44,455,20020,1345.04,13384.98,5289.98,2,390,100,No,5.77,Delivered,2,26.42347652347652,On Time,May,2025,Sufficient
+ORD00539,2025-01-20,2025-02-08,East,USA,Bangalore,Laptop,Supplier B,Warehouse 3,23,892,20516,942.64,12933.08,6640.28,15,4,65,Yes,5.73,In Transit,19,32.366348216026516,Delayed,January,2025,Low Stock
+ORD00540,2024-01-21,2024-02-06,South,UAE,Delhi,Laptop,Supplier C,Warehouse 2,44,1987,87428,8203.18,39994.24,39230.58,14,320,88,No,6.62,Pending,16,44.871871711579814,Delayed,January,2024,Sufficient
+ORD00541,2025-12-21,2026-01-07,South,USA,Chennai,Keyboard,Supplier B,Warehouse 1,14,114,1596,76.05,1031.55,488.4,13,445,85,No,3.47,In Transit,17,30.601503759398497,Delayed,December,2025,Sufficient
+ORD00542,2025-08-25,2025-09-03,South,India,Chennai,Printer,Supplier C,Warehouse 3,5,360,1800,96.06,1027.75,676.19,4,267,143,No,2.21,Cancelled,9,37.56611111111112,On Time,August,2025,Sufficient
+ORD00543,2025-07-27,2025-08-05,East,India,Chennai,Monitor,Supplier D,Warehouse 2,28,1412,39536,3581.13,23524.28,12430.59,9,165,105,No,6.9,In Transit,9,31.441192836908133,On Time,July,2025,Sufficient
+ORD00544,2025-06-13,2025-06-27,South,Germany,Hyderabad,Printer,Supplier A,Warehouse 3,47,559,26273,899.24,17747.87,7625.89,14,161,50,No,4.49,In Transit,14,29.025577589159973,Delayed,June,2025,Sufficient
+ORD00545,2024-08-19,2024-09-04,North,UAE,Bangalore,Laptop,Supplier C,Warehouse 2,5,1978,9890,519.21,4444.02,4926.77,13,320,130,No,2.83,Delivered,16,49.815672396359965,Delayed,August,2024,Sufficient
+ORD00546,2024-09-10,2024-09-16,North,UAE,Chennai,Laptop,Supplier A,Warehouse 1,16,797,12752,1338.02,8244.04,3169.94,3,121,59,No,4.4,In Transit,6,24.858375156838143,On Time,September,2024,Sufficient
+ORD00547,2024-02-04,2024-02-14,North,India,Hyderabad,Printer,Supplier A,Warehouse 2,45,233,10485,1053.09,4389.03,5042.88,8,28,88,Yes,6.52,In Transit,10,48.096137339055794,On Time,February,2024,Low Stock
+ORD00548,2025-01-25,2025-02-02,West,UAE,Bangalore,Printer,Supplier A,Warehouse 2,40,1640,65600,4395.18,43254.99,17949.83,8,319,51,No,6.41,In Transit,8,27.36254573170732,On Time,January,2025,Sufficient
+ORD00549,2025-10-28,2025-11-09,South,USA,Chennai,Tablet,Supplier C,Warehouse 2,30,1159,34770,2070.12,15915.77,16784.11,12,304,141,No,1.27,Delivered,12,48.27181478285879,Delayed,October,2025,Sufficient
+ORD00550,2025-05-07,2025-05-24,East,Germany,Chennai,Printer,Supplier B,Warehouse 1,29,480,13920,722.22,8896.38,4301.4,13,159,124,No,0.95,In Transit,17,30.900862068965512,Delayed,May,2025,Sufficient
+ORD00551,2025-04-25,2025-05-05,South,India,Bangalore,Tablet,Supplier B,Warehouse 1,22,696,15312,967.64,6161.92,8182.44,6,347,68,No,4.9,Delivered,10,53.43808777429467,On Time,April,2025,Sufficient
+ORD00552,2025-10-17,2025-10-22,East,Germany,Bangalore,Tablet,Supplier B,Warehouse 1,22,487,10714,965.41,6518.77,3229.82,5,307,138,No,7.86,Cancelled,5,30.145790554414788,On Time,October,2025,Sufficient
+ORD00553,2025-04-10,2025-04-24,South,UAE,Delhi,Keyboard,Supplier D,Warehouse 1,32,549,17568,1981.6,10393.76,5192.64,14,238,129,No,5.7,Pending,14,29.557377049180328,Delayed,April,2025,Sufficient
+ORD00554,2025-02-13,2025-02-17,East,India,Hyderabad,Phone,Supplier B,Warehouse 2,24,120,2880,105.51,1177.94,1596.55,4,148,106,No,1.36,Pending,4,55.435763888888886,On Time,February,2025,Sufficient
+ORD00555,2024-06-27,2024-07-04,North,India,Mumbai,Monitor,Supplier A,Warehouse 2,47,456,21432,1298.43,12138.05,7995.52,5,11,72,Yes,1.84,Cancelled,7,37.30645763344532,On Time,June,2024,Low Stock
+ORD00556,2024-08-03,2024-08-12,North,India,Mumbai,Phone,Supplier B,Warehouse 1,16,857,13712,1410.33,8203.51,4098.16,6,500,129,No,7.56,In Transit,9,29.887397899649944,On Time,August,2024,Sufficient
+ORD00557,2025-06-29,2025-07-12,East,USA,Delhi,Phone,Supplier A,Warehouse 3,24,751,18024,1513.28,12492.33,4018.39,8,23,147,Yes,2.33,Pending,13,22.2946626719929,Delayed,June,2025,Low Stock
+ORD00558,2024-10-13,2024-10-29,South,UAE,Chennai,Tablet,Supplier D,Warehouse 3,33,1296,42768,4692.72,19791.8,18283.48,15,240,134,No,1.11,Delivered,16,42.75037411148522,Delayed,October,2024,Sufficient
+ORD00559,2025-04-20,2025-04-26,North,USA,Mumbai,Phone,Supplier D,Warehouse 1,46,865,39790,3075.48,21685.12,15029.4,4,242,84,No,7.67,In Transit,6,37.771801960291526,On Time,April,2025,Sufficient
+ORD00560,2025-02-09,2025-02-16,South,India,Delhi,Monitor,Supplier C,Warehouse 1,28,1920,53760,3437.28,24039.47,26283.25,5,130,120,No,6.82,Delivered,7,48.889973958333336,On Time,February,2025,Sufficient
+ORD00561,2025-08-20,2025-08-25,East,UAE,Hyderabad,Phone,Supplier D,Warehouse 1,33,1372,45276,2728.95,24238.3,18308.75,2,188,113,No,3.74,Cancelled,5,40.43809082074388,On Time,August,2025,Sufficient
+ORD00562,2024-09-28,2024-10-10,South,India,Hyderabad,Laptop,Supplier C,Warehouse 1,23,1946,44758,1674.74,29217.17,13866.09,12,329,60,No,4.35,Cancelled,12,30.980137629027215,Delayed,September,2024,Sufficient
+ORD00563,2025-07-13,2025-07-20,South,Germany,Hyderabad,Tablet,Supplier C,Warehouse 2,13,1482,19266,1148.86,9456.04,8661.1,5,349,85,No,6.62,Pending,7,44.95536177722413,On Time,July,2025,Sufficient
+ORD00564,2025-02-17,2025-03-01,South,USA,Mumbai,Monitor,Supplier B,Warehouse 3,49,1442,70658,2195.36,42128.23,26334.41,8,487,69,No,7.92,In Transit,12,37.27024540745563,Delayed,February,2025,Sufficient
+ORD00565,2025-08-24,2025-09-11,West,USA,Bangalore,Monitor,Supplier A,Warehouse 2,49,1059,51891,4930.99,27939.17,19020.84,14,160,74,No,6.44,In Transit,18,36.65537376423657,Delayed,August,2025,Sufficient
+ORD00566,2024-05-22,2024-06-03,West,UAE,Chennai,Tablet,Supplier C,Warehouse 3,20,1611,32220,994.67,20721.34,10503.99,11,173,78,No,6.76,In Transit,12,32.60083798882681,Delayed,May,2024,Sufficient
+ORD00567,2024-01-24,2024-02-04,West,USA,Bangalore,Laptop,Supplier D,Warehouse 1,9,414,3726,439.49,2601.78,684.73,11,409,127,No,4.76,In Transit,11,18.377079978529252,Delayed,January,2024,Sufficient
+ORD00568,2025-05-01,2025-05-06,North,UAE,Hyderabad,Phone,Supplier B,Warehouse 1,37,1024,37888,3315.59,18617.92,15954.49,3,345,120,No,1.79,Pending,5,42.109612542229726,On Time,May,2025,Sufficient
+ORD00569,2025-01-30,2025-02-06,East,UAE,Bangalore,Phone,Supplier A,Warehouse 1,15,696,10440,932.93,4395.18,5111.89,6,265,51,No,0.93,Pending,7,48.96446360153257,On Time,January,2025,Sufficient
+ORD00570,2025-07-03,2025-07-14,West,UAE,Mumbai,Printer,Supplier C,Warehouse 3,48,240,11520,748.91,7730.8,3040.29,8,445,76,No,2.05,Cancelled,11,26.39140625,Delayed,July,2025,Sufficient
+ORD00571,2024-07-26,2024-08-10,East,UAE,Bangalore,Monitor,Supplier A,Warehouse 3,44,1039,45716,2504.77,18388.48,24822.75,10,32,101,Yes,1.57,Pending,15,54.29772946014525,Delayed,July,2024,Low Stock
+ORD00572,2024-04-03,2024-04-14,South,USA,Chennai,Keyboard,Supplier D,Warehouse 2,30,810,24300,2260.59,14907.91,7131.5,6,313,72,No,2.73,In Transit,11,29.347736625514404,Delayed,April,2024,Sufficient
+ORD00573,2025-01-28,2025-02-10,East,India,Mumbai,Monitor,Supplier D,Warehouse 3,45,1264,56880,2195.46,34673.67,20010.87,12,453,70,No,0.83,Cancelled,13,35.180854430379746,Delayed,January,2025,Sufficient
+ORD00574,2024-05-04,2024-05-11,North,UAE,Hyderabad,Laptop,Supplier D,Warehouse 2,49,315,15435,1163.73,9783.52,4487.75,7,84,82,No,3.58,Pending,7,29.07515387107224,On Time,May,2024,Sufficient
+ORD00575,2024-12-17,2025-01-02,West,UAE,Hyderabad,Laptop,Supplier B,Warehouse 3,13,912,11856,395.99,5633.75,5826.26,13,69,91,Yes,5.82,In Transit,16,49.14186909581647,Delayed,December,2024,Low Stock
+ORD00576,2025-03-24,2025-03-31,West,USA,Hyderabad,Keyboard,Supplier A,Warehouse 3,18,1823,32814,1460.98,21379.92,9973.1,4,90,87,No,5.05,Delivered,7,30.392820137746085,On Time,March,2025,Sufficient
+ORD00577,2024-10-06,2024-10-13,North,UAE,Delhi,Monitor,Supplier A,Warehouse 3,23,464,10672,528.27,4379.08,5764.65,4,110,106,No,5.56,Delivered,7,54.01658545727136,On Time,October,2024,Sufficient
+ORD00578,2024-01-05,2024-01-10,North,India,Delhi,Phone,Supplier A,Warehouse 1,50,513,25650,2913.68,13142.89,9593.43,2,46,52,Yes,2.29,In Transit,5,37.4012865497076,On Time,January,2024,Low Stock
+ORD00579,2024-04-08,2024-04-27,South,UAE,Bangalore,Laptop,Supplier B,Warehouse 1,11,1582,17402,783.69,9130.9,7487.41,14,167,91,No,1.31,Pending,19,43.02614641995173,Delayed,April,2024,Sufficient
+ORD00580,2024-04-18,2024-04-27,East,Germany,Hyderabad,Laptop,Supplier B,Warehouse 2,12,130,1560,103.26,772.0,684.74,7,234,78,No,3.42,Delivered,9,43.89358974358974,On Time,April,2024,Sufficient
+ORD00581,2024-11-04,2024-11-22,North,Germany,Bangalore,Keyboard,Supplier B,Warehouse 2,32,308,9856,927.72,6282.0,2646.28,14,291,71,No,7.42,Cancelled,18,26.849431818181817,Delayed,November,2024,Sufficient
+ORD00582,2024-06-28,2024-07-15,West,USA,Chennai,Printer,Supplier A,Warehouse 1,21,1843,38703,3482.24,16265.09,18955.67,12,466,124,No,0.63,In Transit,17,48.97726274449008,Delayed,June,2024,Sufficient
+ORD00583,2024-01-22,2024-02-02,West,Germany,Mumbai,Phone,Supplier D,Warehouse 1,20,584,11680,1126.09,7325.39,3228.52,11,30,67,Yes,5.15,Cancelled,11,27.641438356164382,Delayed,January,2024,Low Stock
+ORD00584,2025-10-19,2025-10-22,North,UAE,Delhi,Laptop,Supplier B,Warehouse 3,47,1324,62228,7403.24,33174.86,21649.9,2,68,85,Yes,7.08,Cancelled,3,34.791251526643954,On Time,October,2025,Low Stock
+ORD00585,2024-12-05,2024-12-13,West,Germany,Mumbai,Monitor,Supplier A,Warehouse 1,14,1204,16856,587.71,11382.91,4885.38,7,410,137,No,7.91,Pending,8,28.983032747982918,On Time,December,2024,Sufficient
+ORD00586,2025-05-18,2025-05-22,South,India,Bangalore,Keyboard,Supplier D,Warehouse 2,4,1399,5596,667.5,3813.58,1114.92,3,88,125,Yes,1.44,Pending,4,19.923516797712654,On Time,May,2025,Low Stock
+ORD00587,2024-06-17,2024-07-01,East,UAE,Hyderabad,Tablet,Supplier D,Warehouse 2,16,968,15488,710.58,7352.01,7425.41,13,229,131,No,2.64,Pending,14,47.94298811983471,Delayed,June,2024,Sufficient
+ORD00588,2024-06-20,2024-07-02,West,UAE,Hyderabad,Tablet,Supplier B,Warehouse 3,28,1134,31752,2694.01,16829.49,12228.5,9,488,111,No,1.67,Delivered,12,38.51253464348702,Delayed,June,2024,Sufficient
+ORD00589,2024-06-28,2024-07-07,West,USA,Mumbai,Phone,Supplier A,Warehouse 1,30,726,21780,1542.55,11163.21,9074.24,6,36,92,Yes,5.05,Pending,9,41.663177226813595,On Time,June,2024,Low Stock
+ORD00590,2025-05-27,2025-06-14,West,Germany,Chennai,Laptop,Supplier D,Warehouse 1,24,1106,26544,1762.79,13928.86,10852.35,13,380,97,No,3.46,In Transit,18,40.88438065099458,Delayed,May,2025,Sufficient
+ORD00591,2024-05-07,2024-05-19,West,Germany,Hyderabad,Keyboard,Supplier D,Warehouse 2,11,497,5467,539.4,3756.53,1171.07,8,384,142,No,6.28,Cancelled,12,21.42070605450887,Delayed,May,2024,Sufficient
+ORD00592,2024-09-09,2024-09-17,East,UAE,Mumbai,Tablet,Supplier B,Warehouse 3,3,1987,5961,615.06,3512.73,1833.21,5,357,135,No,5.57,Pending,8,30.753397081026673,On Time,September,2024,Sufficient
+ORD00593,2025-08-15,2025-08-28,South,UAE,Mumbai,Monitor,Supplier C,Warehouse 3,1,339,339,33.69,201.14,104.17,12,203,140,No,7.38,Delivered,13,30.728613569321535,Delayed,August,2025,Sufficient
+ORD00594,2024-11-05,2024-11-19,North,Germany,Mumbai,Tablet,Supplier B,Warehouse 3,43,1915,82345,5307.22,40546.16,36491.62,10,448,143,No,3.59,Delivered,14,44.31552614002065,Delayed,November,2024,Sufficient
+ORD00595,2025-02-11,2025-02-26,East,UAE,Mumbai,Phone,Supplier C,Warehouse 1,1,444,444,45.94,177.81,220.25,13,356,103,No,1.02,In Transit,15,49.60585585585586,Delayed,February,2025,Sufficient
+ORD00596,2025-12-21,2025-12-26,North,USA,Mumbai,Tablet,Supplier D,Warehouse 2,32,472,15104,1136.35,6541.11,7426.54,4,108,73,No,4.75,Pending,5,49.169359110169495,On Time,December,2025,Sufficient
+ORD00597,2025-10-03,2025-10-14,South,UAE,Bangalore,Keyboard,Supplier A,Warehouse 1,41,440,18040,670.78,7679.85,9689.37,11,32,93,Yes,1.44,Delivered,11,53.710476718403555,Delayed,October,2025,Low Stock
+ORD00598,2024-03-03,2024-03-09,East,UAE,Bangalore,Tablet,Supplier D,Warehouse 2,43,1292,55556,5612.75,22920.06,27023.19,6,405,50,No,2.08,In Transit,6,48.64135286917705,On Time,March,2024,Sufficient
+ORD00599,2025-01-14,2025-01-28,East,India,Hyderabad,Monitor,Supplier D,Warehouse 3,21,1772,37212,1918.79,18917.21,16376.0,12,312,57,No,3.49,Cancelled,14,44.00730947006342,Delayed,January,2025,Sufficient
+ORD00600,2024-05-22,2024-05-28,West,UAE,Mumbai,Laptop,Supplier C,Warehouse 1,8,1879,15032,1168.84,10301.71,3561.45,2,127,97,No,6.14,In Transit,6,23.69245609366684,On Time,May,2024,Sufficient
+ORD00601,2025-10-10,2025-10-17,East,UAE,Bangalore,Keyboard,Supplier A,Warehouse 3,48,766,36768,3346.39,17283.45,16138.16,7,378,128,No,4.13,Delivered,7,43.891862489120975,On Time,October,2025,Sufficient
+ORD00602,2025-01-29,2025-02-08,South,UAE,Hyderabad,Tablet,Supplier D,Warehouse 1,13,1558,20254,868.58,11261.55,8123.87,6,438,141,No,4.79,Delivered,10,40.10995358941444,On Time,January,2025,Sufficient
+ORD00603,2025-04-01,2025-04-07,North,UAE,Hyderabad,Phone,Supplier C,Warehouse 2,43,1207,51901,2682.3,24055.71,25162.99,3,337,139,No,6.15,Delivered,6,48.48266892738098,On Time,April,2025,Sufficient
+ORD00604,2024-10-14,2024-10-24,North,Germany,Mumbai,Printer,Supplier A,Warehouse 3,17,1463,24871,1812.28,16645.0,6413.72,5,69,118,Yes,1.42,In Transit,10,25.7879458003297,On Time,October,2024,Low Stock
+ORD00605,2024-12-17,2024-12-30,South,Germany,Hyderabad,Tablet,Supplier A,Warehouse 1,48,1607,77136,7347.4,45986.62,23801.98,8,494,105,No,6.39,Pending,13,30.857161377307612,Delayed,December,2024,Sufficient
+ORD00606,2024-04-01,2024-04-13,North,Germany,Hyderabad,Printer,Supplier B,Warehouse 2,38,485,18430,1788.0,8013.95,8628.05,7,436,90,No,3.26,In Transit,12,46.81524688008681,Delayed,April,2024,Sufficient
+ORD00607,2025-03-09,2025-03-18,West,Germany,Mumbai,Tablet,Supplier B,Warehouse 2,44,1731,76164,3150.73,45631.59,27381.68,7,54,100,Yes,4.93,Delivered,9,35.95094795441416,On Time,March,2025,Low Stock
+ORD00608,2025-11-27,2025-12-07,East,India,Delhi,Keyboard,Supplier D,Warehouse 3,39,680,26520,1143.76,15901.53,9474.71,9,359,54,No,6.51,Cancelled,10,35.72665912518853,On Time,November,2025,Sufficient
+ORD00609,2024-08-08,2024-08-19,North,USA,Bangalore,Keyboard,Supplier D,Warehouse 2,46,871,40066,1414.05,25764.96,12886.99,9,366,76,No,1.65,Pending,11,32.164403733839166,Delayed,August,2024,Sufficient
+ORD00610,2025-11-06,2025-11-22,West,India,Chennai,Keyboard,Supplier C,Warehouse 2,2,1222,2444,159.61,1287.33,997.06,15,178,146,No,4.05,In Transit,16,40.7962356792144,Delayed,November,2025,Sufficient
+ORD00611,2025-12-14,2025-12-24,West,USA,Chennai,Phone,Supplier D,Warehouse 3,36,906,32616,1264.16,16210.99,15140.85,5,443,56,No,6.43,Cancelled,10,46.42154157468727,On Time,December,2025,Sufficient
+ORD00612,2025-05-09,2025-05-16,South,UAE,Bangalore,Keyboard,Supplier B,Warehouse 1,14,546,7644,782.69,3506.28,3355.03,6,185,142,No,5.38,Delivered,7,43.89102564102564,On Time,May,2025,Sufficient
+ORD00613,2024-04-08,2024-04-18,South,India,Hyderabad,Phone,Supplier D,Warehouse 2,12,207,2484,100.75,1377.7,1005.55,7,222,69,No,3.04,In Transit,10,40.481078904991946,On Time,April,2024,Sufficient
+ORD00614,2024-11-05,2024-11-22,West,UAE,Delhi,Keyboard,Supplier D,Warehouse 2,12,1436,17232,1672.68,10903.63,4655.69,13,343,134,No,7.93,Delivered,17,27.017699628597956,Delayed,November,2024,Sufficient
+ORD00615,2024-01-12,2024-01-15,East,India,Chennai,Phone,Supplier D,Warehouse 2,6,349,2094,155.02,1257.74,681.24,3,11,125,Yes,4.32,In Transit,3,32.532951289398284,On Time,January,2024,Low Stock
+ORD00616,2025-10-22,2025-11-07,West,India,Bangalore,Printer,Supplier D,Warehouse 1,20,1270,25400,1048.29,12638.24,11713.47,13,441,118,No,5.85,Pending,16,46.116023622047244,Delayed,October,2025,Sufficient
+ORD00617,2025-06-15,2025-07-04,South,USA,Hyderabad,Printer,Supplier D,Warehouse 2,35,1561,54635,5665.35,32535.7,16433.95,15,106,134,Yes,6.15,Delivered,19,30.079527775235654,Delayed,June,2025,Low Stock
+ORD00618,2024-05-05,2024-05-08,North,Germany,Delhi,Printer,Supplier B,Warehouse 2,37,522,19314,1713.88,8234.45,9365.67,2,385,54,No,2.43,Delivered,3,48.49161230195713,On Time,May,2024,Sufficient
+ORD00619,2025-11-04,2025-11-07,South,UAE,Delhi,Printer,Supplier C,Warehouse 3,20,194,3880,446.82,2156.63,1276.55,2,337,118,No,6.37,In Transit,3,32.90077319587629,On Time,November,2025,Sufficient
+ORD00620,2025-07-05,2025-07-16,South,USA,Chennai,Tablet,Supplier C,Warehouse 1,45,302,13590,1218.15,5618.39,6753.46,10,72,88,Yes,0.78,Pending,11,49.694334069168505,Delayed,July,2025,Low Stock
+ORD00621,2025-09-29,2025-10-07,West,USA,Chennai,Phone,Supplier A,Warehouse 3,36,622,22392,1197.09,13321.69,7873.22,8,233,60,No,1.72,Cancelled,8,35.1608610217935,On Time,September,2025,Sufficient
+ORD00622,2024-10-02,2024-10-19,West,USA,Delhi,Monitor,Supplier D,Warehouse 1,42,494,20748,1956.54,11807.53,6983.93,12,261,127,No,5.36,Pending,17,33.660738384422594,Delayed,October,2024,Sufficient
+ORD00623,2025-09-10,2025-09-15,East,Germany,Delhi,Phone,Supplier B,Warehouse 2,18,355,6390,497.35,3867.19,2025.46,5,168,131,No,3.55,Delivered,5,31.697339593114243,On Time,September,2025,Sufficient
+ORD00624,2024-01-11,2024-01-17,West,India,Chennai,Tablet,Supplier C,Warehouse 3,15,875,13125,1518.04,8332.01,3274.95,3,269,143,No,1.43,Cancelled,6,24.951999999999998,On Time,January,2024,Sufficient
+ORD00625,2024-10-04,2024-10-15,West,USA,Delhi,Laptop,Supplier B,Warehouse 3,4,449,1796,105.28,1123.51,567.21,11,412,144,No,1.86,In Transit,11,31.58184855233853,Delayed,October,2024,Sufficient
+ORD00626,2024-05-09,2024-05-16,West,UAE,Mumbai,Monitor,Supplier C,Warehouse 2,37,1606,59422,3212.55,40141.49,16067.96,4,189,140,No,5.29,Pending,7,27.04042273905288,On Time,May,2024,Sufficient
+ORD00627,2025-05-29,2025-06-06,East,UAE,Delhi,Laptop,Supplier A,Warehouse 1,28,1166,32648,3746.39,21691.86,7209.75,6,156,131,No,6.61,Delivered,8,22.083282283753984,On Time,May,2025,Sufficient
+ORD00628,2024-09-02,2024-09-06,South,UAE,Bangalore,Printer,Supplier A,Warehouse 2,37,217,8029,301.99,3900.13,3826.88,3,413,51,No,7.47,In Transit,4,47.66322082451115,On Time,September,2024,Sufficient
+ORD00629,2024-01-15,2024-01-27,West,USA,Chennai,Phone,Supplier B,Warehouse 1,48,114,5472,515.87,3342.17,1613.96,11,125,144,Yes,6.12,Delivered,12,29.494883040935672,Delayed,January,2024,Low Stock
+ORD00630,2025-01-10,2025-01-26,South,India,Delhi,Tablet,Supplier D,Warehouse 2,33,823,27159,3142.94,14307.81,9708.25,15,191,64,No,3.34,Cancelled,16,35.745977392392945,Delayed,January,2025,Sufficient
+ORD00631,2024-09-28,2024-10-03,West,UAE,Hyderabad,Tablet,Supplier A,Warehouse 3,48,1392,66816,5425.18,31085.41,30305.41,5,477,132,No,2.79,Delivered,5,45.356516403256705,On Time,September,2024,Sufficient
+ORD00632,2025-04-16,2025-04-25,West,UAE,Mumbai,Laptop,Supplier B,Warehouse 2,23,319,7337,223.51,4894.21,2219.28,7,181,51,No,1.9,Delivered,9,30.24778519830994,On Time,April,2025,Sufficient
+ORD00633,2024-05-06,2024-05-15,South,Germany,Hyderabad,Monitor,Supplier D,Warehouse 1,10,1675,16750,1492.37,7836.13,7421.5,9,153,96,No,3.47,In Transit,9,44.30746268656716,On Time,May,2024,Sufficient
+ORD00634,2024-05-23,2024-06-04,South,UAE,Bangalore,Keyboard,Supplier C,Warehouse 1,28,111,3108,193.73,2054.87,859.4,7,97,86,No,1.99,Delivered,12,27.65122265122265,Delayed,May,2024,Sufficient
+ORD00635,2024-06-13,2024-06-26,East,UAE,Chennai,Keyboard,Supplier D,Warehouse 1,31,1462,45322,5369.01,19743.97,20209.02,12,253,137,No,4.17,Pending,13,44.58986805524911,Delayed,June,2024,Sufficient
+ORD00636,2024-04-22,2024-04-25,West,India,Bangalore,Monitor,Supplier C,Warehouse 2,9,418,3762,229.37,1520.2,2012.43,3,26,136,Yes,5.63,Cancelled,3,53.493620414673046,On Time,April,2024,Low Stock
+ORD00637,2025-05-12,2025-05-18,South,UAE,Mumbai,Monitor,Supplier A,Warehouse 3,16,1364,21824,954.25,12076.79,8792.96,3,392,64,No,2.37,Cancelled,6,40.29032258064515,On Time,May,2025,Sufficient
+ORD00638,2025-05-29,2025-06-10,East,USA,Mumbai,Monitor,Supplier A,Warehouse 3,13,1850,24050,2001.14,14197.75,7851.11,11,67,101,Yes,2.22,Delivered,12,32.64494802494802,Delayed,May,2025,Low Stock
+ORD00639,2024-07-23,2024-07-26,West,India,Chennai,Monitor,Supplier A,Warehouse 2,25,934,23350,1803.73,14244.61,7301.66,3,113,93,No,7.85,In Transit,3,31.27049250535332,On Time,July,2024,Sufficient
+ORD00640,2024-04-22,2024-04-30,North,Germany,Mumbai,Tablet,Supplier D,Warehouse 2,18,818,14724,1384.68,6980.51,6358.81,6,93,55,No,7.21,Delivered,8,43.18670198315676,On Time,April,2024,Sufficient
+ORD00641,2025-09-13,2025-09-19,South,Germany,Delhi,Keyboard,Supplier C,Warehouse 3,12,616,7392,852.66,3763.08,2776.26,3,49,135,Yes,2.78,Delivered,6,37.55762987012987,On Time,September,2025,Low Stock
+ORD00642,2025-08-26,2025-09-09,North,India,Chennai,Keyboard,Supplier B,Warehouse 1,24,587,14088,1247.1,6522.88,6318.02,10,454,63,No,3.38,Pending,14,44.84681998864282,Delayed,August,2025,Sufficient
+ORD00643,2025-12-22,2025-12-31,North,USA,Mumbai,Monitor,Supplier C,Warehouse 3,5,1219,6095,522.41,2989.25,2583.34,9,389,75,No,4.06,Pending,9,42.38457752255948,On Time,December,2025,Sufficient
+ORD00644,2024-12-21,2024-12-31,South,Germany,Mumbai,Tablet,Supplier A,Warehouse 3,41,1569,64329,2609.74,34148.26,27571.0,7,268,114,No,4.12,Delivered,10,42.85936358407561,On Time,December,2024,Sufficient
+ORD00645,2024-03-03,2024-03-22,West,UAE,Chennai,Monitor,Supplier D,Warehouse 3,13,1616,21008,2170.29,11523.05,7314.66,14,262,59,No,4.49,Pending,19,34.8184501142422,Delayed,March,2024,Sufficient
+ORD00646,2024-10-05,2024-10-11,East,Germany,Mumbai,Tablet,Supplier C,Warehouse 3,1,427,427,34.79,246.65,145.56,5,475,115,No,0.57,In Transit,6,34.08899297423888,On Time,October,2024,Sufficient
+ORD00647,2024-05-01,2024-05-06,East,India,Mumbai,Phone,Supplier A,Warehouse 1,3,1192,3576,183.95,1472.34,1919.71,4,452,85,No,1.61,Pending,5,53.68316554809843,On Time,May,2024,Sufficient
+ORD00648,2025-10-26,2025-11-07,West,Germany,Delhi,Laptop,Supplier A,Warehouse 2,39,855,33345,1974.38,22805.59,8565.03,7,135,142,Yes,7.13,Pending,12,25.686099865047236,Delayed,October,2025,Low Stock
+ORD00649,2024-08-12,2024-08-27,West,Germany,Chennai,Printer,Supplier B,Warehouse 2,12,624,7488,879.42,4202.39,2406.19,13,398,149,No,7.84,Delivered,15,32.133947649572654,Delayed,August,2024,Sufficient
+ORD00650,2024-08-13,2024-08-22,East,USA,Bangalore,Laptop,Supplier D,Warehouse 1,14,1291,18074,1566.69,11883.05,4624.26,7,228,79,No,3.47,In Transit,9,25.585149939139097,On Time,August,2024,Sufficient
+ORD00651,2025-04-15,2025-04-20,South,UAE,Chennai,Phone,Supplier A,Warehouse 1,13,1266,16458,1220.31,10184.93,5052.76,4,10,89,Yes,5.36,Pending,5,30.700935715153726,On Time,April,2025,Low Stock
+ORD00652,2024-03-14,2024-03-23,North,UAE,Bangalore,Laptop,Supplier A,Warehouse 1,30,1961,58830,5180.61,30635.8,23013.59,8,70,143,Yes,5.93,Delivered,9,39.118799932007484,On Time,March,2024,Low Stock
+ORD00653,2025-10-21,2025-10-24,East,India,Mumbai,Phone,Supplier D,Warehouse 3,16,1677,26832,1006.83,11880.96,13944.21,2,6,51,Yes,5.21,Delivered,3,51.96858228980321,On Time,October,2025,Low Stock
+ORD00654,2025-03-30,2025-04-15,North,India,Hyderabad,Printer,Supplier C,Warehouse 1,20,779,15580,1138.93,7371.56,7069.51,15,136,130,No,4.58,Delivered,16,45.37554557124518,Delayed,March,2025,Sufficient
+ORD00655,2025-06-07,2025-06-25,South,UAE,Hyderabad,Monitor,Supplier B,Warehouse 1,10,102,1020,114.34,415.34,490.32,15,75,95,Yes,3.7,Cancelled,18,48.07058823529412,Delayed,June,2025,Low Stock
+ORD00656,2024-08-17,2024-08-22,South,USA,Bangalore,Printer,Supplier C,Warehouse 3,23,256,5888,502.91,2564.26,2820.83,3,470,60,No,7.42,Delivered,5,47.908118206521735,On Time,August,2024,Sufficient
+ORD00657,2024-07-04,2024-07-19,West,Germany,Delhi,Keyboard,Supplier A,Warehouse 1,10,1929,19290,1737.15,9461.15,8091.7,12,178,63,No,6.63,Cancelled,15,41.94764126490409,Delayed,July,2024,Sufficient
+ORD00658,2024-06-01,2024-06-20,North,UAE,Delhi,Phone,Supplier A,Warehouse 2,10,755,7550,326.92,4031.77,3191.31,14,499,111,No,6.48,Delivered,19,42.26900662251655,Delayed,June,2024,Sufficient
+ORD00659,2024-05-10,2024-05-17,South,USA,Bangalore,Monitor,Supplier D,Warehouse 3,23,753,17319,1289.89,9428.23,6600.88,4,308,131,No,7.8,Cancelled,7,38.113516946705936,On Time,May,2024,Sufficient
+ORD00660,2025-06-30,2025-07-13,North,USA,Delhi,Laptop,Supplier B,Warehouse 1,35,1782,62370,3162.8,26512.57,32694.63,9,269,123,No,5.86,Pending,13,52.42044252044252,Delayed,June,2025,Sufficient
+ORD00661,2025-01-06,2025-01-19,East,UAE,Mumbai,Printer,Supplier D,Warehouse 1,9,1986,17874,713.42,12036.5,5124.08,10,434,149,No,3.21,Pending,13,28.667785610383795,Delayed,January,2025,Sufficient
+ORD00662,2024-08-03,2024-08-19,West,Germany,Hyderabad,Keyboard,Supplier A,Warehouse 3,4,1629,6516,276.29,4487.02,1752.69,15,193,143,No,5.78,Delivered,16,26.89825046040516,Delayed,August,2024,Sufficient
+ORD00663,2025-08-18,2025-08-24,West,USA,Mumbai,Monitor,Supplier B,Warehouse 3,39,1882,73398,3246.8,32593.56,37557.64,3,125,59,No,1.56,Delivered,6,51.16984114008556,On Time,August,2025,Sufficient
+ORD00664,2025-06-24,2025-07-09,South,India,Hyderabad,Printer,Supplier B,Warehouse 3,31,942,29202,2775.07,15570.28,10856.65,13,6,86,Yes,5.34,Delivered,15,37.17776179713718,Delayed,June,2025,Low Stock
+ORD00665,2024-06-13,2024-06-18,South,UAE,Mumbai,Tablet,Supplier A,Warehouse 3,28,1492,41776,4818.52,22404.01,14553.47,2,132,123,No,5.84,Cancelled,5,34.83691593259287,On Time,June,2024,Sufficient
+ORD00666,2025-01-21,2025-01-30,West,UAE,Delhi,Keyboard,Supplier D,Warehouse 2,14,920,12880,1104.0,5997.85,5778.15,4,381,121,No,1.88,Delivered,9,44.86141304347826,On Time,January,2025,Sufficient
+ORD00667,2024-06-17,2024-06-21,North,USA,Delhi,Phone,Supplier A,Warehouse 1,42,968,40656,1932.21,17584.54,21139.25,2,308,149,No,1.08,Cancelled,4,51.99540043290043,On Time,June,2024,Sufficient
+ORD00668,2024-08-04,2024-08-15,North,India,Chennai,Monitor,Supplier A,Warehouse 1,49,1963,96187,5561.61,54394.46,36230.93,11,16,80,Yes,5.29,Cancelled,11,37.667179556488925,Delayed,August,2024,Low Stock
+ORD00669,2024-11-18,2024-11-23,East,USA,Hyderabad,Tablet,Supplier D,Warehouse 3,1,830,830,81.05,570.73,178.22,3,161,146,No,4.25,In Transit,5,21.472289156626506,On Time,November,2024,Sufficient
+ORD00670,2025-05-30,2025-06-06,South,USA,Bangalore,Laptop,Supplier A,Warehouse 3,50,407,20350,653.88,13000.0,6696.12,3,444,54,No,4.08,Cancelled,7,32.904766584766584,On Time,May,2025,Sufficient
+ORD00671,2024-08-25,2024-09-04,West,USA,Delhi,Tablet,Supplier C,Warehouse 3,42,388,16296,1616.47,7305.73,7373.8,5,264,143,No,7.73,Cancelled,10,45.24914089347079,On Time,August,2024,Sufficient
+ORD00672,2025-03-17,2025-03-24,North,India,Mumbai,Tablet,Supplier A,Warehouse 2,50,1498,74900,4860.04,34652.2,35387.76,2,38,69,Yes,5.08,In Transit,7,47.24667556742324,On Time,March,2025,Low Stock
+ORD00673,2024-04-06,2024-04-17,West,Germany,Bangalore,Tablet,Supplier D,Warehouse 3,11,705,7755,345.35,3753.69,3655.96,9,45,59,Yes,3.22,Pending,11,47.14326241134752,Delayed,April,2024,Low Stock
+ORD00674,2024-05-23,2024-05-30,West,Germany,Chennai,Printer,Supplier C,Warehouse 2,32,181,5792,363.23,2814.84,2613.93,3,317,137,No,3.57,Pending,7,45.13000690607735,On Time,May,2024,Sufficient
+ORD00675,2024-03-26,2024-04-10,South,India,Mumbai,Laptop,Supplier C,Warehouse 2,33,1021,33693,1807.78,22327.03,9558.19,12,317,132,No,5.62,Delivered,15,28.368474163772895,Delayed,March,2024,Sufficient
+ORD00676,2024-06-11,2024-06-25,North,India,Mumbai,Keyboard,Supplier A,Warehouse 2,5,556,2780,180.53,1497.54,1101.93,11,238,109,No,1.2,In Transit,14,39.63776978417267,Delayed,June,2024,Sufficient
+ORD00677,2025-03-19,2025-03-27,North,Germany,Bangalore,Laptop,Supplier B,Warehouse 2,22,232,5104,298.87,3567.35,1237.78,5,359,144,No,4.15,In Transit,8,24.25117554858934,On Time,March,2025,Sufficient
+ORD00678,2024-05-29,2024-06-11,West,USA,Hyderabad,Phone,Supplier A,Warehouse 3,21,1263,26523,870.46,15391.91,10260.63,12,479,96,No,3.35,In Transit,13,38.68578215134034,Delayed,May,2024,Sufficient
+ORD00679,2025-03-09,2025-03-17,West,USA,Delhi,Phone,Supplier A,Warehouse 1,41,460,18860,707.69,7935.87,10216.44,6,152,141,No,3.54,In Transit,8,54.16988335100743,On Time,March,2025,Sufficient
+ORD00680,2025-03-14,2025-03-23,West,Germany,Chennai,Monitor,Supplier A,Warehouse 3,11,506,5566,341.95,2926.21,2297.84,7,352,150,No,4.07,Pending,9,41.28350700682717,On Time,March,2025,Sufficient
+ORD00681,2025-09-03,2025-09-08,North,USA,Bangalore,Phone,Supplier D,Warehouse 2,47,1467,68949,5658.23,30570.96,32719.81,5,421,143,No,5.48,Cancelled,5,47.45508999405358,On Time,September,2025,Sufficient
+ORD00682,2024-04-26,2024-05-15,North,India,Mumbai,Keyboard,Supplier B,Warehouse 2,27,638,17226,1324.03,6909.4,8992.57,14,426,66,No,3.88,In Transit,19,52.203471496574934,Delayed,April,2024,Sufficient
+ORD00683,2025-12-14,2025-12-25,East,Germany,Hyderabad,Tablet,Supplier C,Warehouse 3,39,873,34047,1683.7,15761.34,16601.96,10,347,123,No,1.93,Delivered,11,48.76188797838282,Delayed,December,2025,Sufficient
+ORD00684,2024-05-07,2024-05-23,North,USA,Bangalore,Monitor,Supplier C,Warehouse 1,42,1033,43386,2918.35,21932.43,18535.22,13,218,116,No,6.71,Cancelled,16,42.72166136541742,Delayed,May,2024,Sufficient
+ORD00685,2025-07-20,2025-08-01,North,India,Hyderabad,Laptop,Supplier A,Warehouse 3,35,992,34720,2233.91,22690.47,9795.62,11,223,131,No,5.66,Cancelled,12,28.21319124423963,Delayed,July,2025,Sufficient
+ORD00686,2025-02-25,2025-03-03,East,UAE,Mumbai,Phone,Supplier D,Warehouse 3,48,1639,78672,6777.15,44325.39,27569.46,3,257,124,No,5.25,Delivered,6,35.04354789505796,On Time,February,2025,Sufficient
+ORD00687,2025-01-25,2025-01-29,North,Germany,Mumbai,Printer,Supplier C,Warehouse 2,31,354,10974,675.51,7002.79,3295.7,3,464,132,No,3.98,In Transit,4,30.031893566611988,On Time,January,2025,Sufficient
+ORD00688,2025-11-05,2025-11-13,East,Germany,Delhi,Phone,Supplier D,Warehouse 1,27,1478,39906,2064.73,26739.26,11102.01,6,7,53,Yes,3.61,Pending,8,27.820402946925277,On Time,November,2025,Low Stock
+ORD00689,2025-07-23,2025-08-01,South,UAE,Delhi,Printer,Supplier B,Warehouse 2,40,1419,56760,3712.02,23582.32,29465.66,8,219,66,No,7.49,In Transit,9,51.912720225510924,On Time,July,2025,Sufficient
+ORD00690,2024-08-24,2024-09-01,South,Germany,Mumbai,Laptop,Supplier A,Warehouse 1,9,1132,10188,414.18,5838.54,3935.28,3,390,130,No,3.44,Cancelled,8,38.62661955241461,On Time,August,2024,Sufficient
+ORD00691,2025-03-23,2025-03-30,North,USA,Bangalore,Keyboard,Supplier C,Warehouse 1,50,1315,65750,2878.17,38492.02,24379.81,2,497,60,No,4.58,In Transit,7,37.07955893536122,On Time,March,2025,Sufficient
+ORD00692,2024-09-02,2024-09-15,North,Germany,Hyderabad,Phone,Supplier A,Warehouse 3,20,496,9920,775.62,4697.88,4446.5,12,402,98,No,6.35,Cancelled,13,44.82358870967742,Delayed,September,2024,Sufficient
+ORD00693,2025-08-16,2025-08-31,North,UAE,Delhi,Phone,Supplier D,Warehouse 1,8,1040,8320,943.89,3634.22,3741.89,15,134,73,No,1.56,Delivered,15,44.97463942307692,Delayed,August,2025,Sufficient
+ORD00694,2025-05-17,2025-05-31,West,USA,Mumbai,Tablet,Supplier A,Warehouse 1,27,250,6750,498.06,3967.01,2284.93,14,214,98,No,2.08,Cancelled,14,33.85081481481481,Delayed,May,2025,Sufficient
+ORD00695,2025-11-06,2025-11-22,South,Germany,Hyderabad,Phone,Supplier A,Warehouse 3,39,1850,72150,2368.72,49983.7,19797.58,11,247,128,No,7.95,Delivered,16,27.439473319473322,Delayed,November,2025,Sufficient
+ORD00696,2024-01-24,2024-02-07,South,India,Mumbai,Tablet,Supplier C,Warehouse 2,49,412,20188,998.65,10285.12,8904.23,10,15,91,Yes,7.24,Pending,14,44.106548444620564,Delayed,January,2024,Low Stock
+ORD00697,2024-07-23,2024-07-28,South,Germany,Mumbai,Phone,Supplier C,Warehouse 2,46,1229,56534,5013.05,30534.76,20986.19,3,223,115,No,6.57,In Transit,5,37.12136059716277,On Time,July,2024,Sufficient
+ORD00698,2024-04-15,2024-04-30,East,Germany,Chennai,Laptop,Supplier D,Warehouse 2,20,439,8780,890.9,6024.21,1864.89,11,452,107,No,4.16,In Transit,15,21.240205011389524,Delayed,April,2024,Sufficient
+ORD00699,2024-07-23,2024-08-05,West,Germany,Chennai,Keyboard,Supplier C,Warehouse 2,24,1938,46512,4043.89,19501.55,22966.56,11,17,115,Yes,1.75,Cancelled,13,49.37770897832818,Delayed,July,2024,Low Stock
+ORD00700,2024-01-31,2024-02-04,South,Germany,Hyderabad,Laptop,Supplier C,Warehouse 3,21,979,20559,2080.17,10430.06,8048.77,3,336,97,No,1.04,Cancelled,4,39.149618172090086,On Time,January,2024,Sufficient
+ORD00701,2024-01-12,2024-01-27,South,USA,Hyderabad,Printer,Supplier C,Warehouse 3,14,1053,14742,1195.17,7318.94,6227.89,13,33,99,Yes,2.24,Cancelled,15,42.24589607922942,Delayed,January,2024,Low Stock
+ORD00702,2025-09-14,2025-10-03,South,India,Bangalore,Monitor,Supplier A,Warehouse 2,5,1275,6375,703.42,3356.6,2314.98,14,162,90,No,6.17,Pending,19,36.31341176470588,Delayed,September,2025,Sufficient
+ORD00703,2025-03-07,2025-03-10,North,UAE,Delhi,Phone,Supplier D,Warehouse 1,29,450,13050,1097.88,7534.43,4417.69,3,10,86,Yes,2.27,Delivered,3,33.85203065134099,On Time,March,2025,Low Stock
+ORD00704,2025-06-30,2025-07-10,East,Germany,Delhi,Monitor,Supplier A,Warehouse 3,22,1420,31240,982.95,16899.84,13357.21,10,212,142,No,6.72,Cancelled,10,42.75675416133162,On Time,June,2025,Sufficient
+ORD00705,2024-11-16,2024-11-29,North,India,Mumbai,Laptop,Supplier A,Warehouse 1,4,905,3620,205.83,2516.59,897.58,9,328,65,No,4.2,Cancelled,13,24.795027624309395,Delayed,November,2024,Sufficient
+ORD00706,2024-04-17,2024-04-29,North,Germany,Hyderabad,Laptop,Supplier A,Warehouse 2,47,992,46624,2348.48,19880.71,24394.81,7,415,97,No,5.93,Delivered,12,52.32243050789294,Delayed,April,2024,Sufficient
+ORD00707,2024-03-17,2024-03-25,North,USA,Delhi,Phone,Supplier D,Warehouse 3,45,1354,60930,6168.95,31309.91,23451.14,6,473,67,No,5.74,In Transit,8,38.48865911701953,On Time,March,2024,Sufficient
+ORD00708,2025-04-02,2025-04-14,South,India,Delhi,Tablet,Supplier A,Warehouse 2,34,1180,40120,2072.08,21800.33,16247.59,12,143,91,No,4.18,In Transit,12,40.49748255234297,Delayed,April,2025,Sufficient
+ORD00709,2025-07-25,2025-08-10,South,India,Mumbai,Monitor,Supplier D,Warehouse 1,43,1425,61275,5893.07,28294.8,27087.13,15,497,113,No,1.09,Delivered,16,44.205842513259896,Delayed,July,2025,Sufficient
+ORD00710,2025-05-14,2025-05-19,South,India,Mumbai,Phone,Supplier C,Warehouse 2,14,1767,24738,2056.89,13811.06,8870.05,3,389,89,No,6.94,In Transit,5,35.85597057159026,On Time,May,2025,Sufficient
+ORD00711,2025-04-08,2025-04-27,North,USA,Bangalore,Laptop,Supplier A,Warehouse 1,33,515,16995,1702.93,7756.28,7535.79,15,84,137,Yes,2.58,Cancelled,19,44.34121800529567,Delayed,April,2025,Low Stock
+ORD00712,2024-01-17,2024-01-27,East,UAE,Mumbai,Phone,Supplier D,Warehouse 3,18,158,2844,207.22,1590.55,1046.23,9,60,120,Yes,3.14,Delivered,10,36.78727144866386,On Time,January,2024,Low Stock
+ORD00713,2025-03-17,2025-03-29,East,USA,Bangalore,Phone,Supplier C,Warehouse 3,4,1003,4012,218.79,1722.53,2070.68,10,374,104,No,5.36,Pending,12,51.61216350947158,Delayed,March,2025,Sufficient
+ORD00714,2025-09-14,2025-09-27,North,Germany,Mumbai,Laptop,Supplier A,Warehouse 2,28,323,9044,825.76,5371.26,2846.98,9,112,64,No,7.69,Delivered,13,31.47921273772667,Delayed,September,2025,Sufficient
+ORD00715,2024-08-19,2024-09-04,West,USA,Mumbai,Phone,Supplier C,Warehouse 3,46,928,42688,2786.32,18372.54,21529.14,11,450,138,No,6.0,Cancelled,16,50.43370502248875,Delayed,August,2024,Sufficient
+ORD00716,2024-10-21,2024-11-07,South,USA,Delhi,Keyboard,Supplier A,Warehouse 1,19,1602,30438,921.65,13865.23,15651.12,13,318,111,No,7.31,Cancelled,17,51.41967277744924,Delayed,October,2024,Sufficient
+ORD00717,2024-07-10,2024-07-20,South,India,Chennai,Tablet,Supplier D,Warehouse 3,10,126,1260,113.33,665.75,480.92,7,498,83,No,0.66,Delivered,10,38.16825396825397,On Time,July,2024,Sufficient
+ORD00718,2024-01-02,2024-01-12,South,India,Hyderabad,Tablet,Supplier C,Warehouse 2,31,324,10044,342.16,4070.0,5631.84,9,148,79,No,5.6,Pending,10,56.07168458781362,On Time,January,2024,Sufficient
+ORD00719,2025-05-17,2025-06-01,East,UAE,Hyderabad,Tablet,Supplier A,Warehouse 1,35,627,21945,1968.62,10447.16,9529.22,13,423,95,No,3.94,Cancelled,15,43.42319434951013,Delayed,May,2025,Sufficient
+ORD00720,2025-02-24,2025-03-12,South,India,Mumbai,Monitor,Supplier A,Warehouse 2,43,390,16770,1042.21,6863.48,8864.31,15,356,105,No,4.83,Cancelled,16,52.85813953488372,Delayed,February,2025,Sufficient
+ORD00721,2025-10-03,2025-10-19,West,Germany,Delhi,Phone,Supplier A,Warehouse 3,29,1894,54926,4252.46,26342.11,24331.43,12,454,92,No,5.59,In Transit,16,44.29856534246077,Delayed,October,2025,Sufficient
+ORD00722,2025-06-16,2025-07-01,North,India,Bangalore,Keyboard,Supplier B,Warehouse 2,40,351,14040,968.92,7532.58,5538.5,13,405,94,No,7.76,Cancelled,15,39.4480056980057,Delayed,June,2025,Sufficient
+ORD00723,2025-11-28,2025-12-06,West,India,Mumbai,Tablet,Supplier A,Warehouse 1,19,1377,26163,2099.13,11741.48,12322.39,4,33,87,Yes,4.15,Delivered,8,47.09853610060008,On Time,November,2025,Low Stock
+ORD00724,2025-05-15,2025-05-21,North,Germany,Mumbai,Keyboard,Supplier B,Warehouse 2,28,821,22988,2055.65,9199.63,11732.72,6,179,86,No,2.39,Pending,6,51.03845484600661,On Time,May,2025,Sufficient
+ORD00725,2025-08-22,2025-08-27,West,India,Delhi,Tablet,Supplier C,Warehouse 1,15,165,2475,179.65,1253.31,1042.04,3,326,99,No,6.59,In Transit,5,42.102626262626266,On Time,August,2025,Sufficient
+ORD00726,2025-07-31,2025-08-13,East,Germany,Hyderabad,Tablet,Supplier D,Warehouse 3,21,1747,36687,3009.62,22195.5,11481.88,8,69,103,Yes,2.0,Pending,13,31.296862648894702,Delayed,July,2025,Low Stock
+ORD00727,2024-07-06,2024-07-17,West,Germany,Bangalore,Monitor,Supplier D,Warehouse 2,7,383,2681,207.49,1630.69,842.82,8,350,141,No,4.28,Cancelled,11,31.436777321894816,Delayed,July,2024,Sufficient
+ORD00728,2025-04-17,2025-04-23,East,USA,Chennai,Printer,Supplier C,Warehouse 1,2,1670,3340,226.73,2093.37,1019.9,2,154,150,No,5.11,Pending,6,30.535928143712574,On Time,April,2025,Sufficient
+ORD00729,2025-02-06,2025-02-13,North,Germany,Hyderabad,Tablet,Supplier A,Warehouse 2,43,112,4816,345.08,3028.78,1442.14,4,429,56,No,4.39,Delivered,7,29.944767441860463,On Time,February,2025,Sufficient
+ORD00730,2025-08-02,2025-08-16,South,USA,Chennai,Keyboard,Supplier D,Warehouse 1,22,1870,41140,1459.56,25594.92,14085.52,9,378,141,No,5.56,Delivered,14,34.23801652892562,Delayed,August,2025,Sufficient
+ORD00731,2024-08-16,2024-09-02,North,India,Hyderabad,Phone,Supplier A,Warehouse 3,10,716,7160,619.64,4408.72,2131.64,12,412,112,No,7.52,Pending,17,29.771508379888267,Delayed,August,2024,Sufficient
+ORD00732,2024-04-09,2024-04-15,West,UAE,Mumbai,Phone,Supplier C,Warehouse 3,7,1070,7490,241.32,4132.54,3116.14,5,474,65,No,3.43,Cancelled,6,41.60400534045394,On Time,April,2024,Sufficient
+ORD00733,2025-11-28,2025-12-12,South,USA,Bangalore,Monitor,Supplier C,Warehouse 2,40,352,14080,970.28,8319.3,4790.42,9,419,145,No,1.89,Pending,14,34.02286931818182,Delayed,November,2025,Sufficient
+ORD00734,2025-11-14,2025-11-21,West,USA,Hyderabad,Tablet,Supplier D,Warehouse 1,32,852,27264,2456.29,14105.21,10702.5,3,54,109,Yes,5.73,In Transit,7,39.25506161971831,On Time,November,2025,Low Stock
+ORD00735,2025-07-31,2025-08-08,South,UAE,Bangalore,Tablet,Supplier A,Warehouse 1,38,720,27360,904.73,16282.67,10172.6,8,227,55,No,5.43,Cancelled,8,37.18055555555556,On Time,July,2025,Sufficient
+ORD00736,2025-01-01,2025-01-15,East,Germany,Bangalore,Keyboard,Supplier B,Warehouse 2,14,814,11396,1267.57,6353.46,3774.97,10,89,133,Yes,4.35,Pending,14,33.125394875394875,Delayed,January,2025,Low Stock
+ORD00737,2025-11-05,2025-11-14,East,USA,Delhi,Printer,Supplier C,Warehouse 3,5,1976,9880,1042.73,5385.82,3451.45,6,310,134,No,7.72,Pending,9,34.933704453441294,On Time,November,2025,Sufficient
+ORD00738,2025-09-24,2025-10-12,West,Germany,Mumbai,Keyboard,Supplier B,Warehouse 1,5,192,960,31.35,595.07,333.58,15,340,63,No,2.24,In Transit,18,34.74791666666667,Delayed,September,2025,Sufficient
+ORD00739,2024-06-27,2024-07-13,West,Germany,Chennai,Keyboard,Supplier A,Warehouse 1,49,960,47040,5316.17,19689.91,22033.92,13,19,145,Yes,2.38,Delivered,16,46.84081632653061,Delayed,June,2024,Low Stock
+ORD00740,2024-11-24,2024-12-02,West,Germany,Mumbai,Phone,Supplier B,Warehouse 2,29,873,25317,1063.05,14967.88,9286.07,3,100,82,No,4.67,In Transit,8,36.6791878974602,On Time,November,2024,Sufficient
+ORD00741,2025-06-25,2025-07-10,East,UAE,Chennai,Printer,Supplier A,Warehouse 2,6,1292,7752,249.47,5332.99,2169.54,14,17,67,Yes,1.22,Delivered,15,27.98684210526316,Delayed,June,2025,Low Stock
+ORD00742,2024-07-08,2024-07-25,East,USA,Hyderabad,Monitor,Supplier D,Warehouse 3,47,1415,66505,5156.39,30395.52,30953.09,12,423,110,No,2.06,Cancelled,17,46.54250056386738,Delayed,July,2024,Sufficient
+ORD00743,2025-01-20,2025-02-04,East,India,Mumbai,Tablet,Supplier C,Warehouse 2,37,260,9620,398.72,5340.77,3880.51,15,255,79,No,1.26,Delivered,15,40.33794178794179,Delayed,January,2025,Sufficient
+ORD00744,2025-12-21,2025-12-28,West,India,Chennai,Keyboard,Supplier A,Warehouse 3,11,689,7579,278.38,4339.79,2960.83,7,477,128,No,6.9,Cancelled,7,39.06623565114131,On Time,December,2025,Sufficient
+ORD00745,2025-04-27,2025-05-08,South,Germany,Hyderabad,Phone,Supplier D,Warehouse 1,2,166,332,20.06,158.78,153.16,6,391,57,No,3.01,Pending,11,46.13253012048193,Delayed,April,2025,Sufficient
+ORD00746,2025-07-31,2025-08-16,West,USA,Delhi,Keyboard,Supplier A,Warehouse 1,49,1753,85897,2850.28,59639.73,23406.99,11,306,144,No,7.62,Delivered,16,27.250066940638206,Delayed,July,2025,Sufficient
+ORD00747,2024-02-06,2024-02-19,North,India,Mumbai,Printer,Supplier D,Warehouse 3,15,1431,21465,1320.6,11661.46,8482.94,9,448,79,No,6.36,Delivered,13,39.519869555089684,Delayed,February,2024,Sufficient
+ORD00748,2025-12-01,2025-12-14,South,India,Bangalore,Laptop,Supplier C,Warehouse 2,36,1087,39132,1357.59,24641.59,13132.82,13,220,139,No,5.72,In Transit,13,33.56030869876316,Delayed,December,2025,Sufficient
+ORD00749,2024-07-17,2024-07-27,North,USA,Hyderabad,Laptop,Supplier A,Warehouse 1,4,587,2348,119.47,1353.82,874.71,7,382,146,No,2.2,Delivered,10,37.253407155025556,On Time,July,2024,Sufficient
+ORD00750,2025-03-25,2025-03-31,West,India,Hyderabad,Laptop,Supplier C,Warehouse 3,3,743,2229,137.02,1329.74,762.24,4,149,66,No,2.33,In Transit,6,34.19650067294751,On Time,March,2025,Sufficient
+ORD00751,2024-07-29,2024-08-12,East,USA,Chennai,Tablet,Supplier C,Warehouse 3,48,1765,84720,5263.34,57146.2,22310.46,9,365,88,No,2.15,Cancelled,14,26.33434844192634,Delayed,July,2024,Sufficient
+ORD00752,2025-07-08,2025-07-18,South,USA,Delhi,Keyboard,Supplier B,Warehouse 1,4,809,3236,359.32,1979.3,897.38,10,143,60,No,5.16,Pending,10,27.73114956736712,On Time,July,2025,Sufficient
+ORD00753,2025-01-16,2025-01-30,North,Germany,Delhi,Printer,Supplier D,Warehouse 2,3,581,1743,161.84,1037.04,544.12,13,58,52,No,3.9,In Transit,14,31.217441193344808,Delayed,January,2025,Sufficient
+ORD00754,2024-03-27,2024-03-31,West,USA,Bangalore,Printer,Supplier A,Warehouse 3,40,886,35440,2643.19,23349.0,9447.81,2,22,78,Yes,3.38,Pending,4,26.658606094808125,On Time,March,2024,Low Stock
+ORD00755,2024-11-08,2024-11-14,North,Germany,Chennai,Monitor,Supplier D,Warehouse 3,49,812,39788,4549.76,26777.97,8460.27,2,172,83,No,6.16,Pending,6,21.263370865587618,On Time,November,2024,Sufficient
+ORD00756,2024-02-28,2024-03-13,West,Germany,Mumbai,Monitor,Supplier D,Warehouse 3,36,894,32184,3724.42,21876.81,6582.77,14,480,118,No,2.66,In Transit,14,20.453548347004723,Delayed,February,2024,Sufficient
+ORD00757,2024-08-31,2024-09-04,East,UAE,Hyderabad,Printer,Supplier C,Warehouse 2,18,1737,31266,2858.77,15080.15,13327.08,4,394,119,No,7.99,Cancelled,4,42.62483208597198,On Time,August,2024,Sufficient
+ORD00758,2024-10-02,2024-10-16,South,UAE,Bangalore,Laptop,Supplier D,Warehouse 1,42,1759,73878,7346.48,29824.68,36706.84,12,338,91,No,2.8,Cancelled,14,49.68575218603644,Delayed,October,2024,Sufficient
+ORD00759,2025-04-22,2025-04-26,East,India,Bangalore,Phone,Supplier C,Warehouse 2,31,1406,43586,4619.65,20282.86,18683.49,2,480,60,No,0.94,Cancelled,4,42.86580553388703,On Time,April,2025,Sufficient
+ORD00760,2024-09-22,2024-10-10,North,USA,Chennai,Monitor,Supplier C,Warehouse 1,9,565,5085,441.02,2258.1,2385.88,15,25,79,Yes,5.13,Delivered,18,46.91996066863324,Delayed,September,2024,Low Stock
+ORD00761,2025-07-20,2025-08-03,South,Germany,Hyderabad,Laptop,Supplier D,Warehouse 1,4,1563,6252,745.72,4330.04,1176.24,13,432,95,No,0.62,Delivered,14,18.813819577735124,Delayed,July,2025,Sufficient
+ORD00762,2025-06-07,2025-06-11,East,USA,Hyderabad,Tablet,Supplier C,Warehouse 2,14,767,10738,873.35,6966.18,2898.47,3,36,132,Yes,5.61,In Transit,4,26.992642950270067,On Time,June,2025,Low Stock
+ORD00763,2025-02-21,2025-03-07,North,USA,Delhi,Printer,Supplier C,Warehouse 1,31,702,21762,1870.93,9751.42,10139.65,12,476,69,No,0.83,Delivered,14,46.59337377079312,Delayed,February,2025,Sufficient
+ORD00764,2025-01-22,2025-02-10,West,India,Chennai,Laptop,Supplier D,Warehouse 3,3,1445,4335,413.4,2229.61,1691.99,15,40,59,Yes,7.98,Pending,19,39.030911188004616,Delayed,January,2025,Low Stock
+ORD00765,2025-06-21,2025-07-04,South,UAE,Delhi,Keyboard,Supplier A,Warehouse 3,21,651,13671,650.09,7827.65,5193.26,10,168,81,No,7.33,Cancelled,13,37.987418623363325,Delayed,June,2025,Sufficient
+ORD00766,2024-09-03,2024-09-17,South,UAE,Bangalore,Phone,Supplier B,Warehouse 3,27,841,22707,844.07,12900.69,8962.24,9,185,133,No,1.07,In Transit,14,39.46906240366407,Delayed,September,2024,Sufficient
+ORD00767,2024-09-07,2024-09-24,North,UAE,Bangalore,Printer,Supplier B,Warehouse 3,44,1297,57068,5132.2,33194.38,18741.42,14,174,90,No,6.47,Delivered,17,32.84050606294245,Delayed,September,2024,Sufficient
+ORD00768,2025-05-21,2025-06-03,North,USA,Hyderabad,Monitor,Supplier A,Warehouse 3,12,1894,22728,1610.65,10228.31,10889.04,12,391,120,No,3.64,In Transit,13,47.910242872228096,Delayed,May,2025,Sufficient
+ORD00769,2024-06-19,2024-06-23,East,India,Delhi,Tablet,Supplier A,Warehouse 3,33,1875,61875,4803.84,31954.37,25116.79,3,65,101,Yes,3.67,Pending,4,40.592791919191924,On Time,June,2024,Low Stock
+ORD00770,2024-02-16,2024-02-24,South,USA,Chennai,Printer,Supplier A,Warehouse 1,23,1019,23437,2624.02,13810.24,7002.74,3,223,87,No,6.06,In Transit,8,29.878994751888037,On Time,February,2024,Sufficient
+ORD00771,2024-01-08,2024-01-23,North,USA,Delhi,Monitor,Supplier C,Warehouse 1,24,1480,35520,3141.62,18250.62,14127.76,11,260,142,No,3.79,Cancelled,15,39.7740990990991,Delayed,January,2024,Sufficient
+ORD00772,2025-07-31,2025-08-14,South,India,Mumbai,Monitor,Supplier C,Warehouse 3,38,1140,43320,4590.44,22873.26,15856.3,10,163,146,No,2.92,Pending,14,36.60272391505078,Delayed,July,2025,Sufficient
+ORD00773,2025-09-22,2025-09-29,East,India,Mumbai,Keyboard,Supplier C,Warehouse 1,23,683,15709,705.39,7640.12,7363.49,7,114,71,No,4.15,Cancelled,7,46.8743395505761,On Time,September,2025,Sufficient
+ORD00774,2024-04-08,2024-04-17,North,UAE,Hyderabad,Tablet,Supplier B,Warehouse 2,33,1645,54285,2453.5,31459.11,20372.39,5,456,119,No,0.8,Pending,9,37.52858063921893,On Time,April,2024,Sufficient
+ORD00775,2025-08-07,2025-08-20,West,UAE,Bangalore,Tablet,Supplier A,Warehouse 1,29,1166,33814,1398.41,18129.54,14286.05,8,366,140,No,7.38,Delivered,13,42.24892056544626,Delayed,August,2025,Sufficient
+ORD00776,2024-10-12,2024-10-30,East,Germany,Bangalore,Keyboard,Supplier A,Warehouse 3,8,824,6592,674.54,4108.68,1808.78,13,38,91,Yes,2.17,Pending,18,27.43901699029126,Delayed,October,2024,Low Stock
+ORD00777,2025-12-05,2025-12-12,North,USA,Mumbai,Printer,Supplier D,Warehouse 1,28,305,8540,972.82,5450.73,2116.45,7,430,121,No,2.88,Delivered,7,24.7827868852459,On Time,December,2025,Sufficient
+ORD00778,2025-11-20,2025-11-27,South,India,Bangalore,Laptop,Supplier D,Warehouse 3,31,410,12710,935.53,5797.43,5977.04,5,67,75,Yes,4.23,Delivered,7,47.02627852084972,On Time,November,2025,Low Stock
+ORD00779,2025-09-17,2025-09-27,West,USA,Delhi,Phone,Supplier C,Warehouse 3,12,179,2148,145.28,1028.72,974.0,5,298,80,No,3.35,Cancelled,10,45.344506517690874,On Time,September,2025,Sufficient
+ORD00780,2025-05-11,2025-05-25,West,UAE,Delhi,Phone,Supplier D,Warehouse 1,26,1324,34424,2139.16,18736.56,13548.28,9,57,146,Yes,1.22,Cancelled,14,39.357076458284915,Delayed,May,2025,Low Stock
+ORD00781,2024-06-29,2024-07-10,West,USA,Hyderabad,Tablet,Supplier C,Warehouse 3,43,332,14276,874.86,7415.34,5985.8,9,451,111,No,1.46,In Transit,11,41.929111796021296,Delayed,June,2024,Sufficient
+ORD00782,2024-08-08,2024-08-26,West,Germany,Hyderabad,Tablet,Supplier D,Warehouse 3,4,1251,5004,497.71,2394.32,2111.97,15,200,106,No,2.88,In Transit,18,42.205635491606714,Delayed,August,2024,Sufficient
+ORD00783,2024-08-12,2024-08-24,East,USA,Chennai,Printer,Supplier A,Warehouse 3,3,731,2193,154.14,1022.8,1016.06,7,274,76,No,7.07,Delivered,12,46.33196534427724,Delayed,August,2024,Sufficient
+ORD00784,2024-01-22,2024-02-08,South,Germany,Chennai,Phone,Supplier B,Warehouse 3,6,1698,10188,951.82,6863.34,2372.84,14,283,58,No,6.25,Delivered,17,23.290537887711036,Delayed,January,2024,Sufficient
+ORD00785,2025-02-09,2025-03-01,North,India,Hyderabad,Printer,Supplier A,Warehouse 3,15,694,10410,1063.02,7007.97,2339.01,15,110,120,Yes,2.99,Pending,20,22.468876080691643,Delayed,February,2025,Low Stock
+ORD00786,2025-02-11,2025-02-28,East,India,Bangalore,Keyboard,Supplier D,Warehouse 1,3,421,1263,70.07,514.39,678.54,14,352,81,No,5.24,Delivered,17,53.724465558194765,Delayed,February,2025,Sufficient
+ORD00787,2024-10-03,2024-10-18,North,UAE,Mumbai,Printer,Supplier C,Warehouse 2,5,251,1255,94.63,766.86,393.51,15,10,51,Yes,5.99,Pending,15,31.355378486055773,Delayed,October,2024,Low Stock
+ORD00788,2025-03-11,2025-03-26,West,Germany,Bangalore,Laptop,Supplier B,Warehouse 2,2,718,1436,78.5,661.71,695.79,10,335,123,No,2.48,In Transit,15,48.4533426183844,Delayed,March,2025,Sufficient
+ORD00789,2025-07-28,2025-08-06,East,India,Bangalore,Phone,Supplier A,Warehouse 2,19,1958,37202,3469.43,20534.69,13197.88,6,254,143,No,3.37,In Transit,9,35.4762647169507,On Time,July,2025,Sufficient
+ORD00790,2024-08-25,2024-09-05,South,USA,Bangalore,Printer,Supplier B,Warehouse 1,31,1253,38843,1546.16,19156.71,18140.13,9,322,60,No,1.58,Delivered,11,46.70115593543239,Delayed,August,2024,Sufficient
+ORD00791,2024-05-24,2024-06-05,West,Germany,Delhi,Phone,Supplier A,Warehouse 2,31,1171,36301,3451.24,20691.27,12158.49,8,392,113,No,2.24,Cancelled,12,33.493540122861624,Delayed,May,2024,Sufficient
+ORD00792,2025-12-06,2025-12-21,East,USA,Delhi,Monitor,Supplier D,Warehouse 3,27,1884,50868,1551.55,30882.94,18433.51,11,406,112,No,6.16,In Transit,15,36.23792954313124,Delayed,December,2025,Sufficient
+ORD00793,2025-07-22,2025-08-11,South,India,Mumbai,Phone,Supplier D,Warehouse 1,47,266,12502,1411.61,6597.44,4492.95,15,65,146,Yes,1.08,Delivered,20,35.93784994400896,Delayed,July,2025,Low Stock
+ORD00794,2024-02-09,2024-02-20,North,Germany,Hyderabad,Monitor,Supplier C,Warehouse 3,11,1382,15202,1554.92,8302.69,5344.39,8,280,103,No,6.12,In Transit,11,35.1558347585844,Delayed,February,2024,Sufficient
+ORD00795,2025-11-23,2025-12-03,East,Germany,Bangalore,Monitor,Supplier B,Warehouse 2,21,1359,28539,3140.98,16242.78,9155.24,6,148,116,No,1.74,Pending,10,32.07975051683661,On Time,November,2025,Sufficient
+ORD00796,2024-05-18,2024-05-26,East,USA,Mumbai,Keyboard,Supplier A,Warehouse 3,46,1798,82708,6008.6,40965.8,35733.6,4,240,58,No,1.84,Delivered,8,43.20452676887363,On Time,May,2024,Sufficient
+ORD00797,2025-04-14,2025-04-21,North,USA,Delhi,Tablet,Supplier D,Warehouse 3,4,1379,5516,398.16,2465.3,2652.54,7,286,78,No,3.13,Cancelled,7,48.088107324147934,On Time,April,2025,Sufficient
+ORD00798,2024-11-09,2024-11-20,North,USA,Delhi,Phone,Supplier C,Warehouse 3,50,925,46250,5276.56,26285.43,14688.01,7,103,59,No,5.31,Pending,11,31.75785945945946,Delayed,November,2024,Sufficient
+ORD00799,2024-04-14,2024-04-22,West,USA,Mumbai,Laptop,Supplier B,Warehouse 1,38,1420,53960,5339.07,26928.63,21692.3,4,303,127,No,6.29,Cancelled,8,40.20070422535211,On Time,April,2024,Sufficient
+ORD00800,2024-04-03,2024-04-21,West,UAE,Bangalore,Tablet,Supplier C,Warehouse 3,10,393,3930,176.2,2603.17,1150.63,14,458,56,No,2.93,Pending,18,29.278117048346058,Delayed,April,2024,Sufficient
+ORD00801,2024-04-30,2024-05-09,North,USA,Mumbai,Keyboard,Supplier C,Warehouse 3,26,872,22672,2259.33,13872.39,6540.28,5,429,116,No,3.16,Cancelled,9,28.847388849682424,On Time,April,2024,Sufficient
+ORD00802,2024-05-26,2024-06-13,South,India,Delhi,Monitor,Supplier C,Warehouse 3,36,1004,36144,2678.57,23012.51,10452.92,15,285,105,No,5.64,Cancelled,18,28.92020805666224,Delayed,May,2024,Sufficient
+ORD00803,2025-03-10,2025-03-19,South,UAE,Delhi,Printer,Supplier B,Warehouse 1,36,1894,68184,8169.19,46489.36,13525.45,5,91,145,Yes,3.37,Delivered,9,19.836691892526108,On Time,March,2025,Low Stock
+ORD00804,2025-08-23,2025-08-31,East,UAE,Bangalore,Laptop,Supplier C,Warehouse 2,7,1965,13755,869.29,6549.14,6336.57,6,310,84,No,7.41,Delivered,8,46.06739367502726,On Time,August,2025,Sufficient
+ORD00805,2025-10-02,2025-10-08,West,India,Hyderabad,Tablet,Supplier A,Warehouse 3,2,1867,3734,353.32,2021.0,1359.68,2,232,112,No,5.06,Pending,6,36.41349758971613,On Time,October,2025,Sufficient
+ORD00806,2025-12-31,2026-01-09,West,India,Delhi,Laptop,Supplier C,Warehouse 1,48,462,22176,2403.48,9746.23,10026.29,4,433,65,No,3.65,Delivered,9,45.21234668109668,On Time,December,2025,Sufficient
+ORD00807,2025-11-01,2025-11-17,North,UAE,Bangalore,Keyboard,Supplier A,Warehouse 1,2,781,1562,164.56,1022.28,375.16,11,363,71,No,2.87,Cancelled,16,24.017925736235597,Delayed,November,2025,Sufficient
+ORD00808,2024-07-16,2024-08-04,South,India,Delhi,Tablet,Supplier C,Warehouse 1,10,1592,15920,859.64,7192.27,7868.09,15,311,75,No,0.83,In Transit,19,49.42267587939699,Delayed,July,2024,Sufficient
+ORD00809,2024-12-15,2024-12-28,South,Germany,Chennai,Keyboard,Supplier A,Warehouse 1,45,276,12420,1005.49,6693.16,4721.35,9,46,73,Yes,1.37,Delivered,13,38.01409017713366,Delayed,December,2024,Low Stock
+ORD00810,2024-01-11,2024-01-21,South,Germany,Hyderabad,Monitor,Supplier C,Warehouse 1,24,1042,25008,933.17,15437.01,8637.82,5,428,137,No,2.35,Pending,10,34.540227127319255,On Time,January,2024,Sufficient
+ORD00811,2024-10-12,2024-10-20,West,Germany,Hyderabad,Monitor,Supplier C,Warehouse 3,21,947,19887,1001.04,9077.89,9808.07,4,90,87,No,7.13,Cancelled,8,49.31900236335294,On Time,October,2024,Sufficient
+ORD00812,2025-01-07,2025-01-19,South,USA,Bangalore,Tablet,Supplier C,Warehouse 1,34,1020,34680,3629.44,21019.96,10030.6,7,486,124,No,1.78,In Transit,12,28.92329873125721,Delayed,January,2025,Sufficient
+ORD00813,2024-12-16,2025-01-02,West,Germany,Hyderabad,Laptop,Supplier B,Warehouse 2,36,1799,64764,6274.46,31131.09,27358.45,13,107,83,No,4.35,Pending,17,42.243298746217036,Delayed,December,2024,Sufficient
+ORD00814,2024-05-23,2024-06-05,East,India,Mumbai,Monitor,Supplier D,Warehouse 2,21,862,18102,1461.54,10815.79,5824.67,9,165,139,No,7.26,Delivered,13,32.176941774389576,Delayed,May,2024,Sufficient
+ORD00815,2024-12-10,2024-12-22,West,UAE,Bangalore,Monitor,Supplier B,Warehouse 2,12,1970,23640,1470.89,10610.19,11558.92,12,385,52,No,4.6,In Transit,12,48.89560067681895,Delayed,December,2024,Sufficient
+ORD00816,2025-01-17,2025-01-30,West,UAE,Delhi,Printer,Supplier D,Warehouse 3,31,1489,46159,3051.28,19019.29,24088.43,11,119,147,Yes,7.47,Delivered,13,52.18577092224702,Delayed,January,2025,Low Stock
+ORD00817,2024-01-30,2024-02-07,South,Germany,Hyderabad,Laptop,Supplier C,Warehouse 1,11,1988,21868,1247.62,12662.78,7957.6,4,268,75,No,5.73,Pending,8,36.389244558258646,On Time,January,2024,Sufficient
+ORD00818,2024-12-20,2025-01-01,South,USA,Mumbai,Monitor,Supplier A,Warehouse 3,11,1043,11473,345.06,5096.85,6031.09,9,154,89,No,7.12,Delivered,12,52.56768064150614,Delayed,December,2024,Sufficient
+ORD00819,2024-09-07,2024-09-16,South,UAE,Bangalore,Monitor,Supplier B,Warehouse 1,36,1831,65916,6578.73,26464.18,32873.09,4,51,110,Yes,1.69,In Transit,9,49.87118453789671,On Time,September,2024,Low Stock
+ORD00820,2025-01-31,2025-02-06,West,India,Delhi,Monitor,Supplier A,Warehouse 1,49,373,18277,1206.09,9104.39,7966.52,4,345,143,No,2.62,In Transit,6,43.58767850303661,On Time,January,2025,Sufficient
+ORD00821,2025-09-15,2025-09-20,South,USA,Bangalore,Phone,Supplier A,Warehouse 1,24,841,20184,1222.88,13058.47,5902.65,4,384,100,No,5.08,Delivered,5,29.244203329369796,On Time,September,2025,Sufficient
+ORD00822,2024-11-05,2024-11-13,North,Germany,Bangalore,Phone,Supplier B,Warehouse 2,22,886,19492,1732.14,10286.19,7473.67,8,198,136,No,2.64,In Transit,8,38.34224297147548,On Time,November,2024,Sufficient
+ORD00823,2025-11-29,2025-12-09,South,Germany,Mumbai,Printer,Supplier D,Warehouse 3,30,1751,52530,1966.6,31823.71,18739.69,10,441,101,No,1.26,Delivered,10,35.674262326289735,On Time,November,2025,Sufficient
+ORD00824,2025-04-10,2025-04-15,West,Germany,Bangalore,Keyboard,Supplier C,Warehouse 3,42,1472,61824,4089.86,39036.16,18697.98,2,132,144,Yes,2.77,Delivered,5,30.24388586956522,On Time,April,2025,Low Stock
+ORD00825,2025-01-08,2025-01-12,South,UAE,Bangalore,Laptop,Supplier D,Warehouse 2,28,1188,33264,3272.01,21990.64,8001.35,3,3,93,Yes,1.1,Cancelled,4,24.05408249158249,On Time,January,2025,Low Stock
+ORD00826,2024-02-10,2024-02-16,North,Germany,Mumbai,Tablet,Supplier C,Warehouse 2,30,851,25530,880.95,14802.25,9846.8,3,217,93,No,3.27,Cancelled,6,38.56952604778691,On Time,February,2024,Sufficient
+ORD00827,2024-01-18,2024-01-29,South,USA,Hyderabad,Printer,Supplier A,Warehouse 1,20,1402,28040,931.08,12155.48,14953.44,9,272,144,No,5.99,In Transit,11,53.32895863052782,Delayed,January,2024,Sufficient
+ORD00828,2024-05-28,2024-06-12,North,India,Delhi,Tablet,Supplier A,Warehouse 1,28,1928,53984,2954.15,37332.95,13696.9,12,124,143,Yes,5.67,In Transit,15,25.372147302904562,Delayed,May,2024,Low Stock
+ORD00829,2025-09-15,2025-10-03,West,UAE,Hyderabad,Phone,Supplier C,Warehouse 3,7,882,6174,470.07,3813.18,1890.75,13,326,145,No,3.03,Cancelled,18,30.624392614188533,Delayed,September,2025,Sufficient
+ORD00830,2025-10-30,2025-11-12,North,Germany,Chennai,Monitor,Supplier B,Warehouse 2,28,338,9464,959.91,5406.49,3097.6,13,315,115,No,7.96,Pending,13,32.73034657650042,Delayed,October,2025,Sufficient
+ORD00831,2024-10-08,2024-10-26,East,India,Bangalore,Phone,Supplier A,Warehouse 2,50,480,24000,1318.0,14434.37,8247.63,13,465,73,No,5.03,Cancelled,18,34.365125,Delayed,October,2024,Sufficient
+ORD00832,2025-11-03,2025-11-09,East,USA,Hyderabad,Printer,Supplier C,Warehouse 3,18,1047,18846,1581.5,13055.93,4208.57,4,113,78,No,2.89,Delivered,6,22.331370052000423,On Time,November,2025,Sufficient
+ORD00833,2025-12-30,2026-01-13,East,Germany,Delhi,Tablet,Supplier D,Warehouse 1,38,961,36518,3181.8,18208.81,15127.39,11,476,121,No,3.42,Delivered,14,41.42447560107344,Delayed,December,2025,Sufficient
+ORD00834,2025-04-18,2025-05-08,West,Germany,Hyderabad,Phone,Supplier C,Warehouse 2,32,531,16992,1323.7,7663.46,8004.84,15,206,54,No,3.43,Delivered,20,47.10946327683616,Delayed,April,2025,Sufficient
+ORD00835,2024-10-25,2024-11-10,West,India,Delhi,Printer,Supplier D,Warehouse 1,29,1481,42949,3095.09,19188.33,20665.58,14,319,95,No,4.89,In Transit,16,48.11655684649235,Delayed,October,2024,Sufficient
+ORD00836,2025-01-19,2025-01-30,South,USA,Bangalore,Printer,Supplier D,Warehouse 2,25,1343,33575,3874.34,14673.89,15026.77,10,108,64,No,3.47,Cancelled,11,44.75583023082651,Delayed,January,2025,Sufficient
+ORD00837,2024-08-10,2024-08-22,West,USA,Bangalore,Monitor,Supplier D,Warehouse 2,18,754,13572,1348.31,7995.03,4228.66,8,351,131,No,5.48,Cancelled,12,31.157235484821687,Delayed,August,2024,Sufficient
+ORD00838,2025-04-05,2025-04-10,West,UAE,Bangalore,Monitor,Supplier B,Warehouse 3,26,690,17940,543.59,11642.34,5754.07,4,335,72,No,6.22,Delivered,5,32.07396878483835,On Time,April,2025,Sufficient
+ORD00839,2024-01-30,2024-02-11,East,USA,Mumbai,Printer,Supplier D,Warehouse 3,9,1348,12132,1040.84,8488.43,2602.73,11,374,102,No,5.0,Delivered,12,21.45342894823607,Delayed,January,2024,Sufficient
+ORD00840,2024-04-03,2024-04-10,West,Germany,Mumbai,Phone,Supplier D,Warehouse 3,48,1331,63888,6996.77,38092.25,18798.98,7,442,74,No,4.64,Pending,7,29.424899824693213,On Time,April,2024,Sufficient
+ORD00841,2024-07-23,2024-07-31,South,USA,Bangalore,Printer,Supplier A,Warehouse 3,19,232,4408,487.08,2036.95,1883.97,7,125,137,Yes,3.96,In Transit,8,42.739791288566245,On Time,July,2024,Low Stock
+ORD00842,2024-12-05,2024-12-21,West,UAE,Hyderabad,Monitor,Supplier C,Warehouse 3,16,1046,16736,1589.65,7045.06,8101.29,15,349,136,No,6.11,In Transit,16,48.40636950286807,Delayed,December,2024,Sufficient
+ORD00843,2025-07-04,2025-07-12,East,UAE,Hyderabad,Tablet,Supplier D,Warehouse 3,50,1343,67150,5925.18,37620.87,23603.95,3,246,142,No,0.68,Delivered,8,35.15107967237528,On Time,July,2025,Sufficient
+ORD00844,2025-06-07,2025-06-24,South,Germany,Bangalore,Keyboard,Supplier C,Warehouse 1,29,977,28333,2857.9,12213.99,13261.11,12,388,124,No,6.85,Delivered,17,46.804468287862214,Delayed,June,2025,Sufficient
+ORD00845,2024-09-05,2024-09-22,South,Germany,Delhi,Tablet,Supplier D,Warehouse 2,14,641,8974,347.66,5318.09,3308.25,14,460,140,No,1.06,In Transit,17,36.86483173612658,Delayed,September,2024,Sufficient
+ORD00846,2025-04-06,2025-04-21,East,Germany,Delhi,Tablet,Supplier B,Warehouse 3,37,663,24531,2048.3,15415.2,7067.5,13,147,53,No,1.61,Pending,15,28.810484692837633,Delayed,April,2025,Sufficient
+ORD00847,2025-10-11,2025-10-20,West,Germany,Mumbai,Laptop,Supplier B,Warehouse 3,46,1000,46000,4167.37,20531.29,21301.34,6,65,68,Yes,6.54,Cancelled,9,46.30726086956522,On Time,October,2025,Low Stock
+ORD00848,2024-11-06,2024-11-14,South,Germany,Mumbai,Printer,Supplier C,Warehouse 3,1,631,631,39.61,348.68,242.71,4,264,101,No,7.03,In Transit,8,38.46434231378764,On Time,November,2024,Sufficient
+ORD00849,2025-01-18,2025-01-29,East,USA,Delhi,Phone,Supplier B,Warehouse 1,42,446,18732,2029.99,10201.74,6500.27,8,194,51,No,4.13,Delivered,11,34.70142002989537,Delayed,January,2025,Sufficient
+ORD00850,2024-10-11,2024-10-27,South,Germany,Hyderabad,Monitor,Supplier A,Warehouse 2,8,1431,11448,546.35,6292.25,4609.4,11,326,51,No,4.77,Pending,16,40.26380153738644,Delayed,October,2024,Sufficient
+ORD00851,2025-06-03,2025-06-08,South,USA,Delhi,Keyboard,Supplier B,Warehouse 3,36,1195,43020,4568.49,24147.93,14303.58,3,408,57,No,1.1,In Transit,5,33.2486750348675,On Time,June,2025,Sufficient
+ORD00852,2025-10-28,2025-11-13,North,USA,Hyderabad,Phone,Supplier C,Warehouse 1,15,1512,22680,2144.72,10279.24,10256.04,15,136,120,No,7.85,Cancelled,16,45.22063492063492,Delayed,October,2025,Sufficient
+ORD00853,2024-07-31,2024-08-06,North,USA,Bangalore,Laptop,Supplier D,Warehouse 1,38,1659,63042,5189.26,33997.38,23855.36,5,400,56,No,4.53,Cancelled,6,37.84042384442118,On Time,July,2024,Sufficient
+ORD00854,2025-05-02,2025-05-07,West,USA,Chennai,Keyboard,Supplier D,Warehouse 1,35,1307,45745,2257.49,24984.51,18503.0,5,297,105,No,4.77,Delivered,5,40.448136408350635,On Time,May,2025,Sufficient
+ORD00855,2024-09-14,2024-10-01,East,USA,Delhi,Tablet,Supplier C,Warehouse 3,39,654,25506,1895.97,11553.19,12056.84,14,263,86,No,4.3,Cancelled,17,47.270602995373636,Delayed,September,2024,Sufficient
+ORD00856,2025-03-26,2025-03-30,West,Germany,Hyderabad,Monitor,Supplier C,Warehouse 3,32,113,3616,212.36,2503.38,900.26,3,83,72,No,4.03,Delivered,4,24.89657079646018,On Time,March,2025,Sufficient
+ORD00857,2025-12-04,2025-12-15,North,Germany,Chennai,Phone,Supplier B,Warehouse 2,13,1694,22022,876.12,10340.23,10805.65,10,156,90,No,2.8,In Transit,11,49.0675233857052,Delayed,December,2025,Sufficient
+ORD00858,2024-06-09,2024-06-17,East,USA,Delhi,Monitor,Supplier C,Warehouse 2,11,1845,20295,897.34,12152.18,7245.48,5,264,110,No,2.94,In Transit,8,35.700813008130076,On Time,June,2024,Sufficient
+ORD00859,2024-05-28,2024-06-05,North,UAE,Hyderabad,Monitor,Supplier C,Warehouse 3,47,824,38728,4052.14,19155.02,15520.84,6,288,100,No,2.81,In Transit,8,40.07653377401363,On Time,May,2024,Sufficient
+ORD00860,2024-05-23,2024-06-03,East,UAE,Bangalore,Tablet,Supplier B,Warehouse 1,2,1776,3552,331.72,1643.09,1577.19,9,150,97,No,5.88,Delivered,11,44.40287162162163,Delayed,May,2024,Sufficient
+ORD00861,2025-09-24,2025-10-07,North,UAE,Bangalore,Phone,Supplier C,Warehouse 3,18,318,5724,210.06,2565.07,2948.87,10,482,142,No,5.92,In Transit,13,51.51764500349406,Delayed,September,2025,Sufficient
+ORD00862,2025-08-23,2025-08-31,West,USA,Hyderabad,Tablet,Supplier D,Warehouse 1,7,214,1498,131.17,723.26,643.57,8,472,86,No,3.27,Delivered,8,42.961949265687586,On Time,August,2025,Sufficient
+ORD00863,2024-06-03,2024-06-16,East,India,Mumbai,Laptop,Supplier C,Warehouse 2,37,509,18833,1517.29,10009.33,7306.38,11,279,147,No,2.96,Cancelled,13,38.79562470132215,Delayed,June,2024,Sufficient
+ORD00864,2025-04-01,2025-04-15,East,India,Mumbai,Laptop,Supplier D,Warehouse 2,12,757,9084,655.4,4889.38,3539.22,13,346,140,No,3.0,Cancelled,14,38.96103038309115,Delayed,April,2025,Sufficient
+ORD00865,2025-02-09,2025-02-26,North,Germany,Chennai,Monitor,Supplier C,Warehouse 3,4,1803,7212,559.33,4860.13,1792.54,14,8,122,Yes,4.34,In Transit,17,24.854963948973932,Delayed,February,2025,Low Stock
+ORD00866,2024-12-07,2024-12-19,West,USA,Hyderabad,Keyboard,Supplier D,Warehouse 2,48,254,12192,986.06,8440.13,2765.81,12,272,70,No,6.35,Delivered,12,22.685449475065617,Delayed,December,2024,Sufficient
+ORD00867,2025-04-21,2025-05-05,North,UAE,Chennai,Tablet,Supplier A,Warehouse 3,10,1432,14320,855.46,6508.47,6956.07,9,232,117,No,4.81,In Transit,14,48.575907821229045,Delayed,April,2025,Sufficient
+ORD00868,2025-02-03,2025-02-05,West,USA,Chennai,Tablet,Supplier B,Warehouse 1,15,760,11400,780.26,5445.28,5174.46,2,345,148,No,2.17,Cancelled,2,45.39,On Time,February,2025,Sufficient
+ORD00869,2024-05-31,2024-06-07,North,Germany,Delhi,Phone,Supplier B,Warehouse 1,12,306,3672,118.83,2131.88,1421.29,5,399,66,No,6.84,Cancelled,7,38.706154684095864,On Time,May,2024,Sufficient
+ORD00870,2024-11-06,2024-11-13,West,India,Bangalore,Keyboard,Supplier B,Warehouse 2,18,577,10386,1186.78,4831.26,4367.96,4,70,106,Yes,3.17,Delivered,7,42.05622953976507,On Time,November,2024,Low Stock
+ORD00871,2024-02-20,2024-03-03,South,USA,Hyderabad,Monitor,Supplier C,Warehouse 3,26,506,13156,638.16,6764.18,5753.66,9,47,72,Yes,6.61,Delivered,12,43.73411371237458,Delayed,February,2024,Low Stock
+ORD00872,2024-11-20,2024-11-29,North,UAE,Bangalore,Monitor,Supplier A,Warehouse 2,14,285,3990,406.91,2026.75,1556.34,8,57,108,Yes,2.41,Delivered,9,39.00601503759398,On Time,November,2024,Low Stock
+ORD00873,2025-01-04,2025-01-10,West,India,Delhi,Keyboard,Supplier C,Warehouse 1,28,1836,51408,4558.87,24100.46,22748.67,6,333,132,No,5.76,In Transit,6,44.25122549019608,On Time,January,2025,Sufficient
+ORD00874,2024-05-24,2024-06-09,North,USA,Delhi,Tablet,Supplier D,Warehouse 1,12,1256,15072,464.74,8373.8,6233.46,15,240,147,No,1.55,Delivered,16,41.3578821656051,Delayed,May,2024,Sufficient
+ORD00875,2025-03-05,2025-03-10,North,UAE,Mumbai,Tablet,Supplier D,Warehouse 3,34,410,13940,1349.07,8964.76,3626.17,4,450,64,No,1.86,Pending,5,26.012697274031567,On Time,March,2025,Sufficient
+ORD00876,2025-01-17,2025-02-03,West,India,Chennai,Monitor,Supplier B,Warehouse 1,40,757,30280,986.01,12346.64,16947.35,15,240,54,No,0.71,Pending,17,55.96879128137384,Delayed,January,2025,Sufficient
+ORD00877,2024-04-12,2024-04-16,South,India,Delhi,Monitor,Supplier D,Warehouse 2,15,288,4320,292.85,1813.96,2213.19,2,237,103,No,7.77,In Transit,4,51.23125,On Time,April,2024,Sufficient
+ORD00878,2024-05-11,2024-05-23,South,USA,Chennai,Phone,Supplier B,Warehouse 1,35,848,29680,3446.49,17823.72,8409.79,7,252,145,No,1.22,Pending,12,28.33487196765499,Delayed,May,2024,Sufficient
+ORD00879,2025-11-06,2025-11-14,East,Germany,Bangalore,Keyboard,Supplier C,Warehouse 1,7,1568,10976,728.21,7310.84,2936.95,3,115,82,No,1.29,Pending,8,26.75792638483965,On Time,November,2025,Sufficient
+ORD00880,2024-12-01,2024-12-11,South,USA,Hyderabad,Phone,Supplier A,Warehouse 1,43,397,17071,1402.27,11614.89,4053.84,8,463,99,No,0.76,Delivered,10,23.746939253705115,On Time,December,2024,Sufficient
+ORD00881,2024-06-14,2024-06-24,West,USA,Bangalore,Printer,Supplier C,Warehouse 3,1,1271,1271,93.13,835.43,342.44,8,445,123,No,1.91,In Transit,10,26.942564909520062,On Time,June,2024,Sufficient
+ORD00882,2025-03-26,2025-04-03,East,UAE,Chennai,Monitor,Supplier A,Warehouse 3,18,1442,25956,2573.95,17576.51,5805.54,3,456,73,No,3.03,Cancelled,8,22.366851595006935,On Time,March,2025,Sufficient
+ORD00883,2024-12-16,2025-01-03,South,UAE,Hyderabad,Laptop,Supplier C,Warehouse 1,17,229,3893,390.76,2055.33,1446.91,14,278,66,No,0.69,Delivered,18,37.16696634985872,Delayed,December,2024,Sufficient
+ORD00884,2024-12-21,2024-12-30,South,USA,Mumbai,Laptop,Supplier B,Warehouse 3,28,1233,34524,4094.13,14668.91,15760.96,6,258,73,No,7.0,In Transit,9,45.65218398795041,On Time,December,2024,Sufficient
+ORD00885,2024-12-28,2025-01-11,South,Germany,Mumbai,Laptop,Supplier B,Warehouse 3,50,410,20500,1653.52,11462.95,7383.53,10,272,96,No,0.85,Pending,14,36.01721951219512,Delayed,December,2024,Sufficient
+ORD00886,2025-10-11,2025-10-30,South,Germany,Hyderabad,Monitor,Supplier C,Warehouse 2,15,1826,27390,3115.84,16840.08,7434.08,15,489,128,No,4.56,In Transit,19,27.141584519897773,Delayed,October,2025,Sufficient
+ORD00887,2025-06-18,2025-06-29,South,India,Hyderabad,Monitor,Supplier B,Warehouse 1,30,759,22770,962.05,15516.46,6291.49,8,128,140,Yes,0.5,Cancelled,11,27.63061045234958,Delayed,June,2025,Low Stock
+ORD00888,2025-05-07,2025-05-23,West,USA,Mumbai,Tablet,Supplier A,Warehouse 1,49,1752,85848,10119.84,59535.93,16192.23,15,81,132,Yes,3.43,In Transit,16,18.861511042773273,Delayed,May,2025,Low Stock
+ORD00889,2024-10-09,2024-10-16,East,India,Hyderabad,Printer,Supplier C,Warehouse 3,8,1586,12688,1225.27,8669.74,2792.99,4,227,68,No,1.64,Cancelled,7,22.012846784363177,On Time,October,2024,Sufficient
+ORD00890,2024-04-15,2024-05-04,South,India,Delhi,Tablet,Supplier A,Warehouse 2,39,1064,41496,2111.99,22054.36,17329.65,14,277,145,No,6.67,In Transit,19,41.76221804511279,Delayed,April,2024,Sufficient
+ORD00891,2024-09-18,2024-09-26,South,India,Hyderabad,Keyboard,Supplier C,Warehouse 1,30,972,29160,2410.02,19329.37,7420.61,3,406,112,No,5.69,Cancelled,8,25.447908093278464,On Time,September,2024,Sufficient
+ORD00892,2025-11-11,2025-11-25,East,Germany,Bangalore,Keyboard,Supplier C,Warehouse 2,28,963,26964,946.4,11636.5,14381.1,9,431,142,No,6.27,Cancelled,14,53.33444592790387,Delayed,November,2025,Sufficient
+ORD00893,2024-03-26,2024-03-28,North,UAE,Chennai,Printer,Supplier D,Warehouse 3,46,1750,80500,5932.8,46346.69,28220.51,2,222,135,No,2.16,Cancelled,2,35.05653416149068,On Time,March,2024,Sufficient
+ORD00894,2025-06-15,2025-07-05,North,USA,Delhi,Printer,Supplier D,Warehouse 2,25,186,4650,391.3,2683.53,1575.17,15,488,62,No,6.45,Delivered,20,33.87462365591398,Delayed,June,2025,Sufficient
+ORD00895,2024-02-10,2024-02-22,North,USA,Chennai,Phone,Supplier A,Warehouse 3,29,1845,53505,3823.83,35261.05,14420.12,7,204,130,No,0.78,In Transit,12,26.9509765442482,Delayed,February,2024,Sufficient
+ORD00896,2024-12-02,2024-12-07,East,USA,Delhi,Monitor,Supplier A,Warehouse 2,27,1742,47034,1531.13,25256.64,20246.23,3,183,137,No,7.18,Cancelled,5,43.045945486243994,On Time,December,2024,Sufficient
+ORD00897,2025-04-14,2025-05-02,West,Germany,Mumbai,Monitor,Supplier A,Warehouse 2,17,1674,28458,2886.43,13170.77,12400.8,13,280,132,No,6.28,Cancelled,18,43.57579590976175,Delayed,April,2025,Sufficient
+ORD00898,2024-12-26,2025-01-10,West,Germany,Chennai,Monitor,Supplier B,Warehouse 2,48,1748,83904,8831.84,39289.83,35782.33,11,51,142,Yes,6.72,Delivered,15,42.6467510488177,Delayed,December,2024,Low Stock
+ORD00899,2024-07-26,2024-08-06,North,India,Mumbai,Printer,Supplier C,Warehouse 3,32,818,26176,1579.2,13908.11,10688.69,6,81,71,No,3.21,Cancelled,11,40.83393184596577,Delayed,July,2024,Sufficient
+ORD00900,2025-12-18,2026-01-03,North,UAE,Delhi,Phone,Supplier C,Warehouse 3,19,1649,31331,2518.79,14204.61,14607.6,12,38,75,Yes,5.14,Delivered,16,46.623471960677925,Delayed,December,2025,Low Stock
+ORD00901,2024-12-28,2025-01-06,East,USA,Bangalore,Laptop,Supplier B,Warehouse 3,25,312,7800,827.2,4842.9,2129.9,8,408,87,No,7.07,Delivered,9,27.306410256410256,On Time,December,2024,Sufficient
+ORD00902,2024-06-07,2024-06-21,South,USA,Hyderabad,Tablet,Supplier B,Warehouse 1,2,1112,2224,111.65,1353.36,758.99,12,448,78,No,2.14,In Transit,14,34.127248201438846,Delayed,June,2024,Sufficient
+ORD00903,2025-09-18,2025-09-30,West,Germany,Delhi,Tablet,Supplier D,Warehouse 2,27,1239,33453,2663.21,19082.45,11707.34,9,434,116,No,3.59,In Transit,12,34.99638298508355,Delayed,September,2025,Sufficient
+ORD00904,2025-01-08,2025-01-15,South,India,Chennai,Keyboard,Supplier D,Warehouse 3,35,831,29085,1074.21,17682.51,10328.28,5,423,139,No,2.91,Pending,7,35.51067560598247,On Time,January,2025,Sufficient
+ORD00905,2024-11-17,2024-11-24,East,India,Bangalore,Printer,Supplier D,Warehouse 2,15,1574,23610,1448.49,14417.29,7744.22,3,420,78,No,7.82,In Transit,7,32.8005929690809,On Time,November,2024,Sufficient
+ORD00906,2025-08-28,2025-09-05,North,Germany,Hyderabad,Keyboard,Supplier C,Warehouse 3,11,145,1595,128.23,905.48,561.29,8,177,111,No,0.93,Pending,8,35.19059561128526,On Time,August,2025,Sufficient
+ORD00907,2024-09-15,2024-09-28,East,Germany,Delhi,Phone,Supplier D,Warehouse 1,46,1324,60904,4517.43,37228.5,19158.07,13,202,77,No,7.57,In Transit,13,31.456176934191515,Delayed,September,2024,Sufficient
+ORD00908,2025-07-06,2025-07-22,North,India,Chennai,Monitor,Supplier B,Warehouse 3,21,1866,39186,1199.47,22840.67,15145.86,12,183,125,No,5.84,Delivered,16,38.651201959883636,Delayed,July,2025,Sufficient
+ORD00909,2024-07-18,2024-07-27,East,India,Hyderabad,Monitor,Supplier D,Warehouse 2,50,1654,82700,9846.52,53814.69,19038.79,5,475,113,No,0.72,Delivered,9,23.02151148730351,On Time,July,2024,Sufficient
+ORD00910,2025-01-25,2025-02-10,West,India,Mumbai,Tablet,Supplier D,Warehouse 1,9,1835,16515,1005.71,7080.95,8428.34,13,362,105,No,3.16,Cancelled,16,51.03445352709658,Delayed,January,2025,Sufficient
+ORD00911,2024-08-20,2024-09-01,North,Germany,Hyderabad,Phone,Supplier A,Warehouse 3,41,267,10947,663.11,6847.84,3436.05,7,10,127,Yes,4.43,Delivered,12,31.38805152096465,Delayed,August,2024,Low Stock
+ORD00912,2024-01-13,2024-01-17,South,UAE,Mumbai,Printer,Supplier B,Warehouse 2,25,727,18175,590.48,12205.3,5379.22,2,439,58,No,4.73,Pending,4,29.59680880330124,On Time,January,2024,Sufficient
+ORD00913,2024-04-09,2024-04-29,South,UAE,Hyderabad,Printer,Supplier A,Warehouse 3,10,1328,13280,845.61,6016.88,6417.51,15,433,148,No,3.81,Pending,20,48.324623493975906,Delayed,April,2024,Sufficient
+ORD00914,2024-05-03,2024-05-19,South,USA,Chennai,Tablet,Supplier D,Warehouse 3,19,320,6080,373.4,2761.08,2945.52,14,460,62,No,4.39,In Transit,16,48.446052631578944,Delayed,May,2024,Sufficient
+ORD00915,2025-07-15,2025-08-02,South,UAE,Hyderabad,Tablet,Supplier A,Warehouse 2,29,338,9802,883.98,4113.3,4804.72,15,72,80,Yes,2.35,In Transit,18,49.01775147928994,Delayed,July,2025,Low Stock
+ORD00916,2025-11-06,2025-11-23,South,Germany,Delhi,Phone,Supplier D,Warehouse 1,7,1836,12852,986.85,7699.04,4166.11,13,269,122,No,2.9,In Transit,17,32.41604419545595,Delayed,November,2025,Sufficient
+ORD00917,2024-10-26,2024-11-10,West,Germany,Bangalore,Tablet,Supplier A,Warehouse 3,26,991,25766,1647.38,14097.6,10021.02,12,164,121,No,4.18,In Transit,15,38.892416362648454,Delayed,October,2024,Sufficient
+ORD00918,2024-02-12,2024-02-17,North,India,Delhi,Monitor,Supplier B,Warehouse 2,20,1927,38540,3193.9,25825.0,9521.1,5,328,90,No,4.57,Delivered,5,24.70446289569279,On Time,February,2024,Sufficient
+ORD00919,2025-07-04,2025-07-11,South,India,Bangalore,Phone,Supplier B,Warehouse 3,28,1612,45136,3419.22,29553.53,12163.25,2,348,139,No,4.32,Delivered,7,26.948001595179015,On Time,July,2025,Sufficient
+ORD00920,2024-11-23,2024-12-01,North,Germany,Hyderabad,Phone,Supplier C,Warehouse 1,14,1114,15596,758.06,9234.8,5603.14,3,472,98,No,0.62,Pending,8,35.926776096434985,On Time,November,2024,Sufficient
+ORD00921,2025-02-03,2025-02-19,West,Germany,Mumbai,Keyboard,Supplier C,Warehouse 2,24,1979,47496,5006.12,19636.13,22853.75,15,126,129,Yes,1.56,Cancelled,16,48.11720987030487,Delayed,February,2025,Low Stock
+ORD00922,2025-12-07,2025-12-12,West,India,Bangalore,Phone,Supplier B,Warehouse 1,27,872,23544,1295.57,15782.08,6466.35,2,249,82,No,6.63,Delivered,5,27.464959225280328,On Time,December,2025,Sufficient
+ORD00923,2025-10-14,2025-10-17,West,Germany,Chennai,Tablet,Supplier C,Warehouse 3,11,1947,21417,2167.55,8994.07,10255.38,3,85,144,Yes,4.53,Cancelled,3,47.88429752066115,On Time,October,2025,Low Stock
+ORD00924,2024-09-24,2024-09-27,South,India,Bangalore,Monitor,Supplier A,Warehouse 1,26,1785,46410,5091.36,21378.2,19940.44,3,433,113,No,1.15,Pending,3,42.96582633053221,On Time,September,2024,Sufficient
+ORD00925,2024-08-22,2024-08-27,South,UAE,Chennai,Laptop,Supplier B,Warehouse 1,12,271,3252,320.74,2087.53,843.73,2,315,97,No,2.31,In Transit,5,25.944956949569498,On Time,August,2024,Sufficient
+ORD00926,2024-11-21,2024-11-27,North,UAE,Bangalore,Phone,Supplier C,Warehouse 3,1,412,412,25.02,282.27,104.71,2,179,109,No,7.41,Pending,6,25.415048543689316,On Time,November,2024,Sufficient
+ORD00927,2024-03-06,2024-03-12,East,USA,Mumbai,Printer,Supplier C,Warehouse 1,41,498,20418,1229.78,12584.72,6603.5,5,225,58,No,0.69,Pending,6,32.3415613674209,On Time,March,2024,Sufficient
+ORD00928,2024-04-24,2024-05-06,North,USA,Hyderabad,Keyboard,Supplier B,Warehouse 1,27,1160,31320,2445.61,18340.24,10534.15,12,477,91,No,1.77,Cancelled,12,33.63393997445721,Delayed,April,2024,Sufficient
+ORD00929,2025-01-25,2025-01-31,North,India,Bangalore,Printer,Supplier D,Warehouse 2,4,1766,7064,458.29,4027.09,2578.62,2,390,130,No,6.93,Delivered,6,36.50368063420159,On Time,January,2025,Sufficient
+ORD00930,2025-12-03,2025-12-17,West,USA,Bangalore,Printer,Supplier C,Warehouse 1,29,1964,56956,5543.31,34450.65,16962.04,11,176,131,No,5.09,In Transit,14,29.78095371866002,Delayed,December,2025,Sufficient
+ORD00931,2024-05-27,2024-06-07,West,Germany,Mumbai,Laptop,Supplier D,Warehouse 2,47,457,21479,2506.03,11094.67,7878.3,6,82,97,Yes,2.43,Delivered,11,36.67908189394292,Delayed,May,2024,Low Stock
+ORD00932,2025-12-28,2026-01-08,West,UAE,Bangalore,Monitor,Supplier C,Warehouse 2,26,356,9256,977.55,4682.45,3596.0,10,215,103,No,7.56,In Transit,11,38.8504753673293,Delayed,December,2025,Sufficient
+ORD00933,2024-11-29,2024-12-14,West,UAE,Delhi,Keyboard,Supplier C,Warehouse 1,9,1581,14229,1105.51,6741.73,6381.76,12,291,74,No,5.84,Cancelled,15,44.850375992690985,Delayed,November,2024,Sufficient
+ORD00934,2025-02-06,2025-02-13,North,USA,Mumbai,Tablet,Supplier B,Warehouse 3,7,1211,8477,751.92,4154.54,3570.54,4,396,129,No,6.75,In Transit,7,42.12032558688215,On Time,February,2025,Sufficient
+ORD00935,2025-01-28,2025-02-10,West,USA,Mumbai,Monitor,Supplier C,Warehouse 2,12,1007,12084,388.44,5582.03,6113.53,10,88,84,No,4.76,Pending,13,50.591939755047996,Delayed,January,2025,Sufficient
+ORD00936,2024-09-08,2024-09-28,North,India,Hyderabad,Laptop,Supplier A,Warehouse 1,9,1661,14949,1701.39,7397.73,5849.88,15,313,117,No,7.5,Delivered,20,39.13224964880594,Delayed,September,2024,Sufficient
+ORD00937,2024-12-05,2024-12-20,East,UAE,Bangalore,Tablet,Supplier B,Warehouse 2,21,1946,40866,2537.89,25462.59,12865.52,15,157,58,No,7.68,Cancelled,15,31.482210150247152,Delayed,December,2024,Sufficient
+ORD00938,2024-11-06,2024-11-13,South,UAE,Delhi,Keyboard,Supplier B,Warehouse 1,11,1944,21384,2336.21,9600.92,9446.87,3,466,129,No,1.39,In Transit,7,44.17728208005986,On Time,November,2024,Sufficient
+ORD00939,2025-11-10,2025-11-17,East,UAE,Chennai,Printer,Supplier B,Warehouse 2,7,1647,11529,386.73,7656.06,3486.21,4,244,71,No,4.05,Delivered,7,30.238615664845174,On Time,November,2025,Sufficient
+ORD00940,2024-01-21,2024-02-04,East,UAE,Mumbai,Laptop,Supplier B,Warehouse 3,37,804,29748,3263.48,20714.86,5769.66,9,35,72,Yes,7.15,Pending,14,19.395118999596612,Delayed,January,2024,Low Stock
+ORD00941,2024-11-24,2024-12-05,South,Germany,Delhi,Phone,Supplier C,Warehouse 3,6,826,4956,417.56,3170.83,1367.61,6,456,125,No,0.62,In Transit,11,27.595036319612586,Delayed,November,2024,Sufficient
+ORD00942,2024-01-25,2024-02-05,East,UAE,Hyderabad,Tablet,Supplier A,Warehouse 1,11,206,2266,200.42,1382.61,682.97,9,221,93,No,2.47,Delivered,11,30.139894086496028,Delayed,January,2024,Sufficient
+ORD00943,2025-10-01,2025-10-08,West,Germany,Delhi,Printer,Supplier D,Warehouse 2,37,139,5143,294.41,2365.23,2483.36,2,198,54,No,4.03,Cancelled,7,48.286214271825784,On Time,October,2025,Sufficient
+ORD00944,2025-12-25,2026-01-02,East,India,Hyderabad,Phone,Supplier A,Warehouse 1,23,1572,36156,1935.9,16554.78,17665.32,7,42,107,Yes,2.61,Delivered,8,48.85861267839363,On Time,December,2025,Low Stock
+ORD00945,2024-03-17,2024-03-23,East,India,Mumbai,Printer,Supplier D,Warehouse 3,5,415,2075,169.05,977.5,928.45,4,38,51,Yes,1.16,Delivered,6,44.744578313253015,On Time,March,2024,Low Stock
+ORD00946,2024-12-04,2024-12-23,North,India,Hyderabad,Monitor,Supplier B,Warehouse 1,7,1354,9478,388.39,5793.37,3296.24,14,381,60,No,2.0,Pending,19,34.7778012238869,Delayed,December,2024,Sufficient
+ORD00947,2024-02-21,2024-03-05,West,Germany,Chennai,Laptop,Supplier D,Warehouse 1,25,756,18900,1630.89,8652.26,8616.85,13,362,113,No,6.63,Pending,13,45.59179894179894,Delayed,February,2024,Sufficient
+ORD00948,2025-06-03,2025-06-05,North,USA,Mumbai,Tablet,Supplier B,Warehouse 1,12,504,6048,324.74,4012.56,1710.7,2,96,139,Yes,4.82,Delivered,2,28.2853835978836,On Time,June,2025,Low Stock
+ORD00949,2025-02-08,2025-02-24,North,Germany,Delhi,Phone,Supplier A,Warehouse 1,19,1331,25289,1697.03,14975.6,8616.37,12,128,94,No,2.14,Pending,16,34.0716121633912,Delayed,February,2025,Sufficient
+ORD00950,2024-03-05,2024-03-16,North,India,Delhi,Printer,Supplier C,Warehouse 3,47,223,10481,899.12,6763.51,2818.37,9,391,141,No,1.1,In Transit,11,26.890277645262856,Delayed,March,2024,Sufficient
+ORD00951,2025-11-28,2025-12-14,West,Germany,Bangalore,Tablet,Supplier B,Warehouse 1,5,1265,6325,339.14,4123.38,1862.48,11,380,111,No,3.88,Cancelled,16,29.446324110671938,Delayed,November,2025,Sufficient
+ORD00952,2025-08-24,2025-08-28,West,UAE,Mumbai,Phone,Supplier D,Warehouse 2,45,822,36990,2473.74,24561.08,9955.18,4,407,101,No,2.93,In Transit,4,26.913165720464992,On Time,August,2025,Sufficient
+ORD00953,2024-01-26,2024-02-11,South,USA,Mumbai,Laptop,Supplier A,Warehouse 2,21,881,18501,2203.07,10909.26,5388.67,15,7,105,Yes,3.5,Pending,16,29.12637154748392,Delayed,January,2024,Low Stock
+ORD00954,2025-04-28,2025-05-04,South,USA,Bangalore,Printer,Supplier D,Warehouse 2,22,505,11110,354.98,5751.31,5003.71,4,489,120,No,2.78,Cancelled,6,45.037893789378934,On Time,April,2025,Sufficient
+ORD00955,2025-03-21,2025-04-06,East,USA,Mumbai,Printer,Supplier D,Warehouse 1,32,1463,46816,1656.28,32229.62,12930.1,15,165,140,No,1.0,In Transit,16,27.618976418318525,Delayed,March,2025,Sufficient
+ORD00956,2025-03-02,2025-03-11,South,Germany,Delhi,Keyboard,Supplier C,Warehouse 3,20,1393,27860,1233.48,16413.38,10213.14,9,219,128,No,5.63,Delivered,9,36.65879396984925,On Time,March,2025,Sufficient
+ORD00957,2024-05-11,2024-05-22,East,UAE,Delhi,Printer,Supplier C,Warehouse 3,31,229,7099,224.28,3627.61,3247.11,7,483,91,No,2.35,Pending,11,45.74038596985491,Delayed,May,2024,Sufficient
+ORD00958,2024-12-05,2024-12-19,South,UAE,Chennai,Monitor,Supplier A,Warehouse 2,9,759,6831,685.45,3905.16,2240.39,13,362,125,No,7.34,Pending,14,32.79739423217684,Delayed,December,2024,Sufficient
+ORD00959,2025-06-07,2025-06-13,North,UAE,Bangalore,Phone,Supplier C,Warehouse 3,49,403,19747,1700.7,8380.47,9665.83,3,308,143,No,4.18,Cancelled,6,48.948346584291286,On Time,June,2025,Sufficient
+ORD00960,2024-05-26,2024-06-02,East,Germany,Bangalore,Tablet,Supplier B,Warehouse 3,31,605,18755,939.63,7519.18,10296.19,7,317,111,No,3.17,Pending,7,54.89837376699547,On Time,May,2024,Sufficient
+ORD00961,2024-07-11,2024-07-26,South,UAE,Bangalore,Keyboard,Supplier A,Warehouse 2,8,705,5640,541.48,3500.46,1598.06,11,409,114,No,1.96,Cancelled,15,28.334397163120567,Delayed,July,2024,Sufficient
+ORD00962,2024-09-24,2024-09-30,West,UAE,Chennai,Phone,Supplier D,Warehouse 2,19,151,2869,93.51,1701.88,1073.61,5,188,109,No,3.66,Pending,6,37.421052631578945,On Time,September,2024,Sufficient
+ORD00963,2024-04-20,2024-04-29,North,India,Delhi,Printer,Supplier D,Warehouse 2,18,505,9090,850.52,4872.24,3367.24,6,65,91,Yes,1.72,Delivered,9,37.04334433443344,On Time,April,2024,Low Stock
+ORD00964,2024-05-25,2024-06-06,East,Germany,Chennai,Printer,Supplier A,Warehouse 3,25,1226,30650,989.75,16253.02,13407.23,7,91,91,No,2.93,Delivered,12,43.74300163132137,Delayed,May,2024,Sufficient
+ORD00965,2024-02-27,2024-03-16,South,India,Delhi,Tablet,Supplier C,Warehouse 1,46,370,17020,1271.41,11541.0,4207.59,13,52,116,Yes,1.55,Pending,18,24.72144535840188,Delayed,February,2024,Low Stock
+ORD00966,2025-02-26,2025-03-05,North,USA,Bangalore,Phone,Supplier A,Warehouse 2,32,920,29440,2327.53,16409.97,10702.5,7,202,138,No,5.31,Pending,7,36.35360054347826,On Time,February,2025,Sufficient
+ORD00967,2024-08-20,2024-08-25,North,USA,Mumbai,Phone,Supplier B,Warehouse 3,42,1499,62958,5048.7,26174.47,31734.83,5,115,111,No,6.82,Delivered,5,50.40635026525621,On Time,August,2024,Sufficient
+ORD00968,2024-11-23,2024-12-03,North,India,Mumbai,Printer,Supplier A,Warehouse 1,49,1399,68551,6191.78,27816.4,34542.82,7,252,53,No,6.24,In Transit,10,50.38995784160698,On Time,November,2024,Sufficient
+ORD00969,2024-08-23,2024-09-06,South,USA,Chennai,Laptop,Supplier C,Warehouse 2,1,815,815,75.93,468.2,270.87,11,460,71,No,3.26,In Transit,14,33.23558282208589,Delayed,August,2024,Sufficient
+ORD00970,2025-07-23,2025-08-03,West,India,Delhi,Monitor,Supplier A,Warehouse 2,25,427,10675,1122.31,6685.23,2867.46,7,100,91,No,2.42,Cancelled,11,26.861451990632318,Delayed,July,2025,Sufficient
+ORD00971,2025-09-09,2025-09-26,South,Germany,Mumbai,Printer,Supplier C,Warehouse 2,33,1676,55308,3678.66,25190.01,26439.33,12,411,63,No,0.81,Pending,17,47.80380776741159,Delayed,September,2025,Sufficient
+ORD00972,2025-04-19,2025-04-26,North,USA,Mumbai,Tablet,Supplier B,Warehouse 2,41,570,23370,1893.35,15548.39,5928.26,2,261,53,No,2.39,Cancelled,7,25.366966195977753,On Time,April,2025,Sufficient
+ORD00973,2025-02-01,2025-02-16,South,India,Chennai,Laptop,Supplier A,Warehouse 1,30,900,27000,2272.41,12138.58,12589.01,13,287,126,No,4.19,Cancelled,15,46.625962962962966,Delayed,February,2025,Sufficient
+ORD00974,2025-09-26,2025-09-28,East,USA,Mumbai,Monitor,Supplier C,Warehouse 1,18,100,1800,103.16,925.97,770.87,2,81,62,No,4.76,Delivered,2,42.82611111111111,On Time,September,2025,Sufficient
+ORD00975,2024-10-13,2024-10-26,North,India,Bangalore,Phone,Supplier A,Warehouse 1,2,709,1418,140.86,949.43,327.71,8,134,108,No,2.77,Pending,13,23.110719322990125,Delayed,October,2024,Sufficient
+ORD00976,2024-03-29,2024-04-12,North,USA,Mumbai,Laptop,Supplier D,Warehouse 3,30,1881,56430,6194.86,34336.28,15898.86,13,11,139,Yes,2.55,In Transit,14,28.174481658692187,Delayed,March,2024,Low Stock
+ORD00977,2025-01-21,2025-01-23,East,Germany,Bangalore,Phone,Supplier C,Warehouse 1,32,985,31520,3301.42,16507.88,11710.7,2,295,55,No,7.8,Delivered,2,37.15323604060914,On Time,January,2025,Sufficient
+ORD00978,2025-11-18,2025-11-25,West,USA,Hyderabad,Tablet,Supplier C,Warehouse 1,16,1512,24192,1701.16,9690.94,12799.9,6,447,122,No,5.38,In Transit,7,52.90963955026455,On Time,November,2025,Sufficient
+ORD00979,2025-09-04,2025-09-14,East,Germany,Bangalore,Phone,Supplier D,Warehouse 2,31,1215,37665,1685.53,22507.87,13471.6,7,282,119,No,3.28,Pending,10,35.76689234036905,On Time,September,2025,Sufficient
+ORD00980,2025-04-23,2025-05-02,North,Germany,Mumbai,Tablet,Supplier C,Warehouse 3,10,1767,17670,1599.83,11782.86,4287.31,7,208,96,No,5.57,In Transit,9,24.26321448783249,On Time,April,2025,Sufficient
+ORD00981,2025-04-22,2025-05-05,South,USA,Mumbai,Keyboard,Supplier D,Warehouse 1,44,436,19184,2111.71,9650.25,7422.04,9,320,68,No,7.39,Cancelled,13,38.68869891576313,Delayed,April,2025,Sufficient
+ORD00982,2025-03-05,2025-03-12,South,Germany,Bangalore,Laptop,Supplier C,Warehouse 3,35,185,6475,497.03,3707.84,2270.13,3,281,135,No,2.41,Pending,7,35.05992277992278,On Time,March,2025,Sufficient
+ORD00983,2025-01-17,2025-01-30,South,UAE,Mumbai,Keyboard,Supplier B,Warehouse 3,34,1445,49130,5096.87,22880.89,21152.24,10,208,138,No,3.13,Delivered,13,43.05361286383066,Delayed,January,2025,Sufficient
+ORD00984,2024-01-01,2024-01-19,East,USA,Chennai,Keyboard,Supplier A,Warehouse 1,7,1114,7798,335.25,3288.12,4174.63,14,123,146,Yes,7.63,In Transit,18,53.534624262631446,Delayed,January,2024,Low Stock
+ORD00985,2024-01-25,2024-01-27,North,UAE,Delhi,Keyboard,Supplier D,Warehouse 1,19,347,6593,320.67,4274.22,1998.11,2,34,82,Yes,5.6,In Transit,2,30.306537236462916,On Time,January,2024,Low Stock
+ORD00986,2025-12-15,2025-12-28,West,India,Bangalore,Tablet,Supplier C,Warehouse 1,22,894,19668,1253.69,9659.66,8754.65,11,470,111,No,5.14,Delivered,13,44.512151718527555,Delayed,December,2025,Sufficient
+ORD00987,2024-09-18,2024-10-04,North,UAE,Hyderabad,Monitor,Supplier A,Warehouse 2,25,1641,41025,3220.94,17616.22,20187.84,13,317,94,No,5.66,In Transit,16,49.208628884826325,Delayed,September,2024,Sufficient
+ORD00988,2024-09-15,2024-09-25,South,UAE,Hyderabad,Tablet,Supplier C,Warehouse 3,6,602,3612,343.81,2220.23,1047.96,10,232,98,No,7.42,Cancelled,10,29.013289036544855,On Time,September,2024,Sufficient
+ORD00989,2025-12-21,2026-01-08,West,India,Chennai,Phone,Supplier D,Warehouse 2,14,1356,18984,1271.07,7652.23,10060.7,15,441,136,No,1.46,Delivered,18,52.9956805731142,Delayed,December,2025,Sufficient
+ORD00990,2025-12-14,2025-12-28,West,Germany,Mumbai,Laptop,Supplier C,Warehouse 3,35,1438,50330,4790.9,23955.13,21583.97,11,264,112,No,1.38,Pending,14,42.88489966222929,Delayed,December,2025,Sufficient
+ORD00991,2024-12-05,2024-12-13,South,UAE,Hyderabad,Tablet,Supplier B,Warehouse 1,44,417,18348,2149.85,7762.05,8436.1,8,127,50,No,4.12,In Transit,8,45.97830826248093,On Time,December,2024,Sufficient
+ORD00992,2024-12-14,2025-01-03,South,USA,Mumbai,Keyboard,Supplier A,Warehouse 2,38,1831,69578,5176.71,42731.22,21670.07,15,485,64,No,6.56,Delivered,20,31.14500273074822,Delayed,December,2024,Sufficient
+ORD00993,2025-05-23,2025-06-04,West,India,Delhi,Monitor,Supplier D,Warehouse 1,28,142,3976,372.78,2661.16,942.06,7,278,63,No,3.26,In Transit,12,23.693661971830984,Delayed,May,2025,Sufficient
+ORD00994,2024-03-07,2024-03-12,North,USA,Hyderabad,Printer,Supplier B,Warehouse 3,43,832,35776,2601.5,19753.15,13421.35,3,475,67,No,2.32,Delivered,5,37.514954159212884,On Time,March,2024,Sufficient
+ORD00995,2024-07-20,2024-08-03,North,India,Mumbai,Phone,Supplier B,Warehouse 2,35,864,30240,2424.13,16431.33,11384.54,9,336,73,No,7.78,In Transit,14,37.64728835978836,Delayed,July,2024,Sufficient
+ORD00996,2024-05-16,2024-06-03,North,Germany,Mumbai,Tablet,Supplier B,Warehouse 2,26,122,3172,201.32,1754.3,1216.38,13,268,135,No,0.59,Cancelled,18,38.34741488020177,Delayed,May,2024,Sufficient
+ORD00997,2024-08-06,2024-08-16,South,USA,Chennai,Phone,Supplier A,Warehouse 2,31,1079,33449,2444.66,14373.51,16630.83,5,324,130,No,3.41,Delivered,10,49.71996173278723,On Time,August,2024,Sufficient
+ORD00998,2025-06-09,2025-06-16,West,India,Bangalore,Laptop,Supplier C,Warehouse 2,11,605,6655,575.16,3487.57,2592.27,3,480,78,No,5.19,Cancelled,7,38.952216378662655,On Time,June,2025,Sufficient
+ORD00999,2024-01-29,2024-02-08,West,USA,Mumbai,Printer,Supplier C,Warehouse 2,47,865,40655,2649.48,23658.4,14347.12,5,383,66,No,7.0,In Transit,10,35.289927438199484,On Time,January,2024,Sufficient
+ORD01000,2024-03-17,2024-03-29,East,Germany,Bangalore,Tablet,Supplier D,Warehouse 3,2,954,1908,68.63,811.76,1027.61,8,74,148,Yes,7.19,Delivered,12,53.85796645702305,Delayed,March,2024,Low Stock
